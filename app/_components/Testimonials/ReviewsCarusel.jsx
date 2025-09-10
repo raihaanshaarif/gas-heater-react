@@ -34,7 +34,11 @@ const ReviewsCarusel = () => {
 						}}
 						spaceBetween={0}
 						slidesPerView={1}
-						autoplay={true}
+						autoplay={ReviewsCaruselData.length > 1 ? {
+							delay: 3000,
+							disableOnInteraction: false,
+						} : false}
+						loop={ReviewsCaruselData.length > 2}
 						pagination={{ clickable: true }}
 						modules={[Autoplay, EffectCreative, Pagination]}
 						>

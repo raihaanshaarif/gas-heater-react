@@ -69,7 +69,14 @@ RewriteRule ^(.+)$ /$1/ [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+# Block .txt requests that don't exist to prevent 500 errors
+RewriteCond %{REQUEST_URI} !\.txt$
 RewriteRule ^(.+)$ /$1.html [L]
+
+# Return 404 for non-existent .txt files instead of 500
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} \.txt$
+RewriteRule ^(.*)$ - [R=404,L]
 
 # Custom Error Pages
 
@@ -127,4 +134,4 @@ ServerSignature Off
 
 # Content Security Policy (updated to allow Google Maps)
 
-Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' https:; connect-src 'self' https:; frame-src 'self' https://www.google.com https://*.google.com;"
+Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; connect-src 'self' https:; frame-src 'self' https://www.google.com https://*.google.com;"
