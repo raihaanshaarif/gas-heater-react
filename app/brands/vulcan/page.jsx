@@ -8,7 +8,6 @@ import LogoPartners from "../../_components/Common/LogoPartners";
 import Image from "next/legacy/image";
 import Link from "next/link";
 import PromoLayout from "../../_components/ServicesSubPages/PromoLayout";
-import ListWithTitle from "../../_components/Common/ListWithTitle";
 //Import Aside
 import PromoAside from "../../_components/ServicesSubPages/PromoAside";
 import BoxListAside from "../../_components/ServicesSubPages/BoxListAside";
@@ -21,89 +20,26 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Vulcan Gas Heaters Melbourne | Installation, Service & Repairs | Premium Australian Heating",
+    "Vulcan Gas Heater Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
   description:
-    "Vulcan gas heaters - Premium Australian heating solutions. Expert installation, service & repairs in Melbourne. High efficiency, robust design. Call 0405133761 for free quote.",
+    "Professional Vulcan gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, commercial heating specialists, certified technicians, genuine parts. Call 0405133761 now!",
   keywords:
-    "Vulcan gas heaters Melbourne, Vulcan heater installation, Vulcan gas heater service, Vulcan repairs Melbourne, ducted gas heating Vulcan, industrial heating Melbourne",
+    "Vulcan repair Melbourne, Vulcan gas heater service, Vulcan installation Melbourne, Vulcan maintenance, Vulcan commercial repair, industrial heater repair Melbourne, Vulcan technician Melbourne",
 };
-
-// Vulcan specific data
-const vulcanModels = [
-  {
-    name: "Vulcan Elite",
-    type: "Premium Ducted Gas Heater",
-    features: [
-      "5 Star Energy Rating",
-      "Advanced Control System",
-      "Ultra-Reliable Operation",
-      "20 Year Heat Exchanger Warranty",
-    ],
-    capacity: "20kW - 40kW",
-    ideal: "Large homes & commercial applications (4-6 bedrooms)",
-  },
-  {
-    name: "Vulcan Classic",
-    type: "Standard Ducted System",
-    features: [
-      "Robust Design",
-      "4 Star Energy Rating",
-      "Simple Operation",
-      "Continuous Pilot System",
-    ],
-    capacity: "15kW - 30kW",
-    ideal: "Medium to large homes (3-5 bedrooms)",
-  },
-  {
-    name: "Vulcan Commercial",
-    type: "Heavy Duty Industrial",
-    features: [
-      "Commercial Grade Construction",
-      "High Output Capacity",
-      "Extended Operating Hours",
-      "Professional Installation Required",
-    ],
-    capacity: "40kW - 100kW",
-    ideal: "Commercial buildings & industrial applications",
-  },
-];
-
-const vulcanFeatures = [
-  {
-    title: "Australian Engineered",
-    description:
-      "Designed and manufactured in Australia specifically for harsh Australian conditions and extreme temperature variations.",
-  },
-  {
-    title: "Heavy Duty Construction",
-    description:
-      "Built with premium materials and robust engineering for exceptional durability and long-lasting performance.",
-  },
-  {
-    title: "20-Year Heat Exchanger Warranty",
-    description:
-      "Comprehensive warranty coverage demonstrates Vulcan's confidence in their superior build quality and reliability.",
-  },
-  {
-    title: "Industrial Strength Performance",
-    description:
-      "Proven in commercial applications, Vulcan heaters deliver consistent, powerful heating even in demanding environments.",
-  },
-];
 
 //Page Layout
 export default function VulcanPage() {
   return (
     <>
-      <PageTitle dataTitle="Vulcan Gas Heaters Melbourne" />
+      <PageTitle dataTitle="Vulcan Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="vulcan gas heaters melbourne"
-                  dataTitle="Vulcan Gas Heaters - Premium Australian Heating Solutions"
+                  dataSubtitle="vulcan repair service melbourne"
+                  dataTitle="Professional Vulcan Gas Heater Repair & Service Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -112,243 +48,244 @@ export default function VulcanPage() {
                     width={735}
                     height={511}
                     quality={0}
-                    alt="vulcan gas heaters melbourne installation service"
+                    alt="vulcan gas heater repair service melbourne"
                     loading={`eager`}
                   />
                 </div>
 
                 <p className={`${styles.indent__top2}`}>
-                  As Melbourne&apos;s authorized Vulcan service specialists and
-                  certified installation experts, we provide comprehensive
-                  installation, repair, maintenance, and emergency service for
-                  all Vulcan gas heater models. With over 40 years of experience
-                  servicing robust Australian heating systems, our
-                  factory-trained technicians deliver professional service that
-                  keeps your Vulcan heater operating at peak performance year
-                  after year.
+                  Melbourne&apos;s commercial and industrial heating specialists
+                  for Vulcan gas heater repair and service. Our certified
+                  technicians provide 24/7 emergency repairs, professional
+                  installation, comprehensive maintenance, and expert service
+                  for all Vulcan heavy-duty heating systems across Melbourne.
+                  Specializing in commercial applications with genuine parts and
+                  same-day service.
                 </p>
 
                 <p className="indent__top">
-                  Whether you need emergency repairs, annual maintenance, or
-                  professional installation of a new Vulcan system, our
-                  certified team ensures reliable service with genuine parts,
-                  comprehensive warranties, and 24/7 emergency support
-                  throughout Melbourne. Trust our expertise to maximize your
-                  Vulcan heater&apos;s performance, efficiency, and lifespan.
+                  Vulcan&apos;s robust commercial heating systems require
+                  specialized expertise. Our industrial heating technicians
+                  provide emergency repair service 24/7 across Melbourne with
+                  heavy-duty repairs, commercial installations, and complete
+                  system maintenance using genuine Vulcan parts and
+                  professional-grade tools.
                 </p>
 
-                <h3 className="ttsubtitle ttsubtitle__top">
-                  Vulcan Gas Heater Models Available in Melbourne
-                </h3>
-
-                <div className="space-y-[20px] mt-[20px]">
-                  {vulcanModels.map((model, index) => (
-                    <div
-                      key={index}
-                      className="bg-white border border-gray-200 rounded-lg p-[20px] shadow-sm"
-                    >
-                      <div className="md:flex md:gap-[20px] md:items-start">
-                        <div className="md:flex-1">
-                          <h4 className="text-[18px] font-bold text-gray-900 mb-[5px]">
-                            {model.name}
-                          </h4>
-                          <p className="text-[14px] text-blue-600 font-semibold mb-[10px]">
-                            {model.type}
-                          </p>
-                          <p className="text-[13px] text-gray-600 mb-[15px]">
-                            <strong>Capacity:</strong> {model.capacity} |{" "}
-                            <strong>Ideal for:</strong> {model.ideal}
-                          </p>
-
-                          <div className="mb-[15px]">
-                            <p className="text-[13px] font-semibold text-gray-900 mb-[8px]">
-                              Key Features:
-                            </p>
-                            <div className="grid grid-cols-2 gap-[5px]">
-                              {model.features.map((feature, featureIndex) => (
-                                <span
-                                  key={featureIndex}
-                                  className="text-[12px] bg-blue-50 text-blue-700 px-[8px] py-[3px] rounded"
-                                >
-                                  ✓ {feature}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                <div className="bg-red-50 border border-red-200 rounded-lg p-[20px] mt-[20px]">
+                  <h3 className="text-[18px] font-bold text-red-900 mb-[10px]">
+                    🚨 Emergency Vulcan Commercial Repair Service - Available
+                    24/7
+                  </h3>
+                  <div className="grid md:grid-cols-2 gap-[15px]">
+                    <div>
+                      <ul className="text-[13px] text-red-800 space-y-[5px]">
+                        <li>✓ Same-day commercial repairs</li>
+                        <li>✓ Industrial heating specialists</li>
+                        <li>✓ Heavy-duty system expertise</li>
+                        <li>✓ Genuine Vulcan parts in stock</li>
+                      </ul>
                     </div>
-                  ))}
+                    <div>
+                      <ul className="text-[13px] text-red-800 space-y-[5px]">
+                        <li>✓ All Melbourne commercial areas</li>
+                        <li>✓ Licensed commercial technicians</li>
+                        <li>✓ 12-month repair warranty</li>
+                        <li>✓ Emergency business priority</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="mt-[15px] text-center">
+                    <p className="text-[16px] font-bold text-red-900 mb-[8px]">
+                      EMERGENCY VULCAN REPAIR: 0405133761
+                    </p>
+                    <p className="text-[13px] text-red-700">
+                      Commercial heating emergency? Business priority service!
+                    </p>
+                  </div>
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Our Vulcan Service Expertise in Melbourne
+                  Our Vulcan Commercial Heating Repair Services Melbourne
                 </h3>
 
                 <div className="grid md:grid-cols-2 gap-[20px] mt-[20px]">
-                  <div className="bg-gray-50 border border-gray-100 rounded-lg p-[15px]">
-                    <h4 className="text-[16px] font-semibold text-gray-900 mb-[8px]">
-                      Professional Installation
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-[15px]">
+                    <h4 className="text-[16px] font-semibold text-blue-900 mb-[8px]">
+                      Emergency Commercial Repairs
                     </h4>
-                    <p className="text-[13px] text-gray-700">
-                      Expert Vulcan installation with proper sizing, ductwork
-                      design, and safety compliance. Our certified technicians
-                      ensure optimal performance from day one.
+                    <p className="text-[13px] text-blue-800 mb-[10px]">
+                      24/7 emergency Vulcan commercial heating repairs across
+                      Melbourne. Business heating failed? Industrial system
+                      down? We respond fast.
                     </p>
+                    <ul className="text-[12px] text-blue-700 space-y-[2px]">
+                      <li>• Heavy-duty heat exchanger repairs</li>
+                      <li>• Commercial gas valve service</li>
+                      <li>• Industrial ignition systems</li>
+                      <li>• High-capacity system repairs</li>
+                    </ul>
                   </div>
-                  <div className="bg-gray-50 border border-gray-100 rounded-lg p-[15px]">
-                    <h4 className="text-[16px] font-semibold text-gray-900 mb-[8px]">
-                      Emergency Repairs
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-[15px]">
+                    <h4 className="text-[16px] font-semibold text-green-900 mb-[8px]">
+                      Commercial Installation
                     </h4>
-                    <p className="text-[13px] text-gray-700">
-                      24/7 emergency repair service for Vulcan heaters. Fast
-                      diagnosis, genuine parts, and reliable repairs to restore
-                      your heating quickly.
+                    <p className="text-[13px] text-green-800 mb-[10px]">
+                      Expert Vulcan commercial heating installation by licensed
+                      commercial gas fitters with full compliance certification.
                     </p>
+                    <ul className="text-[12px] text-green-700 space-y-[2px]">
+                      <li>• Licensed commercial gas fitting</li>
+                      <li>• Industrial ductwork design</li>
+                      <li>• Commercial electrical connections</li>
+                      <li>• Compliance testing & certification</li>
+                    </ul>
                   </div>
-                  <div className="bg-gray-50 border border-gray-100 rounded-lg p-[15px]">
-                    <h4 className="text-[16px] font-semibold text-gray-900 mb-[8px]">
-                      Annual Maintenance
+                  <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-[15px]">
+                    <h4 className="text-[16px] font-semibold text-yellow-900 mb-[8px]">
+                      Commercial Maintenance
                     </h4>
-                    <p className="text-[13px] text-gray-700">
-                      Comprehensive maintenance service to ensure safety,
-                      efficiency, and reliability. Prevent breakdowns and extend
-                      your Vulcan heater&apos;s lifespan.
+                    <p className="text-[13px] text-yellow-800 mb-[10px]">
+                      Comprehensive Vulcan commercial heating maintenance
+                      programs to minimize downtime and maintain peak
+                      performance.
                     </p>
+                    <ul className="text-[12px] text-yellow-700 space-y-[2px]">
+                      <li>• Scheduled commercial service</li>
+                      <li>• Preventive maintenance programs</li>
+                      <li>• Heavy-duty system cleaning</li>
+                      <li>• Performance optimization</li>
+                    </ul>
                   </div>
-                  <div className="bg-gray-50 border border-gray-100 rounded-lg p-[15px]">
-                    <h4 className="text-[16px] font-semibold text-gray-900 mb-[8px]">
-                      Commercial Service
+                  <div className="bg-purple-50 border border-purple-200 rounded-lg p-[15px]">
+                    <h4 className="text-[16px] font-semibold text-purple-900 mb-[8px]">
+                      Commercial Parts & Support
                     </h4>
-                    <p className="text-[13px] text-gray-700">
-                      Specialized commercial and industrial Vulcan service with
-                      flexible scheduling, preventive maintenance programs, and
-                      priority support.
+                    <p className="text-[13px] text-purple-800 mb-[10px]">
+                      Genuine Vulcan commercial heating parts and complete
+                      technical support for all industrial heating applications.
                     </p>
+                    <ul className="text-[12px] text-purple-700 space-y-[2px]">
+                      <li>• Genuine Vulcan components</li>
+                      <li>• Heavy-duty replacement parts</li>
+                      <li>• Commercial warranty service</li>
+                      <li>• Technical support & training</li>
+                    </ul>
                   </div>
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Professional Vulcan Installation & Service Melbourne
+                  Common Vulcan Commercial Heating Problems We Fix
                 </h3>
 
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-[20px] mt-[20px]">
-                  <h4 className="text-[16px] font-bold text-blue-900 mb-[10px]">
-                    Complete Vulcan Service Solutions
-                  </h4>
+                <div className="bg-gray-50 border border-gray-200 rounded-lg p-[20px] mt-[20px]">
                   <div className="grid md:grid-cols-2 gap-[15px]">
                     <div>
-                      <ul className="text-[13px] text-blue-800 space-y-[5px]">
-                        <li>✓ Expert installation & commissioning</li>
-                        <li>✓ Emergency repair service 24/7</li>
-                        <li>✓ Annual maintenance programs</li>
-                        <li>✓ Genuine parts & accessories</li>
+                      <h4 className="text-[14px] font-bold text-gray-900 mb-[8px]">
+                        Commercial System Issues:
+                      </h4>
+                      <ul className="text-[13px] text-gray-700 space-y-[3px]">
+                        <li>• Inadequate heating capacity</li>
+                        <li>• Commercial ignition failures</li>
+                        <li>• Heavy-duty component wear</li>
+                        <li>• Industrial thermostat problems</li>
+                        <li>• High-volume airflow issues</li>
                       </ul>
                     </div>
                     <div>
-                      <ul className="text-[13px] text-blue-800 space-y-[5px]">
-                        <li>✓ Commercial service contracts</li>
-                        <li>✓ Safety inspections & compliance</li>
-                        <li>✓ Performance optimization</li>
-                        <li>✓ Warranty service & support</li>
+                      <h4 className="text-[14px] font-bold text-gray-900 mb-[8px]">
+                        Industrial Performance:
+                      </h4>
+                      <ul className="text-[13px] text-gray-700 space-y-[3px]">
+                        <li>• System efficiency decline</li>
+                        <li>• Commercial gas consumption issues</li>
+                        <li>• Heavy-duty motor problems</li>
+                        <li>• Industrial control malfunctions</li>
+                        <li>• Commercial safety concerns</li>
                       </ul>
                     </div>
                   </div>
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Vulcan Maintenance & Repair Services
+                  Vulcan Commercial & Industrial Applications Melbourne
                 </h3>
 
                 <p className="text-[14px] text-gray-700 mt-[15px]">
-                  Our comprehensive Vulcan maintenance service includes thorough
-                  safety inspections, performance testing, cleaning, and
-                  component replacement to ensure your system operates safely
-                  and efficiently. We service all Vulcan models including older
-                  units, with access to genuine parts and technical expertise.
-                </p>
-
-                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-[15px] mt-[15px]">
-                  <h4 className="text-[14px] font-bold text-yellow-900 mb-[8px]">
-                    What&apos;s Included in Our Vulcan Service:
-                  </h4>
-                  <div className="grid md:grid-cols-2 gap-[10px] text-[13px] text-yellow-800">
-                    <div>
-                      <ul className="space-y-[3px]">
-                        <li>• Heat exchanger inspection</li>
-                        <li>• Burner cleaning & adjustment</li>
-                        <li>• Safety device testing</li>
-                        <li>• Gas pressure verification</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <ul className="space-y-[3px]">
-                        <li>• Ductwork inspection</li>
-                        <li>• Filter replacement</li>
-                        <li>• Control system testing</li>
-                        <li>• Performance optimization</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <h3 className="ttsubtitle ttsubtitle__top">
-                  Vulcan Gas Heater Running Costs Melbourne
-                </h3>
-
-                <p className="text-[14px] text-gray-700 mt-[15px]">
-                  Vulcan&apos;s efficient gas heaters provide excellent value
-                  with their robust construction and reliable operation. While
-                  focusing on durability over maximum efficiency ratings, Vulcan
-                  heaters offer consistent performance and lower maintenance
-                  costs over their extended lifespan.
-                </p>
-
-                <div className="bg-green-50 border border-green-200 rounded-lg p-[15px] mt-[15px]">
-                  <p className="text-[13px] text-green-800">
-                    <strong>Typical Running Costs:</strong> A Vulcan Elite 25kW
-                    system costs approximately $4-6 per day to heat a 4-bedroom
-                    Melbourne home during winter peak periods, with minimal
-                    maintenance requirements.
-                  </p>
-                </div>
-
-                <h3 className="ttsubtitle ttsubtitle__top">
-                  Vulcan Commercial & Industrial Applications
-                </h3>
-
-                <p className="text-[14px] text-gray-700 mt-[15px]">
-                  Vulcan specializes in commercial and industrial heating
-                  solutions, with systems designed for warehouses, factories,
-                  workshops, and large commercial buildings. Their heavy-duty
-                  construction and high-output capacity make them ideal for
-                  demanding applications where reliability is critical.
+                  Our commercial heating specialists service Vulcan systems
+                  across all Melbourne business and industrial applications.
+                  From office buildings to warehouses, factories to retail
+                  spaces, we provide expert Vulcan heating service with minimal
+                  business disruption.
                 </p>
 
                 <div className="bg-orange-50 border border-orange-200 rounded-lg p-[15px] mt-[15px]">
                   <h4 className="text-[14px] font-bold text-orange-900 mb-[8px]">
-                    Commercial Applications Include:
+                    Commercial Applications We Service:
                   </h4>
-                  <div className="grid md:grid-cols-2 gap-[10px] text-[13px] text-orange-800">
+                  <div className="grid md:grid-cols-3 gap-[10px] text-[13px] text-orange-800">
                     <div>
-                      <ul className="space-y-[3px]">
-                        <li>• Warehouses & Distribution Centers</li>
-                        <li>• Manufacturing Facilities</li>
-                        <li>• Workshop & Garage Heating</li>
-                      </ul>
+                      <p className="font-semibold mb-[5px]">
+                        Office Buildings:
+                      </p>
+                      <p>
+                        Commercial towers, corporate offices, business centers
+                      </p>
                     </div>
                     <div>
-                      <ul className="space-y-[3px]">
-                        <li>• Retail & Commercial Buildings</li>
-                        <li>• Sports Facilities & Gyms</li>
-                        <li>• Agricultural & Farming Operations</li>
-                      </ul>
+                      <p className="font-semibold mb-[5px]">
+                        Industrial Sites:
+                      </p>
+                      <p>Warehouses, factories, manufacturing facilities</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-[5px]">
+                        Retail & Hospitality:
+                      </p>
+                      <p>Shopping centers, restaurants, hotels, venues</p>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">
+                  Melbourne Areas We Service for Vulcan Commercial Repairs
+                </h3>
+
+                <p className="text-[14px] text-gray-700 mt-[15px]">
+                  Our certified Vulcan commercial heating technicians provide
+                  repair, service, installation, and maintenance across all
+                  Melbourne commercial and industrial areas with priority
+                  emergency service for business continuity.
+                </p>
+
+                <div className="bg-red-50 border border-red-200 rounded-lg p-[15px] mt-[15px]">
+                  <h4 className="text-[14px] font-bold text-red-900 mb-[8px]">
+                    Commercial Service Coverage:
+                  </h4>
+                  <div className="grid md:grid-cols-3 gap-[10px] text-[13px] text-red-800">
+                    <div>
+                      <p className="font-semibold mb-[5px]">
+                        CBD & Inner City:
+                      </p>
+                      <p>Melbourne CBD, South Melbourne, Richmond</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-[5px]">
+                        Industrial Areas:
+                      </p>
+                      <p>West Melbourne, Port Melbourne, Dandenong</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-[5px]">All Melbourne:</p>
+                      <p>
+                        Commercial districts, industrial estates, business parks
+                      </p>
                     </div>
                   </div>
                 </div>
 
                 <PromoLayout
-                  dataText="Expert Vulcan service, repair & installation. Available 24/7 for emergencies. Professional technicians, genuine parts, comprehensive warranties!"
+                  dataText="Emergency Vulcan commercial heating repair Melbourne! Business priority service with heavy-duty specialists. Available 24/7 for commercial applications. Call now!"
                   dataScrImg="/images/services/promo01-img01.png"
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />
@@ -358,39 +295,39 @@ export default function VulcanPage() {
                 className={`${styles.aside__wrapper} lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
                 <div>
-                  <div className={`ttsubtitle`}>Gas Heater Services</div>
+                  <div className={`ttsubtitle`}>Vulcan Commercial Services</div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 
-                <div className="bg-white border border-gray-200 rounded-lg p-[15px] mb-[20px]">
-                  <h4 className="text-[16px] font-bold text-gray-900 mb-[10px]">
-                    Vulcan Quick Facts
+                <div className="bg-orange-50 border border-orange-200 rounded-lg p-[15px] mb-[20px]">
+                  <h4 className="text-[16px] font-bold text-orange-900 mb-[10px]">
+                    Commercial Heating Specialists
                   </h4>
-                  <div className="space-y-[8px] text-[13px] text-gray-700">
+                  <div className="space-y-[8px] text-[13px] text-orange-800">
                     <div>
-                      <strong>Founded:</strong> 1980s (40+ years)
+                      <strong>Available:</strong> 24/7 Business Priority
                     </div>
                     <div>
-                      <strong>Made in:</strong> Australia
+                      <strong>Specialty:</strong> Heavy-Duty Systems
                     </div>
                     <div>
-                      <strong>Warranty:</strong> Up to 20 years
+                      <strong>Coverage:</strong> All Melbourne Commercial
                     </div>
                     <div>
-                      <strong>Energy Rating:</strong> Up to 5 stars
+                      <strong>License:</strong> Commercial Gas Fitting
                     </div>
                     <div>
-                      <strong>Speciality:</strong> Commercial & Industrial
+                      <strong>Parts:</strong> Genuine Vulcan
                     </div>
                     <div>
-                      <strong>Service Network:</strong> Australia-wide
+                      <strong>Service:</strong> Same Day Emergency
                     </div>
                   </div>
                 </div>
 
                 <PromoAside
-                  dataTitle="Vulcan Specialists!"
-                  dataText="Authorized dealers & certified installers"
+                  dataTitle="Commercial Experts!"
+                  dataText="Heavy-duty systems & industrial heating"
                   dataTelefon="0405133761"
                 />
 
@@ -409,8 +346,8 @@ export default function VulcanPage() {
         >
           <div className="container container__fluid-xl no-resize-text">
             <SectionTitle
-              dataSubtitle="authorized vulcan dealer"
-              dataTitle="Melbourne's Trusted Vulcan Partner"
+              dataSubtitle="melbourne commercial heating specialists"
+              dataTitle="Professional Vulcan Industrial Heating Service Team"
             />
             <LogoPartners wrapperClass="grid sm-max:grid-cols-2 lg-max:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] only-lg:gap-[20px] only-md:gap-[20px] sm-max:gap-[15px] lg:mr-[40px] items-start" />
           </div>

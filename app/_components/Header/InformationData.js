@@ -4,14 +4,14 @@
 export const InformationData = [
   {
     id: 1,
-    text: "12 The Fairway Hampton Park VIC 3976",
+    text: "5 Frank Ave Clayton South, Melbourne, Australia",
     addclass: "visible-xl",
   },
   {
     id: 2,
     title: "E-mail us:",
-    text: "nihaanexpertise@gmail.com",
-    link: "mailto:nihaanexpertise@gmail.com",
+    text: "servicefirsthampton@gmail.com",
+    link: "mailto:servicefirsthampton@gmail.com",
     addclass: "visible-xl",
   },
   {

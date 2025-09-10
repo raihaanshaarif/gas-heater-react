@@ -29,10 +29,10 @@ export default function ContactUs() {
                   customer satisfaction guarantee.
                 </strong>
                 <p className="indent__top">
-                  Request a quote for any of our services, get to know how to
-                  manage your current bookings online, get information about our
-                  franchise opportunities, offer us a business partnership or
-                  give feedback.
+                  Request a quote for gas heater service, repair, maintenance,
+                  or installation. Manage your current bookings online, or
+                  contact us for more information. We’re here to help with all
+                  your gas heating needs.
                 </p>
                 <ListEmail />
                 <div className="lg:mt-[35px] lg-max:mt-[25px] sm-max:mt-[20px]">

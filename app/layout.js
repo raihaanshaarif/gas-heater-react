@@ -45,10 +45,68 @@ const fontIcons = localFont({
 });
 export const metadata = {
   title:
-    "Gas Heater Service Melbourne " +
-    "| Gas Heater Installation, Repairs & Servicing",
+    "Gas Heater Repair Melbourne | Emergency Service & Installation | #1 Experts",
   description:
-    "Melbourne's most trusted gas heater service provider. Expert installation, repairs, and servicing for residential and commercial properties. Contact us for reliable and efficient gas heating solutions.",
+    "★★★★★ Melbourne's #1 Gas Heater Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians. Free Quotes. Call 0405133761!",
+  keywords:
+    "gas heater repair melbourne, emergency gas heater repair, gas heater installation melbourne, gas heater service melbourne, gas heater maintenance melbourne, rinnai repair melbourne, brivis repair melbourne, bonaire repair melbourne, 24/7 gas heater emergency, melbourne gas heating specialists, gas heater technician melbourne",
+  authors: [{ name: "Gas Heater Service Melbourne" }],
+  creator: "Gas Heater Service Melbourne",
+  publisher: "Gas Heater Service Melbourne",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_AU",
+    url: "https://gasheaterservicemelbourne.com.au",
+    siteName: "Gas Heater Service Melbourne",
+    title:
+      "Gas Heater Repair Melbourne | Emergency Service & Installation | #1 Experts",
+    description:
+      "★★★★★ Melbourne's #1 Gas Heater Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians. Free Quotes. Call 0405133761!",
+    images: [
+      {
+        url: "https://gasheaterservicemelbourne.com.au/images/gas-heater-service-melbourne-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Gas Heater Service Melbourne - Emergency Repairs & Installation",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gas Heater Repair Melbourne | Emergency Service & Installation",
+    description:
+      "★★★★★ Melbourne's #1 Gas Heater Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Call 0405133761!",
+    images: [
+      "https://gasheaterservicemelbourne.com.au/images/gas-heater-service-melbourne-og.jpg",
+    ],
+  },
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au",
+  },
+  category: "Gas Heating Services",
+  classification: "Business",
+  other: {
+    "geo.region": "AU-VIC",
+    "geo.placename": "Melbourne",
+    "geo.position": "-37.8136;144.9631",
+    ICBM: "-37.8136, 144.9631",
+    "business:contact_data:locality": "Melbourne",
+    "business:contact_data:region": "Victoria",
+    "business:contact_data:country_name": "Australia",
+    "business:contact_data:phone_number": "0405133761",
+    "business:contact_data:email": "nihaanexpertise@gmail.com",
+  },
 };
 export const viewport = {
   themeColor: "#0c4c93",

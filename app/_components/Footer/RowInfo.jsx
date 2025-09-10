@@ -4,7 +4,7 @@ const infoData = [
     id: 1,
     icon: "icon-786204",
     title: "Head Office:",
-    text: "12 The Fairway Hampton Park VIC 3976 Australia",
+    text: "5 Frank Ave Clayton South, Melbourne, Australia",
   },
   {
     id: 2,

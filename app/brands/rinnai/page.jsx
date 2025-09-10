@@ -19,24 +19,27 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 
 // Metadata
 export const metadata = {
-  title: "Rinnai Gas Heaters Melbourne | Expert Installation, Service & Repairs",
-  description: "Rinnai gas heaters - Japanese technology meets Australian engineering in Rinnai's comprehensive range of gas heating solutions. Expert installation & service in Melbourne. Call 0405133761 for free quote.",
-  keywords: "Rinnai gas heaters Melbourne, Rinnai heater installation, Rinnai gas heater service, Rinnai repairs Melbourne, gas heating Rinnai",
+  title:
+    "Rinnai Gas Heater Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+  description:
+    "Professional Rinnai gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, instant heat specialists, certified technicians, genuine parts. Call 0405133761 now!",
+  keywords:
+    "Rinnai repair Melbourne, Rinnai gas heater service, Rinnai installation Melbourne, Rinnai maintenance, Rinnai instant heat repair, gas heater repair Melbourne, Rinnai technician Melbourne",
 };
 
 //Page Layout
 export default function RinnaiPage() {
   return (
     <>
-      <PageTitle dataTitle="Rinnai Gas Heaters Melbourne" />
+      <PageTitle dataTitle="Rinnai Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <SectionTitle
-                  dataSubtitle="rinnai gas heaters melbourne"
-                  dataTitle="Rinnai Gas Heaters - Continuous Hot Water & Heating"
+                  dataSubtitle="rinnai repair service melbourne"
+                  dataTitle="Professional Rinnai Gas Heater Repair & Service Melbourne"
                   dataMaxWidth="630px"
                 />
                 <div className="leading-none">
@@ -49,118 +52,158 @@ export default function RinnaiPage() {
                     loading={`eager`}
                   />
                 </div>
-                
+
                 <p className={``}>
-                  Japanese technology meets Australian engineering in Rinnai's comprehensive range of gas heating solutions. As Melbourne&apos;s authorized Rinnai dealers and certified installation specialists, we provide expert installation, comprehensive service, and professional repairs for the complete Rinnai gas heater range. Choose Rinnai for instant warmth and continuous operation backed by our professional installation guarantee.
+                  Melbourne&apos;s instant heat specialists for Rinnai gas
+                  heater repair and service. Our certified technicians provide
+                  24/7 emergency repairs, professional installation,
+                  comprehensive maintenance, and expert service for all Rinnai
+                  continuous operation heating systems across Melbourne. With
+                  genuine parts, upfront pricing, and same-day service
+                  available, we&apos;re your trusted Rinnai repair experts.
                 </p>
 
                 <p className="indent__top">
-                  Our factory-trained technicians ensure your Rinnai gas heater delivers optimal performance, maximum efficiency, and reliable comfort throughout Melbourne&apos;s coldest months. Every Rinnai installation includes comprehensive warranty coverage and ongoing service support.
+                  Rinnai&apos;s instant heat technology requires specialized
+                  expertise. Our emergency repair service operates 24/7 across
+                  Melbourne with certified technicians, genuine Rinnai parts,
+                  and guaranteed repairs. From ignition problems to continuous
+                  operation issues, we keep your Rinnai heating delivering
+                  instant warmth.
                 </p>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Rinnai Gas Heater Key Features
+                  Our Rinnai Gas Heater Repair Services Melbourne
                 </h3>
 
                 <div className="grid md:grid-cols-2 gap-[20px] mt-[20px]">
-                  <div className="bg-white border border-gray-200 rounded-lg p-[15px] shadow-sm">
-                    <h4 className="text-[16px] font-semibold text-gray-900 mb-[8px]">✓ Instant Heat</h4>
-                    <p className="text-[13px] text-gray-700">Advanced Instant Heat technology ensures optimal performance and reliability for your Melbourne home heating needs.</p>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-[15px]">
+                    <h4 className="text-[16px] font-semibold text-blue-900 mb-[8px]">
+                      Emergency Repairs
+                    </h4>
+                    <p className="text-[13px] text-blue-800 mb-[10px]">
+                      24/7 emergency Rinnai repair service across Melbourne. No
+                      instant heat? Continuous operation problems? We fix it
+                      fast with genuine parts.
+                    </p>
+                    <ul className="text-[12px] text-blue-700 space-y-[2px]">
+                      <li>• Instant heat system repairs</li>
+                      <li>• Continuous flow troubleshooting</li>
+                      <li>• Temperature control fixes</li>
+                      <li>• Ignition system repairs</li>
+                    </ul>
                   </div>
-                  <div className="bg-white border border-gray-200 rounded-lg p-[15px] shadow-sm">
-                    <h4 className="text-[16px] font-semibold text-gray-900 mb-[8px]">✓ Continuous Operation</h4>
-                    <p className="text-[13px] text-gray-700">Advanced Continuous Operation technology ensures optimal performance and reliability for your Melbourne home heating needs.</p>
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-[15px]">
+                    <h4 className="text-[16px] font-semibold text-green-900 mb-[8px]">
+                      Professional Installation
+                    </h4>
+                    <p className="text-[13px] text-green-800 mb-[10px]">
+                      Expert Rinnai installation by licensed gas fitters with
+                      complete system commissioning and instant heat
+                      optimization.
+                    </p>
+                    <ul className="text-[12px] text-green-700 space-y-[2px]">
+                      <li>• Licensed gas fitting</li>
+                      <li>• Continuous flow setup</li>
+                      <li>• Temperature calibration</li>
+                      <li>• Safety testing</li>
+                    </ul>
                   </div>
-                  <div className="bg-white border border-gray-200 rounded-lg p-[15px] shadow-sm">
-                    <h4 className="text-[16px] font-semibold text-gray-900 mb-[8px]">✓ Low Emissions</h4>
-                    <p className="text-[13px] text-gray-700">Advanced Low Emissions technology ensures optimal performance and reliability for your Melbourne home heating needs.</p>
+                  <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-[15px]">
+                    <h4 className="text-[16px] font-semibold text-yellow-900 mb-[8px]">
+                      Annual Maintenance
+                    </h4>
+                    <p className="text-[13px] text-yellow-800 mb-[10px]">
+                      Comprehensive Rinnai maintenance service to ensure
+                      continuous operation and prevent unexpected breakdowns.
+                    </p>
+                    <ul className="text-[12px] text-yellow-700 space-y-[2px]">
+                      <li>• Heat exchanger cleaning</li>
+                      <li>• Continuous flow testing</li>
+                      <li>• Temperature sensor calibration</li>
+                      <li>• Efficiency optimization</li>
+                    </ul>
                   </div>
-                  <div className="bg-white border border-gray-200 rounded-lg p-[15px] shadow-sm">
-                    <h4 className="text-[16px] font-semibold text-gray-900 mb-[8px]">✓ Precise Temperature Control</h4>
-                    <p className="text-[13px] text-gray-700">Advanced Precise Temperature Control technology ensures optimal performance and reliability for your Melbourne home heating needs.</p>
+                  <div className="bg-purple-50 border border-purple-200 rounded-lg p-[15px]">
+                    <h4 className="text-[16px] font-semibold text-purple-900 mb-[8px]">
+                      Parts & Warranty Service
+                    </h4>
+                    <p className="text-[13px] text-purple-800 mb-[10px]">
+                      Genuine Rinnai parts and complete warranty repairs for all
+                      instant heat and continuous operation systems.
+                    </p>
+                    <ul className="text-[12px] text-purple-700 space-y-[2px]">
+                      <li>• Genuine Rinnai parts</li>
+                      <li>• Warranty claim processing</li>
+                      <li>• Parts availability guarantee</li>
+                      <li>• Technical support</li>
+                    </ul>
                   </div>
                 </div>
 
                 <h3 className="ttsubtitle ttsubtitle__top">
-                  Why Choose Rinnai Gas Heaters in Melbourne?
+                  Common Rinnai Gas Heater Problems We Fix
                 </h3>
 
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-[20px] mt-[20px]">
-                  <h4 className="text-[16px] font-bold text-blue-900 mb-[15px]">Rinnai Advantages</h4>
+                <div className="bg-gray-50 border border-gray-200 rounded-lg p-[20px] mt-[20px]">
                   <div className="grid md:grid-cols-2 gap-[15px]">
                     <div>
-                      <ul className="text-[13px] text-blue-800 space-y-[8px]">
-                        <li className="flex items-start gap-[8px]">
-                          <span className="text-green-600 font-bold">✓</span>
-                          <span><strong>Proven Reliability:</strong> Trusted by Melbourne families for years</span>
-                        </li>
-                        <li className="flex items-start gap-[8px]">
-                          <span className="text-green-600 font-bold">✓</span>
-                          <span><strong>Energy Efficiency:</strong> Up to 6 stars rated models available</span>
-                        </li>
-                        <li className="flex items-start gap-[8px]">
-                          <span className="text-green-600 font-bold">✓</span>
-                          <span><strong>Professional Installation:</strong> Certified technician network</span>
-                        </li>
+                      <h4 className="text-[14px] font-bold text-gray-900 mb-[8px]">
+                        Instant Heat Issues:
+                      </h4>
+                      <ul className="text-[13px] text-gray-700 space-y-[3px]">
+                        <li>• No instant heat activation</li>
+                        <li>• Delayed heat response</li>
+                        <li>• Temperature fluctuations</li>
+                        <li>• Continuous operation problems</li>
+                        <li>• Heat exchanger blockages</li>
                       </ul>
                     </div>
                     <div>
-                      <ul className="text-[13px] text-blue-800 space-y-[8px]">
-                        <li className="flex items-start gap-[8px]">
-                          <span className="text-green-600 font-bold">✓</span>
-                          <span><strong>Comprehensive Warranty:</strong> Up to 12 years coverage</span>
-                        </li>
-                        <li className="flex items-start gap-[8px]">
-                          <span className="text-green-600 font-bold">✓</span>
-                          <span><strong>Ongoing Support:</strong> Local service network</span>
-                        </li>
-                        <li className="flex items-start gap-[8px]">
-                          <span className="text-green-600 font-bold">✓</span>
-                          <span><strong>Instant Heat Technology:</strong> Advanced heating technology</span>
-                        </li>
+                      <h4 className="text-[14px] font-bold text-gray-900 mb-[8px]">
+                        System Performance:
+                      </h4>
+                      <ul className="text-[13px] text-gray-700 space-y-[3px]">
+                        <li>• Reduced heating efficiency</li>
+                        <li>• Gas consumption issues</li>
+                        <li>• Control system malfunctions</li>
+                        <li>• Safety sensor problems</li>
+                        <li>• Error codes and diagnostics</li>
                       </ul>
                     </div>
                   </div>
                 </div>
 
-                <h3 className="ttsubtitle ttsubtitle__top">
-                  Professional Rinnai Installation & Service Melbourne
-                </h3>
-
-                <p className="text-[14px] text-gray-700 mt-[15px]">
-                  Our authorized Rinnai technicians provide professional installation with complete system commissioning, user training, and warranty registration. We ensure your Rinnai gas heater operates at peak efficiency while meeting all safety standards and building codes.
-                </p>
-
-                <div className="grid md:grid-cols-3 gap-[15px] mt-[20px]">
-                  <div className="text-center bg-white border border-gray-200 rounded-lg p-[15px]">
-                    <div className="text-[18px] font-bold text-blue-600 mb-[5px]">Up to 6 stars</div>
-                    <div className="text-[13px] font-semibold text-gray-900 mb-[5px]">Energy Rating</div>
-                    <div className="text-[12px] text-gray-600">Efficient heating for lower bills</div>
+                <div className="bg-red-50 border border-red-200 rounded-lg p-[20px] mt-[20px]">
+                  <h3 className="text-[18px] font-bold text-red-900 mb-[10px]">
+                    🚨 Emergency Rinnai Repair Service - Available 24/7
+                  </h3>
+                  <div className="grid md:grid-cols-2 gap-[15px]">
+                    <div>
+                      <ul className="text-[13px] text-red-800 space-y-[5px]">
+                        <li>✓ Same-day emergency repairs</li>
+                        <li>✓ All Melbourne suburbs covered</li>
+                        <li>✓ Certified Rinnai technicians</li>
+                        <li>✓ Genuine parts always in stock</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul className="text-[13px] text-red-800 space-y-[5px]">
+                        <li>✓ Instant heat specialists</li>
+                        <li>✓ 12-month repair warranty</li>
+                        <li>✓ Upfront pricing guarantee</li>
+                        <li>✓ Senior discounts available</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div className="text-center bg-white border border-gray-200 rounded-lg p-[15px]">
-                    <div className="text-[18px] font-bold text-green-600 mb-[5px]">Up to 12 years</div>
-                    <div className="text-[13px] font-semibold text-gray-900 mb-[5px]">Warranty</div>
-                    <div className="text-[12px] text-gray-600">Comprehensive coverage</div>
+                  <div className="mt-[15px] text-center">
+                    <p className="text-[16px] font-bold text-red-900 mb-[8px]">
+                      EMERGENCY RINNAI REPAIR: 0405133761
+                    </p>
+                    <p className="text-[13px] text-red-700">
+                      No instant heat? Continuous operation failed? Call now!
+                    </p>
                   </div>
-                  <div className="text-center bg-white border border-gray-200 rounded-lg p-[15px]">
-                    <div className="text-[18px] font-bold text-purple-600 mb-[5px]">Professional</div>
-                    <div className="text-[13px] font-semibold text-gray-900 mb-[5px]">Installation</div>
-                    <div className="text-[12px] text-gray-600">Certified technicians</div>
-                  </div>
-                </div>
-
-                <h3 className="ttsubtitle ttsubtitle__top">
-                  Rinnai Gas Heater Running Costs Melbourne
-                </h3>
-
-                <p className="text-[14px] text-gray-700 mt-[15px]">
-                  Rinnai gas heaters are designed for efficiency and cost-effective operation. With proper installation and regular maintenance, a Rinnai system can provide reliable heating at competitive running costs throughout Melbourne&apos;s winter months.
-                </p>
-
-                <div className="bg-green-50 border border-green-200 rounded-lg p-[15px] mt-[15px]">
-                  <p className="text-[13px] text-green-800">
-                    <strong>Cost Effective:</strong> Rinnai gas heaters offer excellent value with low running costs and reliable performance for Melbourne homes.
-                  </p>
                 </div>
 
                 <PromoLayout
@@ -169,30 +212,47 @@ export default function RinnaiPage() {
                   dataScrImg2="/images/services/promo01-img01.webp"
                 />
               </div>
-              
-              <div className={` lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}>
+
+              <div
+                className={` lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
+              >
                 <div>
-                  <div className={`ttsubtitle`}>Gas Heater Services</div>
+                  <div className={`ttsubtitle`}>Rinnai Repair Services</div>
                   <ServicesListAside dataList={ServicesListData} />
                 </div>
 
-                <div className="bg-white border border-gray-200 rounded-lg p-[15px] mb-[20px]">
-                  <h4 className="text-[16px] font-bold text-gray-900 mb-[10px]">Rinnai Quick Facts</h4>
-                  <div className="space-y-[8px] text-[13px] text-gray-700">
-                    <div><strong>Founded:</strong> 1920</div>
-                    <div><strong>Specialty:</strong> Continuous Hot Water & Heating</div>
-                    <div><strong>Warranty:</strong> Up to 12 years</div>
-                    <div><strong>Energy Rating:</strong> Up to 6 stars</div>
-                    <div><strong>Key Technology:</strong> Instant Heat Technology</div>
+                <div className="bg-red-50 border border-red-200 rounded-lg p-[15px] mb-[20px]">
+                  <h4 className="text-[16px] font-bold text-red-900 mb-[10px]">
+                    Emergency Rinnai Repair
+                  </h4>
+                  <div className="space-y-[8px] text-[13px] text-red-800">
+                    <div>
+                      <strong>Available:</strong> 24/7 Every Day
+                    </div>
+                    <div>
+                      <strong>Response:</strong> Same Day Service
+                    </div>
+                    <div>
+                      <strong>Specialty:</strong> Instant Heat Systems
+                    </div>
+                    <div>
+                      <strong>Coverage:</strong> All Melbourne
+                    </div>
+                    <div>
+                      <strong>Warranty:</strong> 12 Months
+                    </div>
+                    <div>
+                      <strong>Parts:</strong> Genuine Rinnai
+                    </div>
                   </div>
                 </div>
 
                 <PromoAside
                   dataTitle="Rinnai Specialists!"
-                  dataText="Authorized dealers & certified installers"
+                  dataText="Instant heat experts & certified technicians"
                   dataTelefon="0405133761"
                 />
-                
+
                 <BoxListAside
                   dataTitle={"Why Choose Our \n Rinnai Service"}
                   dataList={ReasonsListData}
@@ -201,8 +261,11 @@ export default function RinnaiPage() {
             </div>
           </div>
         </div>
-        
-        <div className="section__inner bg-no-repeat bg-center lazyload" data-bg="/images/extra-bg01.png">
+
+        <div
+          className="section__inner bg-no-repeat bg-center lazyload"
+          data-bg="/images/extra-bg01.png"
+        >
           <div className="container container__fluid-xl no-resize-text">
             <SectionTitle
               dataSubtitle="authorized rinnai dealer"
