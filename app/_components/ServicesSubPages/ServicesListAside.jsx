@@ -5,7 +5,7 @@ const ServicesListAside = ({ dataList }) => {
     <ul className={`${styles.aside_nav}`}>
       {dataList.map(({ id, text, link }) => (
         <li key={id}>
-          <Link href={"#"}>{text}</Link>
+          <Link href={link}>{text}</Link>
         </li>
       ))}
     </ul>

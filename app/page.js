@@ -1,4 +1,5 @@
 import MainSlider from "./_components/index/MainSlider";
+import CustomSlider from "./_components/index/CustomSlider";
 import OurServicesIndex from "./_components/index/OurServicesIndex";
 import AboutIndex from "./_components/index/AboutIndex";
 import TabsIndex from "./_components/index/TabsIndex";
@@ -10,6 +11,7 @@ import FaqIndex from "./_components/index/FaqIndex";
 import Testimonials from "./_components/index/Testimonials";
 import NewsLayout from "./_components/index/NewsLayout";
 import Partners from "./_components/index/Partners";
+import WhyChooseUs from "./_components/About/WhyChooseUs";
 
 export const metadata = {
   title:
@@ -135,13 +137,17 @@ export default function Home() {
           Gas Heater Repair Melbourne | Emergency Service & Installation
         </h1>
 
-        <MainSlider />
-        <OurServicesIndex />
-        <AboutIndex />
+        {/* <MainSlider /> */}
+        <CustomSlider />
         <AdditionalServices />
+
+        {/* <AboutIndex /> */}
+        <WhyChooseUs />
+        <OurServicesIndex />
+
+        <Partners />
         <Testimonials />
         <FaqIndex />
-        <Partners />
 
         {/* Emergency Service Schema */}
         <script

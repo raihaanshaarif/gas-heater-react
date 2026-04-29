@@ -62,10 +62,95 @@ const CaruselServices = () => {
                 <div
                   className={`${styles.contsmall__holder} absolute flex items-center z-[2]`}
                 >
-                  <div
-                    className={`${styles.contsmall__icon} icon-694055 relative`}
-                  >
-                    <i className={icon}></i>
+                  <div className={`${styles.contsmall__icon} relative`}>
+                    <svg
+                      className={styles.contsmall__icon_bg}
+                      viewBox="0 0 100 100"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="50"
+                        cy="50"
+                        r="48"
+                        fill="currentColor"
+                        fillOpacity="0.13"
+                      />
+                      <rect
+                        x="43"
+                        y="3"
+                        width="14"
+                        height="18"
+                        rx="3"
+                        fill="currentColor"
+                        transform="rotate(0 50 50)"
+                      />
+                      <rect
+                        x="43"
+                        y="3"
+                        width="14"
+                        height="18"
+                        rx="3"
+                        fill="currentColor"
+                        transform="rotate(45 50 50)"
+                      />
+                      <rect
+                        x="43"
+                        y="3"
+                        width="14"
+                        height="18"
+                        rx="3"
+                        fill="currentColor"
+                        transform="rotate(90 50 50)"
+                      />
+                      <rect
+                        x="43"
+                        y="3"
+                        width="14"
+                        height="18"
+                        rx="3"
+                        fill="currentColor"
+                        transform="rotate(135 50 50)"
+                      />
+                      <rect
+                        x="43"
+                        y="3"
+                        width="14"
+                        height="18"
+                        rx="3"
+                        fill="currentColor"
+                        transform="rotate(180 50 50)"
+                      />
+                      <rect
+                        x="43"
+                        y="3"
+                        width="14"
+                        height="18"
+                        rx="3"
+                        fill="currentColor"
+                        transform="rotate(225 50 50)"
+                      />
+                      <rect
+                        x="43"
+                        y="3"
+                        width="14"
+                        height="18"
+                        rx="3"
+                        fill="currentColor"
+                        transform="rotate(270 50 50)"
+                      />
+                      <rect
+                        x="43"
+                        y="3"
+                        width="14"
+                        height="18"
+                        rx="3"
+                        fill="currentColor"
+                        transform="rotate(315 50 50)"
+                      />
+                      <circle cx="50" cy="50" r="35" fill="currentColor" />
+                    </svg>
+                    <span>{icon}</span>
                   </div>
                   <div className={`${styles.contsmall__cont}`}>
                     {title ? (
@@ -88,10 +173,95 @@ const CaruselServices = () => {
                     <div
                       className={`${styles.contlarge__holder_title} flex items-center`}
                     >
-                      <div
-                        className={`${styles.contlarge__icon} icon-694055 relative`}
-                      >
-                        <i className={`${icon} obj__indent-center`}></i>
+                      <div className={`${styles.contlarge__icon} relative`}>
+                        <svg
+                          className={styles.contlarge__icon_bg}
+                          viewBox="0 0 100 100"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="50"
+                            cy="50"
+                            r="48"
+                            fill="currentColor"
+                            fillOpacity="0.13"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(0 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(45 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(90 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(135 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(180 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(225 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(270 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(315 50 50)"
+                          />
+                          <circle cx="50" cy="50" r="35" fill="currentColor" />
+                        </svg>
+                        <span>{icon}</span>
                       </div>
                       <div className={`${styles.contlarge__title_wrapper}`}>
                         {title ? (
@@ -120,7 +290,7 @@ const CaruselServices = () => {
                 </div>
               </Link>
             </SwiperSlide>
-          )
+          ),
         )}
       </Swiper>
     </>

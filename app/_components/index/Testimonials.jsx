@@ -1,212 +1,159 @@
 "use client";
-import { useState } from "react";
 import styles from "./Testimonials.module.css";
 import SectionTitle from "../Common/SectionTitle";
-import YoutubeVideo from "../Common/YoutubeVideo";
-import Modal from "../Common/Modal";
 import { ReviewsCaruselData } from "../Testimonials/ReviewsCaruselData";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Pagination,
-  Autoplay,
-  Navigation,
-  EffectCreative,
-} from "swiper/modules";
-import "swiper/css";
-import "swiper/css/autoplay";
-import "swiper/css/effect-creative";
+
+function getInitials(name) {
+  return name
+    .split(" ")
+    .map((n) => n[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+}
+
+function getHandle(name) {
+  return (
+    "@" +
+    name
+      .toLowerCase()
+      .replace(/[^a-z\s]/g, "")
+      .trim()
+      .replace(/\s+/g, "_")
+  );
+}
+
+const timestamps = [
+  "Apr  22",
+  "Dec 3",
+  "Mar 25",
+  "Jan 13",
+  "June 26",
+  "Apr 26",
+];
+
+function TweetCard({ text, signature__title, signature__text, stars, index }) {
+  const initials = getInitials(signature__title);
+  const handle = getHandle(signature__title);
+  const timestamp = timestamps[index % timestamps.length];
+
+  return (
+    <div className={styles.tweet__card}>
+      <div className={styles.tweet__header}>
+        <div className={styles.tweet__avatar}>{initials}</div>
+        <div className={styles.tweet__user}>
+          <div className={styles.tweet__name}>
+            {signature__title}
+            <span className={styles.tweet__verified} aria-label="Verified">
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                width="16"
+                height="16"
+              >
+                <g>
+                  <path
+                    fill="currentColor"
+                    d="M22.25 12c0-1.43-.88-2.67-2.19-3.34.46-1.39.2-2.9-.81-3.91s-2.52-1.27-3.91-.81c-.66-1.31-1.91-2.19-3.34-2.19s-2.67.88-3.33 2.19c-1.4-.46-2.91-.2-3.92.81s-1.26 2.52-.8 3.91C3.38 9.33 2.5 10.57 2.5 12s.88 2.67 2.19 3.34c-.46 1.39-.2 2.9.81 3.91s2.52 1.26 3.91.81c.67 1.31 1.91 2.19 3.34 2.19s2.68-.88 3.34-2.19c1.39.45 2.9.2 3.91-.81s1.27-2.52.81-3.91c1.31-.67 2.19-1.91 2.19-3.34zm-11.71 4.2L6.8 12.46l1.41-1.42 2.26 2.26 4.8-5.23 1.47 1.36-6.2 6.77z"
+                  />
+                </g>
+              </svg>
+            </span>
+          </div>
+          <div className={styles.tweet__handle}>{handle}</div>
+        </div>
+        <div className={styles.tweet__x_logo} aria-label="Google">
+          <svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20">
+            <path
+              fill="currentColor"
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+            />
+            <path
+              fill="currentColor"
+              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+            />
+            <path
+              fill="currentColor"
+              d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+            />
+            <path
+              fill="currentColor"
+              d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <p className={styles.tweet__text}>{text}</p>
+
+      {stars ? (
+        <div className={styles.tweet__stars}>
+          {[...Array(stars)].map((_, i) => (
+            <i key={i} className="icon-56786"></i>
+          ))}
+        </div>
+      ) : null}
+
+      <div className={styles.tweet__footer}>
+        <span className={styles.tweet__role}>{signature__text}</span>
+        <span className={styles.tweet__timestamp}>{timestamp}</span>
+      </div>
+    </div>
+  );
+}
+
+// 6 copies so the marquee fills any screen width and loops seamlessly
+const row1 = [
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+];
+const row2 = [
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+  ...ReviewsCaruselData,
+];
 
 const Testimonials = () => {
-  const [openModal, setOpenModal] = useState(false);
-  const [youtubeVideoCode, setYoutubeVideoCode] = useState(false);
   return (
-    <>
-      <div
-        className={`${styles.testimonials__holder} relative testimonials__holder`}
-      >
-        <div className={`${styles.testimonials__bg_separator} relative`}>
+    <section className={styles.testimonials__wall}>
+      <div className="container">
+        <SectionTitle
+          dataSubtitle="testimonials"
+          dataTitle="What People Say About Us"
+          dataAddClass="text-center"
+        />
+      </div>
+
+      <div className={styles.marquee__wrapper}>
+        {/* Row 1 — scrolls left */}
+        <div className={styles.marquee__track}>
+          <div className={styles.marquee__inner}>
+            {row1.map((item, i) => (
+              <TweetCard key={i} index={i} {...item} />
+            ))}
+          </div>
+        </div>
+
+        {/* Row 2 — scrolls right */}
+        <div className={styles.marquee__track}>
           <div
-            className={`${styles.testimonials__bg} relative bg-no-repeat lazyload`}
-            data-bg="images/testimonials/index_map.png"
+            className={`${styles.marquee__inner} ${styles.marquee__reverse}`}
           >
-            <div className={`${styles.testimonials__box} relative`}>
-              <Swiper
-                loop={true}
-                grabCursor={true}
-                modules={[Pagination, Autoplay, Navigation, EffectCreative]}
-                autoplay={{
-                  delay: 6500,
-                }}
-                effect={"creative"}
-                creativeEffect={{
-                  prev: {
-                    translate: ["-20%", 0, -1],
-                  },
-                  next: {
-                    translate: ["100%", 0, 0],
-                  },
-                }}
-                spaceBetween={0}
-                slidesPerView={1}
-                navigation={{
-                  prevEl: "#jsswiper__prev",
-                  nextEl: "#jsswiper__next",
-                }}
-                pagination={{ clickable: true }}
-              >
-                {ReviewsCaruselData.map(
-                  ({
-                    id,
-                    srcimg,
-                    subtitle,
-                    title,
-                    text,
-                    signature__title,
-                    signature__text,
-                    stars,
-                    youtubeVideoCode,
-                  }) => (
-                    <SwiperSlide key={id}>
-                      <div
-                        className={`relative md:flex md:justify-end md:items-stretch`}
-                      >
-                        <div
-                          className={`${styles.btn__round_icon} obj__put-in obj__inner-center unselectable`}
-                        >
-                          <div
-                            className="btn__round_icon icon-808557 obj__inner-center"
-                            onClick={(e) => {
-                              setOpenModal(true);
-                              setYoutubeVideoCode(youtubeVideoCode);
-                            }}
-                          >
-                            <span></span>
-                          </div>
-                        </div>
-                        <div
-                          className={`${styles.testimonials__img} lazyload`}
-                          data-bg={srcimg}
-                        ></div>
-                        <div
-                          className={`${styles.testimonials__content} relative z-[1]`}
-                        >
-                          <div
-                            className={`${styles.testimonials__max_width} md:relative`}
-                          >
-                            <SectionTitle
-                              dataSubtitle={subtitle}
-                              dataTitle={title}
-                              dataAddClass="text-left"
-                              dataMaxWidth="357px"
-                            />
-                            {stars ? (
-                              <div className={styles.reviews__rating}>
-                                {[...Array(stars)].map((start, index) => {
-                                  return (
-                                    <i key={index} className="icon-56786"></i>
-                                  );
-                                })}
-                              </div>
-                            ) : null}
-                            {text ? (
-                              <p className="indent__top xl:text-md">{text}</p>
-                            ) : null}
-                            {signature__title && signature__text ? (
-                              <div
-                                className={`${styles.reviews__caption} text-sm`}
-                              >
-                                <strong className="base__color lg:text-base">
-                                  - {signature__title},
-                                </strong>{" "}
-                                {signature__text}
-                              </div>
-                            ) : null}
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                  )
-                )}
-              </Swiper>
-              <div
-                id="jsswiper__prev"
-                className="jsswiper__btn jsswiper__prev obj__inner-center lg-max:invisible"
-              >
-                <i className="icon-545682"></i>
-              </div>
-              <div
-                id="jsswiper__next"
-                className="jsswiper__btn jsswiper__next obj__inner-center lg-max:invisible"
-              >
-                <i className="icon-545682"></i>
-              </div>
-              <Modal
-                openModal={openModal}
-                onClose={() => setOpenModal(false)}
-                dataModalSize="modal__sizeLg"
-                dataModalClass="modal__noinner"
-              >
-                <YoutubeVideo dataYoutubeVideoCode={youtubeVideoCode} />
-              </Modal>
-            </div>
+            {row2.map((item, i) => (
+              <TweetCard key={i} index={i + 1} {...item} />
+            ))}
           </div>
         </div>
       </div>
-      <style jsx global>{`
-        .testimonials__holder .swiper-slide {
-          opacity: 0 !important;
-        }
-        .testimonials__holder .swiper-slide-active,
-        .testimonials__holder .swiper-slide-visible {
-          opacity: 1 !important;
-        }
-        @media (min-width: 768px) {
-          .testimonials__holder .swiper-pagination {
-            justify-content: start;
-            width: 37.3%;
-            right: 0;
-            bottom: 116px;
-            z-index: 3;
-            position: absolute;
-          }
-        }
-        @media (max-width: 1800px) and (min-width: 768px) {
-          .testimonials__holder .swiper-pagination {
-            width: 45%;
-          }
-        }
-
-        @media (max-width: 1229px) and (min-width: 768px) {
-          .testimonials__holder .swiper-pagination {
-            width: calc(45% - 25px);
-            bottom: 35px;
-          }
-        }
-        @media (max-width: 1024px) and (min-width: 768px) {
-          .testimonials__holder .swiper-pagination {
-            width: 45%;
-          }
-        }
-        @media (max-width: 767px) {
-          .testimonials__holder .swiper,
-          .testimonials__holder .swiper-creative .swiper-slide {
-            overflow: inherit;
-          }
-          .testimonials__holder .obj__put-in {
-            height: 265px;
-          }
-          .testimonials__holder .swiper-pagination {
-            justify-content: start;
-            width: 100%;
-            left: 15px;
-            bottom: 35px;
-            z-index: 3;
-            position: absolute;
-          }
-        }
-      `}</style>
-    </>
+    </section>
   );
 };
+
 export default Testimonials;

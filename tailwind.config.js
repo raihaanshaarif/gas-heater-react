@@ -1,54 +1,53 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './app/**/*.{js,ts,jsx,tsx,mdx}'
-  ],
-  blocklist: [
-    'html',
-    'root',
-    'body'
-  ],
+  content: ["./app/**/*.{js,ts,jsx,tsx,mdx}"],
+  blocklist: ["html", "root", "body"],
   theme: {
     screens: {
-      sm: '576px',
-      md: '768px',
-      lg: '1025px',
-      xl: '1201px'
+      sm: "576px",
+      md: "768px",
+      lg: "1025px",
+      xl: "1201px",
     },
     container: {
-      center: true
+      center: true,
     },
     fontSize: {
-      sm: ['13px'],
-      base: ['16px'],
-      md: ['19px', '31px']
+      xs: ["12px"],
+      sm: ["13px"],
+      base: ["16px"],
+      md: ["19px", "31px"],
+      lg: ["18px", "28px"],
+      xl: ["20px", "28px"],
+      "2xl": ["24px", "32px"],
+      "3xl": ["30px", "36px"],
+      "4xl": ["36px", "40px"],
+      "5xl": ["48px", "54px"],
+      "6xl": ["60px", "72px"],
     },
     extend: {
       fontFamily: {
-        'inter': ["var(--base-font)", "serif"],
-        'mulish': ["var(--base-font2)"],
-        'raleway': ["var(--base-font3)"],
-        'fontIcons': ["var(--font-icons)"]
+        inter: ["var(--base-font)", "serif"],
+        mulish: ["var(--base-font2)"],
+        raleway: ["var(--base-font3)"],
+        fontIcons: ["var(--font-icons)"],
+      },
+      borderRadius: {
+        "4xl": "2rem",
       },
       screens: {
-        'xl-max': {'max': '1200px'},
-        'lg-max': {'max': '1024px'},
-        'md-min': {'min': '768px'},
-        'md-max': {'max': '767px'},
-        'only-md': [
-          {'max': '767px', 'min': '576px'}
-        ],
-        'only-lg': [
-          {'max': '1024px', 'min': '768px'}
-        ],
-        'only-xl': [
-          {'max': '1200px', 'min': '1025px'}
-        ],
-        'sm-max': {'max': '575px'},
-        '690-min': {'min': '691px'},
-        '690-max': {'max': '690px'},
-      }
+        "xl-max": { max: "1200px" },
+        "lg-max": { max: "1024px" },
+        "md-min": { min: "768px" },
+        "md-max": { max: "767px" },
+        "only-md": [{ max: "767px", min: "576px" }],
+        "only-lg": [{ max: "1024px", min: "768px" }],
+        "only-xl": [{ max: "1200px", min: "1025px" }],
+        "sm-max": { max: "575px" },
+        "690-min": { min: "691px" },
+        "690-max": { max: "690px" },
+      },
     },
   },
   plugins: [],
-}
+};

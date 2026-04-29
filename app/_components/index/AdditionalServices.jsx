@@ -15,30 +15,6 @@ const AdditionalServices = () => {
         <picture
           className={`${styles.holder__wrapper_img} pointer-events-none absolute`}
         >
-          {/* <source
-            media="(min-width: 1201px)"
-            srcSet="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-            data-srcset="/images/home_additional_img01.webp"
-            type="image/webp"
-          />
-          <source
-            media="(min-width: 1201px)"
-            srcSet="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-            data-srcset="/images/home_additional_img01.png"
-            type="image/png"
-          /> */}
-          {/* <source
-            media="(min-width: 768px)"
-            srcSet="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-            data-srcset="/images/home_additional_img01-md.png"
-            type="image/png"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcSet="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-            data-srcset="/images/home_additional_img01-md.webp"
-            type="image/webp"
-          /> */}
           <img
             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
             className="lazyload"
@@ -125,8 +101,95 @@ const AdditionalServices = () => {
                 ({ id, icon, title, text, list, btn__text, btn__src }) => (
                   <SwiperSlide key={id} className={`height__auto`}>
                     <div className={`${styles.item__holder}`}>
-                      <div className={`${styles.item__icon} icon-694055`}>
-                        <i className={`${icon} obj__indent-center`}></i>
+                      <div className={`${styles.item__icon}`}>
+                        <svg
+                          className={styles.item__icon_bg}
+                          viewBox="0 0 100 100"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="50"
+                            cy="50"
+                            r="48"
+                            fill="currentColor"
+                            fillOpacity="0.13"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(0 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(45 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(90 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(135 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(180 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(225 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(270 50 50)"
+                          />
+                          <rect
+                            x="43"
+                            y="3"
+                            width="14"
+                            height="18"
+                            rx="3"
+                            fill="currentColor"
+                            transform="rotate(315 50 50)"
+                          />
+                          <circle cx="50" cy="50" r="35" fill="currentColor" />
+                        </svg>
+                        <span className={`obj__indent-center`}>{icon}</span>
                       </div>
                       <h6 className={`${styles.item__title} ttsubtitle_sm`}>
                         {title}
@@ -145,7 +208,7 @@ const AdditionalServices = () => {
                       </Link>
                     </div>
                   </SwiperSlide>
-                )
+                ),
               )}
             </Swiper>
           </div>
