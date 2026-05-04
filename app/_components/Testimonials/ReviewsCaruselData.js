@@ -109,4 +109,15 @@ export const ReviewsCaruselData = [
     stars: 4,
     youtubeVideoCode: "wHPqgzlRasA",
   },
+  {
+    id: 11,
+    srcimg: "/images/testimonials/reviews-carusel__img01.jpg",
+    title: `What People Say About Us`,
+    subtitle: `testimonials`,
+    text: `Fantastic gas heater installation from start to finish. The team arrived on time, explained the options suited to our home size, and installed a ducted system in under a day. Warm, cosy winter ever since — couldn't ask for more!`,
+    signature__title: "Olivia Hartmann",
+    signature__text: "Homeowner – Glen Waverley",
+    stars: 5,
+    youtubeVideoCode: "wHPqgzlRasA",
+  },
 ];

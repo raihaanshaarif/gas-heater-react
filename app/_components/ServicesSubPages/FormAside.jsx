@@ -1,42 +1,66 @@
 "use client";
 import { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-const FormAside = () => {
+
+const serviceOptions = [
+  "Gas Heater Installation",
+  "Gas Heater Repair",
+  "Gas Heater Service",
+  "Emergency Gas Heater Repair",
+];
+
+const FormAside = ({ buttonText = "Get Free Quote" }) => {
   const initialFormData = {
     name: "",
     email: "",
-    question: "",
+    phone: "",
+    service: "",
+    message: "",
   };
   const [formData, setFormData] = useState(initialFormData);
+  const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
   };
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
-    if (!formData.name || !formData.email || !formData.question) return;
+    if (!formData.name || !formData.email || !formData.phone || !formData.service) return;
 
-    // For static sites, use mailto or external form service
-    const subject = encodeURIComponent("Service Question");
+    const subject = encodeURIComponent(`Service Enquiry: ${formData.service}`);
     const body = encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nQuestion: ${formData.question}`
+      `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nService: ${formData.service}\nMessage: ${formData.message}`
     );
     window.location.href = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
 
     setFormData(initialFormData);
-    toast.success(`Thank you! Your question has been prepared for sending.`);
+    setSubmitted(true);
+    setTimeout(() => setSubmitted(false), 4000);
   };
+
   return (
-    <form onSubmit={handleSubmit}>
-      <div className={`relative`}>
+    <form onSubmit={handleSubmit} suppressHydrationWarning>
+      <div className="relative" suppressHydrationWarning>
+        {submitted && (
+          <div style={{
+            background: "rgba(30,96,170,0.15)",
+            border: "1px solid var(--base-color2)",
+            borderRadius: "8px",
+            padding: "12px 16px",
+            marginBottom: "14px",
+            color: "inherit",
+            fontSize: "14px",
+            fontWeight: 600,
+          }}>
+            ✓ Thank you! Your enquiry has been prepared for sending.
+          </div>
+        )}
         <div className="form__holder">
           <input
             type="text"
-            autoComplete="on"
+            autoComplete="name"
             className="form__control"
-            placeholder="Your Name  *"
+            placeholder="Your Name *"
             name="name"
             value={formData.name}
             onChange={handleChange}
@@ -47,29 +71,53 @@ const FormAside = () => {
           <input
             type="email"
             name="email"
-            autoComplete="on"
+            autoComplete="email"
             className="form__control"
-            placeholder="E-mail *"
+            placeholder="Email Address *"
             value={formData.email}
             onChange={handleChange}
             required
           />
         </div>
         <div className="form__holder">
+          <input
+            type="tel"
+            name="phone"
+            autoComplete="tel"
+            className="form__control"
+            placeholder="Phone Number *"
+            value={formData.phone}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form__holder">
+          <select
+            name="service"
+            className="form__control"
+            value={formData.service}
+            onChange={handleChange}
+            required
+          >
+            <option value="" disabled>Select a Service *</option>
+            {serviceOptions.map((opt) => (
+              <option key={opt} value={opt}>{opt}</option>
+            ))}
+          </select>
+        </div>
+        <div className="form__holder">
           <textarea
             rows="4"
             className="form__control"
-            placeholder="Your Question *"
-            name="question"
-            value={formData.question}
+            placeholder="Additional Details (Optional)"
+            name="message"
+            value={formData.message}
             onChange={handleChange}
-            required
           ></textarea>
         </div>
         <button type="submit" className="btn btn__type2">
-          <span>Send Question</span>
+          <span>{buttonText}</span>
         </button>
-        <ToastContainer autoClose={2000} />
       </div>
     </form>
   );
