@@ -1,5 +1,5 @@
 "use client";
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useContext } from "react";
 import { Context } from '../_context';
@@ -45,8 +45,8 @@ export default function Cart() {
                                                     src={product.srcimg}
                                                     width="100px"
                                                     height="145px"
-                                                    layout="responsive"
-                                                    objectFit="cover"
+                                                    
+                                                    style={{ objectFit: "cover" }}
                                                     alt={product.title}
                                                 />
                                             </Link>

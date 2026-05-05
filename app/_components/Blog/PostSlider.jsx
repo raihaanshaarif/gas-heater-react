@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectCreative, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -36,8 +36,8 @@ export default function PostSlider({ postData }) {
               src={slide}
               width="780"
               height="449"
-              layout="responsive"
-              objectFit="cover"
+              
+              style={{ objectFit: "cover" }}
               quality={0}
               alt="img"
             />

@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import SectionTitle from '../Common/SectionTitle';
 import styles from './OurTeam.module.css';
 import {dataTeamDirection} from './OurTeamDirectionData';

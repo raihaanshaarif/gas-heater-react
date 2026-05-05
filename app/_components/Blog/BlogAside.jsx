@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link'
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import styles from './BlogAside.module.css';
 const BlogAside = ({postCategories, postTags, postRecent, onClickCategory, onClickTag, onSearch}) => {
 	return (
@@ -83,8 +83,8 @@ const BlogAside = ({postCategories, postTags, postRecent, onClickCategory, onCli
 										src={img}
 										width="254px"
 										height="160px"
-										layout="responsive"
-										objectFit="cover"
+										
+										style={{ objectFit: "cover" }}
 										blurDataURL='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='
 										alt={title}
 									/>

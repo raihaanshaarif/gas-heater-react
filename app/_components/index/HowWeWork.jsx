@@ -1,5 +1,5 @@
 import styles from './HowWeWork.module.css'
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import SectionTitle from '../Common/SectionTitle';
 const infoData = [
 	{

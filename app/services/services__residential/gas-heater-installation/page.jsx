@@ -8,7 +8,7 @@ import SectionTitle from "../../../_components/Common/SectionTitle";
 import LogoPartners from "../../../_components/Common/LogoPartners";
 import GasHeaterTestimonials from "./GasHeaterTestimonials";
 //Import Layout
-import Image from "next/legacy/image";
+import Image from "next/image";
 import PromoLayout from "../../../_components/ServicesSubPages/PromoLayout";
 //Import Aside
 import FormAside from "../../../_components/ServicesSubPages/FormAside";
@@ -167,8 +167,8 @@ export default function GasHeaterInstallation() {
                 <div className={installStyles.hero__formcard_bg}>
                   <Image
                     src="/images/services/services_img01.jpg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     quality={60}
                     alt="gas heater installation Melbourne"
                   />
@@ -187,7 +187,7 @@ export default function GasHeaterInstallation() {
                   src="/images/home__tabimg01.jpg"
                   width={560}
                   height={400}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={70}
                   alt="cold Melbourne winter home heating"
                   className={installStyles.rounded_img}
@@ -237,8 +237,8 @@ export default function GasHeaterInstallation() {
                 <div className={installStyles.bento__card_img}>
                   <Image
                     src="/images/services/tab-img01.jpg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     quality={65}
                     alt="ducted gas heating installation Melbourne"
                   />
@@ -258,7 +258,7 @@ export default function GasHeaterInstallation() {
               <div className={`${installStyles.bento__card} ${installStyles.bento__card_standard}`}>
                 <div className={installStyles.bento__icon_wrap}><IconWall /></div>
                 <div className={installStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img02.jpg" layout="fill" objectFit="cover" quality={60} alt="wall mounted gas heater installation" />
+                  <Image src="/images/services/tab-img02.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="wall mounted gas heater installation" />
                   <div className={installStyles.bento__card_overlay} />
                 </div>
                 <h3 className={installStyles.bento__title}>Wall-Mounted Gas Heaters</h3>
@@ -268,7 +268,7 @@ export default function GasHeaterInstallation() {
               <div className={`${installStyles.bento__card} ${installStyles.bento__card_standard}`}>
                 <div className={installStyles.bento__icon_wrap}><IconLogFire /></div>
                 <div className={installStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img03.jpg" layout="fill" objectFit="cover" quality={60} alt="gas log fire installation Melbourne" />
+                  <Image src="/images/services/tab-img03.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="gas log fire installation Melbourne" />
                   <div className={installStyles.bento__card_overlay} />
                 </div>
                 <h3 className={installStyles.bento__title}>Gas Log Fires</h3>
@@ -278,7 +278,7 @@ export default function GasHeaterInstallation() {
               <div className={`${installStyles.bento__card} ${installStyles.bento__card_standard}`}>
                 <div className={installStyles.bento__icon_wrap}><IconSpace /></div>
                 <div className={installStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img04.jpg" layout="fill" objectFit="cover" quality={60} alt="gas space heater convection installation" />
+                  <Image src="/images/services/tab-img04.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="gas space heater convection installation" />
                   <div className={installStyles.bento__card_overlay} />
                 </div>
                 <h3 className={installStyles.bento__title}>Space & Convection Heaters</h3>
@@ -345,7 +345,7 @@ export default function GasHeaterInstallation() {
                   src="/images/services/services_img02.jpg"
                   width={540}
                   height={480}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={70}
                   alt="gas ducted heating Melbourne home"
                   className={installStyles.rounded_img}
@@ -529,7 +529,7 @@ export default function GasHeaterInstallation() {
                     src="/images/about_img02.jpg"
                     width={400}
                     height={320}
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     quality={65}
                     alt="gas heater installation FAQ Melbourne"
                     className={installStyles.rounded_img}
@@ -560,8 +560,8 @@ export default function GasHeaterInstallation() {
           <div className={installStyles.final_cta__bg}>
             <Image
               src="/images/bg-01.jpg"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               quality={60}
               alt="gas heater installation Melbourne background"
             />

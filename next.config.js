@@ -18,10 +18,6 @@ const nextConfig = {
   assetPrefix: "",
   // Skip error pages during static export
   skipTrailingSlashRedirect: true,
-  // Disable experimental features that cause issues
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
-  },
   // Disable build traces for static export (production only)
   ...(isProd && { generateBuildId: () => "build" }),
   // Optimize output for static hosting (production only)

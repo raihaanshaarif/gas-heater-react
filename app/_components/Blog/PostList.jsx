@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react"
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 import Link from 'next/link'
 //Import Sections
 import YoutubeVideo from '../Common/YoutubeVideo'
@@ -28,8 +28,8 @@ const PostList = (props) => {
 									src={img}
 									width="780"
 									height="449"
-									layout="responsive"
-									objectFit="cover"
+									
+									style={{ objectFit: "cover" }}
 									loading={`eager`}
 									blurDataURL='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='
 									alt={title}
@@ -71,8 +71,8 @@ const PostList = (props) => {
 												src={slide}
 												width="780"
 												height="449"
-												layout="responsive"
-												objectFit="cover"
+												
+												style={{ objectFit: "cover" }}
 												quality={0}
 												alt={title}
 											/>
@@ -94,8 +94,8 @@ const PostList = (props) => {
 							<div className={`${styles.post__data_bg} absolute z-[1]`}>
 								<Image
 									src="/images/blog/post_bg_img.png"
-									layout='fill'
-									objectFit="cover"
+									fill
+									style={{ objectFit: "cover" }}
 									quality={0}
 									alt={title}
 								/>

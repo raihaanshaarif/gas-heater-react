@@ -1,4 +1,4 @@
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import styles from './Portfolio.module.css';
 const Portfolio__item = ({dataArray, onClickId, passValue}) => {
 	return (

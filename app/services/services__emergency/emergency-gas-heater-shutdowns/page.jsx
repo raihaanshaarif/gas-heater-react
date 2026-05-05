@@ -8,7 +8,7 @@ import LogoPartners from "../../../_components/Common/LogoPartners";
 // Testimonials
 import GasHeaterRepairTestimonials from "./GasHeaterRepairTestimonials";
 // Layout
-import Image from "next/legacy/image";
+import Image from "next/image";
 // React
 import { useState } from "react";
 
@@ -290,7 +290,7 @@ export default function EmergencyGasHeaterShutdowns() {
                     height={470}
                     quality={85}
                     alt="Gas safety emergency Melbourne"
-                    layout="responsive"
+                    
                   />
                 </div>
                 <div className={emergencyStyles.safety__img_badge}>
@@ -359,8 +359,8 @@ export default function EmergencyGasHeaterShutdowns() {
                 <div className={emergencyStyles.bento__card_img}>
                   <Image
                     src="/images/services/tab-img02.jpg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     quality={80}
                     alt="Emergency heater breakdown Melbourne"
                   />
@@ -382,8 +382,8 @@ export default function EmergencyGasHeaterShutdowns() {
                 <div className={emergencyStyles.bento__card_img_sm}>
                   <Image
                     src="/images/services/tab-img03.jpg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     quality={80}
                     alt="Carbon monoxide alarm emergency"
                   />
@@ -403,8 +403,8 @@ export default function EmergencyGasHeaterShutdowns() {
                 <div className={emergencyStyles.bento__card_img_sm}>
                   <Image
                     src="/images/services/tab-img04.jpg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     quality={80}
                     alt="Gas smell from heater"
                   />
@@ -424,8 +424,8 @@ export default function EmergencyGasHeaterShutdowns() {
                 <div className={emergencyStyles.bento__card_img_sm}>
                   <Image
                     src="/images/services/tab-img05.jpg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     quality={80}
                     alt="Loud banging gas heater"
                   />
@@ -459,7 +459,7 @@ export default function EmergencyGasHeaterShutdowns() {
                     height={480}
                     quality={85}
                     alt="Fully stocked gas heater repair van Melbourne"
-                    layout="responsive"
+                    
                   />
                 </div>
                 <div className={emergencyStyles.firstvisit__badge}>
@@ -661,7 +661,7 @@ export default function EmergencyGasHeaterShutdowns() {
                     height={400}
                     quality={85}
                     alt="Gas heater emergency FAQ Melbourne"
-                    layout="responsive"
+                    
                   />
                 </div>
               </div>
@@ -678,8 +678,8 @@ export default function EmergencyGasHeaterShutdowns() {
           <div className={emergencyStyles.callbanner__bg}>
             <Image
               src="/images/bg-01.jpg"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               quality={60}
               alt=""
               aria-hidden="true"

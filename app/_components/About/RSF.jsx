@@ -1,4 +1,4 @@
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import styles from './RSF.module.css';
 import {dataCol} from './RSFData';
 const RSF = () => {

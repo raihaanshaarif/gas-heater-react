@@ -1,5 +1,5 @@
 import styles from './PageTitle.module.css';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import Link from 'next/link';
 const PageTitle = (props) => {
 	return (
@@ -9,7 +9,7 @@ const PageTitle = (props) => {
 					src="/images/pagetitle_bg01.jpg"
 					quality={0}
 					className={`${styles.pageTitle__bg} object-cover`}
-					layout='fill'
+					fill
 					priority
 					loading={`eager`}
 					alt={props.dataTitle}

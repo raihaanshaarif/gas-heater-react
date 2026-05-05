@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link'
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import styles from './ThumbprodAside.module.css';
 
 const MIN = 0;
@@ -107,7 +107,7 @@ const ThumbprodAside = ({productCategories, productTags, productRecent, onClickC
 											src={srcimg}
 											width="65px"
 											height="81px"
-											objectFit="cover"
+											style={{ objectFit: "cover" }}
 											blurDataURL='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='
 											alt={title}
 										/>

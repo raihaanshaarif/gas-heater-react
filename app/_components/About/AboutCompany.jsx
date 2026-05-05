@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import Signature from "../Common/Signature";
 import styles from "./AboutCompany.module.css";
@@ -17,7 +17,7 @@ const AboutCompany = () => {
                   loading={`eager`}
                   width={533}
                   height={421}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={0}
                   alt="img"
                 />
@@ -28,7 +28,7 @@ const AboutCompany = () => {
                   loading={`eager`}
                   width={284}
                   height={205}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={0}
                   alt="img"
                 />

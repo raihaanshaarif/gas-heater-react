@@ -7,7 +7,7 @@ import SectionTitle from "../../../_components/Common/SectionTitle";
 import LogoPartners from "../../../_components/Common/LogoPartners";
 import { CarbonMonoxideTestimonials } from "./CarbonMonoxideTestimonials";
 // Layout
-import Image from "next/legacy/image";
+import Image from "next/image";
 // Form
 import FormAside from "../../../_components/ServicesSubPages/FormAside";
 // Data
@@ -283,7 +283,7 @@ export default function CarbonMonoxideTesting() {
                   src="/images/home__tabimg01.jpg"
                   width={560}
                   height={420}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={70}
                   alt="carbon monoxide danger inside Melbourne home"
                   className={coStyles.rounded_img}
@@ -344,8 +344,8 @@ export default function CarbonMonoxideTesting() {
                 <div className={coStyles.bento__card_img}>
                   <Image
                     src="/images/services/tab-img01.jpg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     quality={65}
                     alt="commercial gas safety compliance Melbourne"
                   />
@@ -370,7 +370,7 @@ export default function CarbonMonoxideTesting() {
               <div className={`${coStyles.bento__card} ${coStyles.bento__card_standard}`}>
                 <div className={coStyles.bento__icon_wrap}><IconHome /></div>
                 <div className={coStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img02.jpg" layout="fill" objectFit="cover" quality={60} alt="homeowner gas safety check Melbourne" />
+                  <Image src="/images/services/tab-img02.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="homeowner gas safety check Melbourne" />
                   <div className={coStyles.bento__card_overlay} />
                 </div>
                 <h3 className={coStyles.bento__title}>Commercial Occupiers</h3>
@@ -381,7 +381,7 @@ export default function CarbonMonoxideTesting() {
               <div className={`${coStyles.bento__card} ${coStyles.bento__card_standard}`}>
                 <div className={coStyles.bento__icon_wrap}><IconSearch /></div>
                 <div className={coStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img03.jpg" layout="fill" objectFit="cover" quality={60} alt="pre-purchase gas safety inspection Melbourne" />
+                  <Image src="/images/services/tab-img03.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="pre-purchase gas safety inspection Melbourne" />
                   <div className={coStyles.bento__card_overlay} />
                 </div>
                 <h3 className={coStyles.bento__title}>Commercial Property Buyers</h3>
@@ -392,7 +392,7 @@ export default function CarbonMonoxideTesting() {
               <div className={`${coStyles.bento__card} ${coStyles.bento__card_standard}`}>
                 <div className={coStyles.bento__icon_wrap}><IconCO /></div>
                 <div className={coStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img04.jpg" layout="fill" objectFit="cover" quality={60} alt="renovation gas safety backdrafting Melbourne" />
+                  <Image src="/images/services/tab-img04.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="renovation gas safety backdrafting Melbourne" />
                   <div className={coStyles.bento__card_overlay} />
                 </div>
                 <h3 className={coStyles.bento__title}>Renovators</h3>
@@ -450,7 +450,7 @@ export default function CarbonMonoxideTesting() {
                   src="/images/services/services_img02.jpg"
                   width={540}
                   height={500}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={70}
                   alt="landlord gas compliance inspection Melbourne"
                   className={coStyles.rounded_img}
@@ -501,7 +501,7 @@ export default function CarbonMonoxideTesting() {
               ].map((w, i) => (
                 <div key={i} className={coStyles.warning__card}>
                   <div className={coStyles.warning__card_img}>
-                    <Image src={w.img} layout="fill" objectFit="cover" quality={65} alt={w.title} />
+                    <Image src={w.img} fill style={{ objectFit: "cover" }} quality={65} alt={w.title} />
                     <div className={coStyles.warning__card_img_overlay} />
                   </div>
                   <div className={coStyles.warning__card_body}>
@@ -682,7 +682,7 @@ export default function CarbonMonoxideTesting() {
                     src="/images/about_img02.jpg"
                     width={400}
                     height={320}
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     quality={65}
                     alt="carbon monoxide testing FAQ Melbourne"
                     className={coStyles.rounded_img}
@@ -713,8 +713,8 @@ export default function CarbonMonoxideTesting() {
           <div className={coStyles.final_cta__bg}>
             <Image
               src="/images/bg-02.jpg"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               quality={60}
               alt="carbon monoxide testing Melbourne background"
             />

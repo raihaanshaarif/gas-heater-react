@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react"
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 import SectionTitle from '../Common/SectionTitle'
 import styles from './OurCertificates.module.css'
 import Modal from "../Common/Modal"
@@ -79,7 +79,7 @@ const OurCertificates = () => {
 												width={335}
 												height={434}
 												quality={0}
-												layout="responsive"
+												
 												alt="certificates"
 											/>
 										</div>

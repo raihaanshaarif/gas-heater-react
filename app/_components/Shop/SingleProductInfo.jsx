@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import { useContext } from "react";
 import { Context } from '../../_context';
 //Import Css
@@ -22,8 +22,8 @@ export default function SingleProductInfo({dataProduct}) {
                                 height="674"
                                 blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAFeAQMAAABkQZK+AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaN7twQENAAAAwiD7p7bHBwwAAAAAAAAAAAAAACDqMTgAAXbCiqsAAAAASUVORK5CYII='
                                 placeholder="blur"
-                                layout="responsive"
-                                objectFit="cover"
+                                
+                                style={{ objectFit: "cover" }}
                                 loading='lazy'
                                 alt={dataProduct.title}
                             />

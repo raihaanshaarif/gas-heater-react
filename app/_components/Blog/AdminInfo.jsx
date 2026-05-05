@@ -1,4 +1,4 @@
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import styles from './AdminInfo.module.css';
 const AdminInfo = ({postData}) => {
 	return (
@@ -9,7 +9,7 @@ const AdminInfo = ({postData}) => {
 						src={postData.postAdmin.srcimg}
 						width="131"
 						height="131"
-						objectFit="cover"
+						style={{ objectFit: "cover" }}
 						quality={0}
 						alt={postData.postAdmin.title}
 					/>

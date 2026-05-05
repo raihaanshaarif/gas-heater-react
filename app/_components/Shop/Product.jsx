@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useContext } from "react";
 import { Context } from '../../_context';
@@ -29,8 +29,8 @@ const Product = (props) => {
 								height="340"
 								blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAFUAQMAAADvakB3AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaN7twYEAAAAAw6D7Ux9hAtUAAAAAAAAAAAAAACAcLnwAAWOAc2cAAAAASUVORK5CYII='
 								placeholder="blur"
-								objectFit="cover"
-								layout="responsive"
+								style={{ objectFit: "cover" }}
+								
 								loading='lazy'
 								alt={title}
 							/>

@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './NewsLayout.module.css';
 import SectionTitle from '../Common/SectionTitle';
@@ -64,8 +64,8 @@ const NewsLayout = () => {
 												src={srcimg}
 												width="370"
 												height="300"
-												layout="responsive"
-												objectFit="cover"
+												
+												style={{ objectFit: "cover" }}
 												quality={0}
 												alt={title}
 											/>

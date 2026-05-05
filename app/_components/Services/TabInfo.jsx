@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, Suspense, lazy } from 'react';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import styles from './TabInfo.module.css';
 const Modal = lazy(() => import('../Common/Modal'));
 const FormModal = lazy(() => import('../Common/FormModal'));
@@ -38,8 +38,8 @@ const TabInfo = () => {
 						<div className={`img__fixed-height relative`}>
 							<Image
 								src='/images/services/tab02-img01.jpg'
-								layout='fill'
-								objectFit='cover'
+								fill
+								style={{ objectFit: "cover" }}
 								quality={0}
 								className="md-max:layout-[fill]"
 								alt='Schedule'

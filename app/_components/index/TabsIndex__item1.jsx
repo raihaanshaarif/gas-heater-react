@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
 import BoxIcon2 from "../Common/BoxIcon2";
@@ -50,9 +50,9 @@ const TabsIndex__item1 = () => {
           <div className="img__fixed-height">
             <Image
               src="/images/home__tabimg01.jpg"
-              layout="fill"
+              fill
               quality={0}
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
               alt="Our Approach"
             />
           </div>

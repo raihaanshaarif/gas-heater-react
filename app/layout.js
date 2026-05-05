@@ -122,6 +122,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${inter.variable} ${mulish.variable} ${raleway.variable} ${fontIcons.variable}`}
+        suppressHydrationWarning
       >
         <Header />
         <GlobalState>{children}</GlobalState>

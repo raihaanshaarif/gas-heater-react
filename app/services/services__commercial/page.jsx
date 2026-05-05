@@ -6,7 +6,7 @@ import PageTitle from "../../_components/Common/PageTitle";
 import SectionTitle from "../../_components/Common/SectionTitle";
 import LogoPartners from "../../_components/Common/LogoPartners";
 //Import Layout
-import Image from "next/legacy/image";
+import Image from "next/image";
 import PromoLayout from "../../_components/ServicesSubPages/PromoLayout";
 import ListWithTitle from "../../_components/Common/ListWithTitle";
 import Link from "next/link";

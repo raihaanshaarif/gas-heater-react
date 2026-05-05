@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 //Import Css
 import styles from "../../_components/Blog/Singlepost.module.css";
 import styles2 from "../../_components/Blog/Blog.module.css";
@@ -19,8 +19,9 @@ export function generateStaticParams() {
 }
 
 //Page Layout
-export default function SinglePost({ params }) {
-  const postData = posts.find((post) => post.id == params.id);
+export default async function SinglePost({ params }) {
+  const { id } = await params;
+  const postData = posts.find((post) => post.id == id);
   return (
     <>
       <PageTitle
@@ -45,8 +46,8 @@ export default function SinglePost({ params }) {
                         width="780"
                         height="449"
                         blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAAFUAQMAAADvakB3AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAACJJREFUaN7twYEAAAAAw6D7Ux9hAtUAAAAAAAAAAAAAACAcLnwAAWOAc2cAAAAASUVORK5CYII="
-                        layout="responsive"
-                        objectFit="cover"
+                        
+                        style={{ objectFit: "cover" }}
                         alt={postData.title}
                       />
                     </div>
@@ -100,7 +101,7 @@ export default function SinglePost({ params }) {
                     ))}
                   </div>
                 </div>
-                <NavPostsBtn postId={params.id} />
+                <NavPostsBtn postId={id} />
               </div>
               <div
                 className={`${styles2.holder__colright} ${styles.holder__colright} sticky`}

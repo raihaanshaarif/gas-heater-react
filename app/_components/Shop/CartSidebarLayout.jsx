@@ -3,7 +3,7 @@
 import { useContext } from "react";
 import { Context } from '../../_context/';
 
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import Counter from '../Common/Counter';
 import styles from './CartSidebarLayout.module.css';
 import Link from 'next/link';
@@ -37,8 +37,8 @@ export default function CartSidebarLayout(onClickClose){
                                             src={el.srcimg}
                                             width="120px"
                                             height="145px"
-                                            layout="responsive"
-                                            objectFit="cover"
+                                            
+                                            style={{ objectFit: "cover" }}
                                             alt={el.title}
                                         />
                                     </Link>

@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from "react";
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import styles from './ReviewsVideo.module.css';
 import EmbedVideo from '../Common/EmbedVideo';
 import SectionTitle from '../Common/SectionTitle';
@@ -87,8 +87,8 @@ const ReviewsVideo = () => {
 											width={132}
 											height={74}
 											quality={0}
-											layout="responsive"
-											objectFit="cover"
+											
+											style={{ objectFit: "cover" }}
 											alt="img"
 										/>
 									</SwiperSlide>

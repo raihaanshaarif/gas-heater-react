@@ -1,5 +1,5 @@
 
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import styles from './Signature.module.css';
 const Signature = ({dataSrcImg, dataTitle}) => {	
 	return (		

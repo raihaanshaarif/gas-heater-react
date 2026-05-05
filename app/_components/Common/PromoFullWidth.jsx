@@ -1,6 +1,6 @@
 'use client';
 import styles from './PromoFullWidt.module.css'
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 const PromoFullWidth = ({dataIcon, dataTitle, dataText, dataBgSrc, dataMaxWidth, dataOffsetLayout, dataAddClass}) => (
 	<>
 		<div className={`${styles.fullwidthPromo} ${dataAddClass || 'fullwidthPromo__inner'} relative fullwidthPromo`}>
@@ -8,8 +8,8 @@ const PromoFullWidth = ({dataIcon, dataTitle, dataText, dataBgSrc, dataMaxWidth,
 				<Image
 					src={dataBgSrc}
 					alt={dataTitle}
-					layout='fill'
-					objectFit="cover"
+					fill
+					style={{ objectFit: "cover" }}
 				/>
 			):null}
 			<div style={{maxWidth: dataMaxWidth + 'px', top: dataOffsetLayout}} className={`relative text-center mx-auto fullwidthPromo__offset`}>

@@ -1,6 +1,6 @@
 import styles from "./CoverageLayout.module.css";
 import SectionTitle from "../Common/SectionTitle";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { dataAreasCover } from "./CoverageLayoutData";
 import imageLayout from "../../../public/images/coverage_img01.jpg";
 import imageLayout2 from "../../../public/images/coverage_img02.jpg";
@@ -50,8 +50,8 @@ function CoverageLayout(props) {
                 loading={`eager`}
                 width="585"
                 height="346"
-                layout="responsive"
-                objectFit="cover"
+                
+                style={{ objectFit: "cover" }}
                 alt="Coverage"
               />
               <div className={`${styles.img__label} absolute`}>
@@ -60,7 +60,7 @@ function CoverageLayout(props) {
                   loading={`eager`}
                   width="134"
                   height="171"
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   alt="Locality We Cover"
                 />
               </div>

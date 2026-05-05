@@ -12,6 +12,7 @@ const LayoutHolder = () => (
           width={146}
           height={102}
           quality={0}
+          style={{ height: "auto" }}
           alt="Plumbio"
         />
       </a>

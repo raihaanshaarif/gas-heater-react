@@ -14,8 +14,9 @@ export function generateStaticParams() {
   }));
 }
 
-export default function SingleProduct({ params }) {
-  const productData = products.find((product) => product.id == params.id);
+export default async function SingleProduct({ params }) {
+  const { id } = await params;
+  const productData = products.find((product) => product.id == id);
   return (
     <>
       <PageTitle

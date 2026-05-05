@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import Button from '../Common/Button';
 import SectionTitle from '../Common/SectionTitle';
 import style from './TabServices.module.css'
@@ -13,8 +13,8 @@ const TabsIndex__item1 = ({onClickBtn}) => {
 							className='img__fixed-height'
 							src='/images/services/tab-img01.jpg'
 							loading={`lazy`}
-							layout='fill'
-							objectFit='cover'
+							fill
+							style={{ objectFit: "cover" }}
 							quality={0}
 							alt='100% Satisfaction Guarantee'
 						/>

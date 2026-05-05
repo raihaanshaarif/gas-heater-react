@@ -7,7 +7,7 @@ import SectionTitle from "../../../_components/Common/SectionTitle";
 import LogoPartners from "../../../_components/Common/LogoPartners";
 import GasHeaterRepairTestimonials from "./GasHeaterRepairTestimonials";
 // Layout
-import Image from "next/legacy/image";
+import Image from "next/image";
 // Form
 import FormAside from "../../../_components/ServicesSubPages/FormAside";
 // Data
@@ -236,7 +236,7 @@ export default function GasHeaterRepairs() {
                   src="/images/home__tabimg01.jpg"
                   width={560}
                   height={400}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={70}
                   alt="broken gas heater Melbourne winter"
                   className={repairStyles.rounded_img}
@@ -285,7 +285,7 @@ export default function GasHeaterRepairs() {
               {/* Featured — Ducted */}
               <div className={`${repairStyles.bento__card} ${repairStyles.bento__card_featured}`}>
                 <div className={repairStyles.bento__card_img}>
-                  <Image src="/images/services/tab-img01.jpg" layout="fill" objectFit="cover" quality={65} alt="ducted gas heater repair Melbourne" />
+                  <Image src="/images/services/tab-img01.jpg" fill style={{ objectFit: "cover" }} quality={65} alt="ducted gas heater repair Melbourne" />
                   <div className={repairStyles.bento__card_overlay} />
                 </div>
                 <div className={repairStyles.bento__card_content}>
@@ -301,7 +301,7 @@ export default function GasHeaterRepairs() {
               {/* CO Testing — amber warning */}
               <div className={`${repairStyles.bento__card} ${repairStyles.bento__card_co}`}>
                 <div className={repairStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img02.jpg" layout="fill" objectFit="cover" quality={60} alt="carbon monoxide testing Melbourne" />
+                  <Image src="/images/services/tab-img02.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="carbon monoxide testing Melbourne" />
                   <div className={repairStyles.bento__card_overlay} />
                 </div>
                 <div className={repairStyles.bento__icon_wrap} style={{ position: "relative", zIndex: 2, padding: "24px 24px 0", color: "#ffb347" }}>
@@ -319,7 +319,7 @@ export default function GasHeaterRepairs() {
               {/* Wall Furnace */}
               <div className={`${repairStyles.bento__card} ${repairStyles.bento__card_standard}`}>
                 <div className={repairStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img03.jpg" layout="fill" objectFit="cover" quality={60} alt="wall furnace gas heater repair" />
+                  <Image src="/images/services/tab-img03.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="wall furnace gas heater repair" />
                   <div className={repairStyles.bento__card_overlay} />
                 </div>
                 <div className={repairStyles.bento__icon_wrap}><IconWall /></div>
@@ -332,7 +332,7 @@ export default function GasHeaterRepairs() {
               {/* Ignition & Thermostat */}
               <div className={`${repairStyles.bento__card} ${repairStyles.bento__card_standard}`}>
                 <div className={repairStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img04.jpg" layout="fill" objectFit="cover" quality={60} alt="gas heater ignition thermostat repair" />
+                  <Image src="/images/services/tab-img04.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="gas heater ignition thermostat repair" />
                   <div className={repairStyles.bento__card_overlay} />
                 </div>
                 <div className={repairStyles.bento__icon_wrap}><IconIgnition /></div>
@@ -354,7 +354,7 @@ export default function GasHeaterRepairs() {
                   src="/images/about_img01.jpg"
                   width={560}
                   height={440}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={70}
                   alt="carbon monoxide safety Melbourne gas heater"
                   className={repairStyles.rounded_img}
@@ -575,7 +575,7 @@ export default function GasHeaterRepairs() {
                     src="/images/about_img03.jpg"
                     width={400}
                     height={320}
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     quality={65}
                     alt="gas heater repair FAQ Melbourne"
                     className={repairStyles.rounded_img}
@@ -607,8 +607,8 @@ export default function GasHeaterRepairs() {
           <div className={repairStyles.final_cta__bg}>
             <Image
               src="/images/bg-02.jpg"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               quality={60}
               alt="emergency gas heater repair Melbourne"
             />

@@ -15,6 +15,7 @@ const Logo = () => {
             className={styles.logo__img}
             width={260}
             height={260}
+            style={{ height: "auto" }}
             priority
           />
         </Link>

@@ -5,7 +5,7 @@ import PageTitle from "../_components/Common/PageTitle";
 import SectionTitle from "../_components/Common/SectionTitle";
 import LogoPartners from "../_components/Common/LogoPartners";
 //Import Layout
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 //Import Aside
 import PromoAside from "../_components/ServicesSubPages/PromoAside";

@@ -1,7 +1,7 @@
 //css
 import styles from './RequestQuote.module.css'
 //img
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 import FormRequestQuote from "../Common/FormRequestQuote";
 const RequestQuote = () => (
 	<>
@@ -12,7 +12,7 @@ const RequestQuote = () => (
 						src="/images/home__form_bg.png"
 						width={1174}
 						height={177}
-						layout="responsive"
+						
 						quality={0}
 						alt="Happy Clients"
 					/>
@@ -26,7 +26,7 @@ const RequestQuote = () => (
 							src="/images/home__form-img.jpg"
 							width="384"
 							height="466"
-							layout="responsive"
+							
 							quality={0}
 							alt="Happy Clients"
 						/>

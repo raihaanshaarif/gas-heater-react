@@ -7,7 +7,7 @@ import SectionTitle from "../../../_components/Common/SectionTitle";
 import LogoPartners from "../../../_components/Common/LogoPartners";
 import { GasHeaterServicingTestimonials } from "./GasHeaterServicingTestimonials";
 // Layout
-import Image from "next/legacy/image";
+import Image from "next/image";
 // Form
 import FormAside from "../../../_components/ServicesSubPages/FormAside";
 // Data
@@ -253,7 +253,7 @@ export default function GasHeaterServicing() {
                   src="/images/home__tabimg02.jpg"
                   width={560}
                   height={420}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={70}
                   alt="unserviced gas heater energy cost Melbourne"
                   className={servicingStyles.rounded_img}
@@ -314,8 +314,8 @@ export default function GasHeaterServicing() {
                 <div className={servicingStyles.bento__card_img}>
                   <Image
                     src="/images/services/tab-img01.jpg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     quality={65}
                     alt="carbon monoxide spillage test Melbourne gas heater service"
                   />
@@ -340,7 +340,7 @@ export default function GasHeaterServicing() {
               {/* Burner & Heat Exchanger */}
               <div className={`${servicingStyles.bento__card} ${servicingStyles.bento__card_standard}`}>
                 <div className={servicingStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img02.jpg" layout="fill" objectFit="cover" quality={60} alt="gas heater burner heat exchanger cleaning" />
+                  <Image src="/images/services/tab-img02.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="gas heater burner heat exchanger cleaning" />
                   <div className={servicingStyles.bento__card_overlay} />
                 </div>
                 <div className={servicingStyles.bento__card_standard && servicingStyles.bento__icon_wrap} style={{ position: "relative", zIndex: 2, padding: "24px 24px 0", color: "rgba(255,255,255,0.9)" }}>
@@ -358,7 +358,7 @@ export default function GasHeaterServicing() {
               {/* Gas Pressure */}
               <div className={`${servicingStyles.bento__card} ${servicingStyles.bento__card_standard}`}>
                 <div className={servicingStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img03.jpg" layout="fill" objectFit="cover" quality={60} alt="gas pressure calibration Melbourne" />
+                  <Image src="/images/services/tab-img03.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="gas pressure calibration Melbourne" />
                   <div className={servicingStyles.bento__card_overlay} />
                 </div>
                 <div style={{ position: "relative", zIndex: 2, padding: "24px 24px 0", color: "rgba(255,255,255,0.9)" }}>
@@ -373,7 +373,7 @@ export default function GasHeaterServicing() {
               {/* Fan Motor */}
               <div className={`${servicingStyles.bento__card} ${servicingStyles.bento__card_standard}`}>
                 <div className={servicingStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img04.jpg" layout="fill" objectFit="cover" quality={60} alt="gas heater fan motor lubrication service" />
+                  <Image src="/images/services/tab-img04.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="gas heater fan motor lubrication service" />
                   <div className={servicingStyles.bento__card_overlay} />
                 </div>
                 <div style={{ position: "relative", zIndex: 2, padding: "24px 24px 0", color: "rgba(255,255,255,0.9)" }}>
@@ -388,7 +388,7 @@ export default function GasHeaterServicing() {
               {/* Filter + Report row */}
               <div className={`${servicingStyles.bento__card} ${servicingStyles.bento__card_standard}`}>
                 <div className={servicingStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img05.jpg" layout="fill" objectFit="cover" quality={60} alt="gas heater filter replacement Melbourne" />
+                  <Image src="/images/services/tab-img05.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="gas heater filter replacement Melbourne" />
                   <div className={servicingStyles.bento__card_overlay} />
                 </div>
                 <div style={{ position: "relative", zIndex: 2, padding: "24px 24px 0", color: "rgba(255,255,255,0.9)" }}>
@@ -402,7 +402,7 @@ export default function GasHeaterServicing() {
 
               <div className={`${servicingStyles.bento__card} ${servicingStyles.bento__card_standard}`}>
                 <div className={servicingStyles.bento__card_img_sm}>
-                  <Image src="/images/services/tab-img06.jpg" layout="fill" objectFit="cover" quality={60} alt="gas heater service report warranty Melbourne" />
+                  <Image src="/images/services/tab-img06.jpg" fill style={{ objectFit: "cover" }} quality={60} alt="gas heater service report warranty Melbourne" />
                   <div className={servicingStyles.bento__card_overlay} />
                 </div>
                 <div style={{ position: "relative", zIndex: 2, padding: "24px 24px 0", color: "rgba(255,255,255,0.9)" }}>
@@ -467,7 +467,7 @@ export default function GasHeaterServicing() {
                   src="/images/about_img01.jpg"
                   width={560}
                   height={460}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   quality={70}
                   alt="Energy Safe Victoria gas heater servicing compliance Melbourne"
                   className={servicingStyles.rounded_img}
@@ -609,7 +609,7 @@ export default function GasHeaterServicing() {
                     src="/images/about_img03.jpg"
                     width={420}
                     height={320}
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                     quality={65}
                     alt="gas heater servicing FAQ Melbourne"
                     className={servicingStyles.rounded_img}
@@ -626,8 +626,8 @@ export default function GasHeaterServicing() {
           <div className={servicingStyles.final_cta__bg}>
             <Image
               src="/images/bg-01.jpg"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               quality={60}
               alt="book gas heater service Melbourne"
             />
