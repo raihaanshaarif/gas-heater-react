@@ -137,7 +137,7 @@ export default function Home() {
           Gas Heater Repair Melbourne | Emergency Service & Installation
         </h1>
 
-        {/* <MainSlider /> */}
+        {/* <MainSlider /> */}x
         <CustomSlider />
         <AdditionalServices />
 

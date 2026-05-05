@@ -1,53 +1,120 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { LuPhoneCall } from "react-icons/lu";
+import {
+  LuPhoneCall,
+  LuWrench,
+  LuFlame,
+  LuSettings,
+  LuShieldCheck,
+} from "react-icons/lu";
 import { BsArrowRightSquareFill } from "react-icons/bs";
 import { sendGTMEvent } from "@next/third-parties/google";
 
 const CustomSlider = () => {
   return (
-    <section className="relative h-[85vh] min-h-[100svh] overflow-hidden bg-slate-900 z-0 -mt-22">
-      <video
-        className="absolute inset-0 h-full w-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-        poster="/assets/ducted-poster.jpg" // Highly recommended for Core Web Vitals (LCP)
-      >
-        <source src="/video/ducted.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div className="absolute inset-0 bg-slate-800/60" />{" "}
-      {/* Darkened slightly to make text pop more */}
+    <section className="group relative h-[85vh] min-h-[100svh] overflow-hidden z-0 -mt-22 isolate">
+      <div className="absolute inset-0 bg-[linear-gradient(120deg,#061932_0%,#0c4c93_50%,#0f6bc1_100%)]" />
+      <div className="absolute inset-0 opacity-35 bg-[radial-gradient(circle_at_20%_20%,rgba(81,172,251,0.45),transparent_45%),radial-gradient(circle_at_80%_70%,rgba(255,73,23,0.28),transparent_40%)] animate-pulse" />
+      <div className="absolute inset-0 opacity-20 bg-[linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:48px_48px]" />
+      <div className="absolute -top-32 -left-24 h-[22rem] w-[22rem] rounded-full bg-sky-300/20 blur-3xl transition-transform duration-700 group-hover:scale-110 group-hover:-translate-y-2" />
+      <div className="absolute -bottom-28 -right-20 h-[20rem] w-[20rem] rounded-full bg-orange-400/20 blur-3xl transition-transform duration-700 group-hover:scale-110 group-hover:translate-y-2" />
+
+      {/* Mechanical background animation layer */}
+      <div className="pointer-events-none absolute inset-0 z-[1]">
+        <LuSettings
+          className="absolute top-[10%] left-[8%] text-white/20"
+          size={88}
+          style={{ animation: "spin 18s linear infinite" }}
+        />
+        <LuSettings
+          className="absolute bottom-[12%] left-[22%] text-sky-200/20"
+          size={64}
+          style={{ animation: "spin 12s linear infinite reverse" }}
+        />
+        <LuSettings
+          className="absolute top-[20%] right-[10%] text-orange-200/20"
+          size={72}
+          style={{ animation: "spin 20s linear infinite" }}
+        />
+        <LuSettings
+          className="absolute bottom-[18%] right-[20%] text-white/15"
+          size={54}
+          style={{ animation: "spin 10s linear infinite reverse" }}
+        />
+
+        <LuWrench
+          className="absolute top-[34%] left-[14%] rotate-12 text-white/18 transition-transform duration-700 group-hover:-translate-y-2"
+          size={38}
+          style={{ animation: "pulse 2.8s ease-in-out infinite" }}
+        />
+        <LuWrench
+          className="absolute bottom-[26%] right-[14%] -rotate-12 text-sky-100/18 transition-transform duration-700 group-hover:translate-y-2"
+          size={34}
+          style={{ animation: "pulse 3.2s ease-in-out infinite" }}
+        />
+        <LuFlame
+          className="absolute top-[48%] right-[28%] text-orange-200/20"
+          size={30}
+          style={{ animation: "pulse 2.2s ease-in-out infinite" }}
+        />
+        <LuFlame
+          className="absolute bottom-[34%] left-[32%] text-orange-100/15"
+          size={24}
+          style={{ animation: "pulse 2.6s ease-in-out infinite" }}
+        />
+
+        <div
+          className="absolute top-[16%] right-[32%] h-28 w-28 rounded-full border border-white/15"
+          style={{ animation: "spin 16s linear infinite" }}
+        />
+        <div
+          className="absolute bottom-[20%] left-[40%] h-20 w-20 rounded-full border border-sky-200/20"
+          style={{ animation: "spin 9s linear infinite reverse" }}
+        />
+
+        <div className="absolute top-[14%] left-[24%] rounded-full border border-orange-200/20 bg-orange-400/10 px-3 py-1 text-[11px] font-bold tracking-wide text-orange-100">
+          EMERGENCY READY
+        </div>
+        <div className="absolute bottom-[16%] right-[30%] rounded-full border border-sky-200/20 bg-sky-400/10 px-3 py-1 text-[11px] font-bold tracking-wide text-sky-100">
+          LIVE DIAGNOSTICS
+        </div>
+      </div>
+
       <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-6 py-16 text-center text-white">
         {/* Eyebrow */}
         <span className="mb-4 text-sm font-bold uppercase tracking-[0.35em] text-secondary opacity-90">
-          Gas Heater Specialists
+          24 / 7 Gas Heater Repair Team
         </span>
 
         {/* H1 */}
         <h1 className="max-w-3xl text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-          Keeping Melbourne Homes Warm All Winter
+          Fast Gas Heater Repairs Across Melbourne
         </h1>
 
         {/* H2 with SEO Bolding */}
         <h2 className="mt-6 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-          Melbourne weather is unpredictable; your home&apos;s heating
-          shouldn&apos;t be. From{" "}
-          <strong>
-            emergency repairs to annual servicing and installation
-          </strong>
-          , we deliver seamless, whole-home warmth the exact moment a Victorian
-          cold front hits.
+          No heat, ignition failure, strange noises, or gas smell? Our licensed
+          technicians provide <strong>urgent fault diagnosis and same-day gas heater repairs</strong> to restore safe heating fast.
         </h2>
+
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-3 text-xs font-semibold uppercase tracking-wide text-white/90">
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 backdrop-blur-sm">
+            <LuSettings className="text-secondary" /> Same-Day Diagnostics
+          </span>
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 backdrop-blur-sm">
+            <LuShieldCheck className="text-secondary" /> Licensed & Insured
+          </span>
+          <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-2 backdrop-blur-sm">
+            <LuFlame className="text-secondary" /> Gas Safety Response
+          </span>
+        </div>
 
         {/* CTA Section */}
         <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
           <a href="#services">
             <button className="px-10 py-2 border border-secondary rounded-4xl text-white font-bold transition duration-300 hover:border-transparent hover:text-gray-200 hover:bg-red-600">
-              Call for Emergency Repair
+              Book Urgent Repair
             </button>
           </a>
 
