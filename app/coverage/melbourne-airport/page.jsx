@@ -36,6 +36,21 @@ const melbourneAirportFaqs = [
     answer:
       "Energy Safe Victoria and all major heating manufacturers strongly recommend servicing your gas heater every 2 years. However, if your system is older than 10 years, an annual service and Carbon Monoxide test before the start of winter is highly advised to ensure safe, efficient operation and to prevent costly mid-winter breakdowns.",
   },
+  {
+    question: "What types of gas heaters do you service in Melbourne Airport?",
+    answer:
+      "We service all major brands including Braemar, Rinnai, Rheem, Dux, Bosch, Brivis, Bonaire, Vulcan, and more. Whether you have ducted heating, wall-mounted, or other gas heating systems, our certified technicians have the expertise to help.",
+  },
+  {
+    question: "Can you install a new gas heater in Melbourne Airport?",
+    answer:
+      "Yes, we provide full professional gas heater installation services in Melbourne Airport. Our licensed VBA technicians will design, install, and test your system to meet all Victorian safety standards. We provide competitive quotes and can typically schedule installation within 5-7 business days.",
+  },
+  {
+    question: "What makes your Melbourne Airport gas heater service different?",
+    answer:
+      "We're a fully licensed, local Melbourne Airport gas heater company with fast response times, transparent pricing, and a commitment to customer safety. Every technician is VBA certified, and we stand behind our work with a satisfaction guarantee.",
+  }
 ];
 
 const serviceSchema = {
