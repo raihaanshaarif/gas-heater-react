@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Essendon Fields Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Essendon Fields, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Essendon Fields, gas heater installation Essendon Fields, gas heater repairs Melbourne, Essendon Fields gas heating, ducted gas heating Essendon Fields",
+  title: "Essendon Fields Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Essendon Fields, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Essendon Fields, essendon-fields gas heater service, emergency heating Essendon Fields, gas heating specialist Essendon Fields",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/essendon-fields/",
   },

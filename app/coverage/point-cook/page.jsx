@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Point Cook Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Point Cook, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Point Cook, gas heater installation Point Cook, gas heater repairs Melbourne, Point Cook gas heating, ducted gas heating Point Cook",
+  title: "Point Cook Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Point Cook, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Point Cook, point-cook gas heater service, emergency heating Point Cook, gas heating specialist Point Cook",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/point-cook/",
   },

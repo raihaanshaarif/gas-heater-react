@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Black Rock Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Black Rock, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Black Rock, gas heater installation Black Rock, gas heater repairs Melbourne, Black Rock gas heating, ducted gas heating Black Rock",
+  title: "Black Rock Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Black Rock, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Black Rock, black-rock gas heater service, emergency heating Black Rock, gas heating specialist Black Rock",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/black-rock/",
   },

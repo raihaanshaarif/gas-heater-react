@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Box Hill Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Box Hill, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Box Hill, gas heater installation Box Hill, gas heater repairs Melbourne, Box Hill gas heating, ducted gas heating Box Hill",
+  title: "Box Hill Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Box Hill, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Box Hill, box-hill gas heater service, emergency heating Box Hill, gas heating specialist Box Hill",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/box-hill/",
   },

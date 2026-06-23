@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Pakenham Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Pakenham, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Pakenham, gas heater installation Pakenham, gas heater repairs Melbourne, Pakenham gas heating, ducted gas heating Pakenham",
+  title: "Pakenham Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Pakenham, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Pakenham, pakenham gas heater service, emergency heating Pakenham, gas heating specialist Pakenham",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/pakenham/",
   },

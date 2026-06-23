@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Sandringham Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Sandringham, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Sandringham, gas heater installation Sandringham, gas heater repairs Melbourne, Sandringham gas heating, ducted gas heating Sandringham",
+  title: "Sandringham Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Sandringham, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Sandringham, sandringham gas heater service, emergency heating Sandringham, gas heating specialist Sandringham",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/sandringham/",
   },

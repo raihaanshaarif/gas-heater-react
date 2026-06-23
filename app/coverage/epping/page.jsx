@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Epping Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Epping, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Epping, gas heater installation Epping, gas heater repairs Melbourne, Epping gas heating, ducted gas heating Epping",
+  title: "Epping Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Epping, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Epping, epping gas heater service, emergency heating Epping, gas heating specialist Epping",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/epping/",
   },

@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Dandenong North Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Dandenong North, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Dandenong North, gas heater installation Dandenong North, gas heater repairs Melbourne, Dandenong North gas heating, ducted gas heating Dandenong North",
+  title: "Dandenong North Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Dandenong North, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Dandenong North, dandenong-north gas heater service, emergency heating Dandenong North, gas heating specialist Dandenong North",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/dandenong-north/",
   },

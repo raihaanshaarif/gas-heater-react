@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Lilydale Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Lilydale, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Lilydale, gas heater installation Lilydale, gas heater repairs Melbourne, Lilydale gas heating, ducted gas heating Lilydale",
+  title: "Lilydale Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Lilydale, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Lilydale, lilydale gas heater service, emergency heating Lilydale, gas heating specialist Lilydale",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/lilydale/",
   },

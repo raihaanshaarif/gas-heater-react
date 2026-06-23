@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Yallambie Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Yallambie, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Yallambie, gas heater installation Yallambie, gas heater repairs Melbourne, Yallambie gas heating, ducted gas heating Yallambie",
+  title: "Yallambie Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Yallambie, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Yallambie, yallambie gas heater service, emergency heating Yallambie, gas heating specialist Yallambie",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/yallambie/",
   },

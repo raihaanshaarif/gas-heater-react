@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Little River Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Little River, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Little River, gas heater installation Little River, gas heater repairs Melbourne, Little River gas heating, ducted gas heating Little River",
+  title: "Little River Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Little River, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Little River, little-river gas heater service, emergency heating Little River, gas heating specialist Little River",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/little-river/",
   },

@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Attwood Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Attwood, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Attwood, gas heater installation Attwood, gas heater repairs Melbourne, Attwood gas heating, ducted gas heating Attwood",
+  title: "Attwood Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Attwood, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Attwood, attwood gas heater service, emergency heating Attwood, gas heating specialist Attwood",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/attwood/",
   },

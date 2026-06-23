@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Kings Park Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Kings Park, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Kings Park, gas heater installation Kings Park, gas heater repairs Melbourne, Kings Park gas heating, ducted gas heating Kings Park",
+  title: "Kings Park Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Kings Park, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Kings Park, kings-park gas heater service, emergency heating Kings Park, gas heating specialist Kings Park",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/kings-park/",
   },

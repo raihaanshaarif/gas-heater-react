@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Keilor Lodge Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Keilor Lodge, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Keilor Lodge, gas heater installation Keilor Lodge, gas heater repairs Melbourne, Keilor Lodge gas heating, ducted gas heating Keilor Lodge",
+  title: "Keilor Lodge Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Keilor Lodge, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Keilor Lodge, keilor-lodge gas heater service, emergency heating Keilor Lodge, gas heating specialist Keilor Lodge",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/keilor-lodge/",
   },

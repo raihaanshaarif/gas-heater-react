@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Melbourne Cbd Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Melbourne Cbd, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Melbourne Cbd, gas heater installation Melbourne Cbd, gas heater repairs Melbourne, Melbourne Cbd gas heating, ducted gas heating Melbourne Cbd",
+  title: "Melbourne Cbd Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Melbourne Cbd, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Melbourne Cbd, melbourne-cbd gas heater service, emergency heating Melbourne Cbd, gas heating specialist Melbourne Cbd",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/melbourne-cbd/",
   },

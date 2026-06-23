@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Seaford Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Seaford, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Seaford, gas heater installation Seaford, gas heater repairs Melbourne, Seaford gas heating, ducted gas heating Seaford",
+  title: "Seaford Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Seaford, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Seaford, seaford gas heater service, emergency heating Seaford, gas heating specialist Seaford",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/seaford/",
   },

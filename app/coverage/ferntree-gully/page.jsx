@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Ferntree Gully Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Ferntree Gully, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Ferntree Gully, gas heater installation Ferntree Gully, gas heater repairs Melbourne, Ferntree Gully gas heating, ducted gas heating Ferntree Gully",
+  title: "Ferntree Gully Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Ferntree Gully, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Ferntree Gully, ferntree-gully gas heater service, emergency heating Ferntree Gully, gas heating specialist Ferntree Gully",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/ferntree-gully/",
   },

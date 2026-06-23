@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Point Leo Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Point Leo, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Point Leo, gas heater installation Point Leo, gas heater repairs Melbourne, Point Leo gas heating, ducted gas heating Point Leo",
+  title: "Point Leo Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Point Leo, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Point Leo, point-leo gas heater service, emergency heating Point Leo, gas heating specialist Point Leo",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/point-leo/",
   },

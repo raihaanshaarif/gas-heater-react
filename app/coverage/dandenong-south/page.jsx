@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Dandenong South Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Dandenong South, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Dandenong South, gas heater installation Dandenong South, gas heater repairs Melbourne, Dandenong South gas heating, ducted gas heating Dandenong South",
+  title: "Dandenong South Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Dandenong South, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Dandenong South, dandenong-south gas heater service, emergency heating Dandenong South, gas heating specialist Dandenong South",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/dandenong-south/",
   },

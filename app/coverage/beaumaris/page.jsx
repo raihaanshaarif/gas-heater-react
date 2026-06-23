@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Beaumaris Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Beaumaris, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Beaumaris, gas heater installation Beaumaris, gas heater repairs Melbourne, Beaumaris gas heating, ducted gas heating Beaumaris",
+  title: "Beaumaris Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Beaumaris, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Beaumaris, beaumaris gas heater service, emergency heating Beaumaris, gas heating specialist Beaumaris",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/beaumaris/",
   },

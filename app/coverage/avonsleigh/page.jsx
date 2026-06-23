@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Avonsleigh Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Avonsleigh, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Avonsleigh, gas heater installation Avonsleigh, gas heater repairs Melbourne, Avonsleigh gas heating, ducted gas heating Avonsleigh",
+  title: "Avonsleigh Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Avonsleigh, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Avonsleigh, avonsleigh gas heater service, emergency heating Avonsleigh, gas heating specialist Avonsleigh",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/avonsleigh/",
   },

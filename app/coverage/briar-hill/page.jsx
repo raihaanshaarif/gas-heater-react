@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Briar Hill Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Briar Hill, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Briar Hill, gas heater installation Briar Hill, gas heater repairs Melbourne, Briar Hill gas heating, ducted gas heating Briar Hill",
+  title: "Briar Hill Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Briar Hill, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Briar Hill, briar-hill gas heater service, emergency heating Briar Hill, gas heating specialist Briar Hill",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/briar-hill/",
   },

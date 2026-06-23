@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Knoxfield Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Knoxfield, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Knoxfield, gas heater installation Knoxfield, gas heater repairs Melbourne, Knoxfield gas heating, ducted gas heating Knoxfield",
+  title: "Knoxfield Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Knoxfield, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Knoxfield, knoxfield gas heater service, emergency heating Knoxfield, gas heating specialist Knoxfield",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/knoxfield/",
   },

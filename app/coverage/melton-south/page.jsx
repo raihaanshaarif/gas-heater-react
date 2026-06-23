@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Melton South Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Melton South, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Melton South, gas heater installation Melton South, gas heater repairs Melbourne, Melton South gas heating, ducted gas heating Melton South",
+  title: "Melton South Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Melton South, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Melton South, melton-south gas heater service, emergency heating Melton South, gas heating specialist Melton South",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/melton-south/",
   },

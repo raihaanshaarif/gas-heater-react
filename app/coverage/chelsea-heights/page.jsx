@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Chelsea Heights Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Chelsea Heights, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Chelsea Heights, gas heater installation Chelsea Heights, gas heater repairs Melbourne, Chelsea Heights gas heating, ducted gas heating Chelsea Heights",
+  title: "Chelsea Heights Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Chelsea Heights, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Chelsea Heights, chelsea-heights gas heater service, emergency heating Chelsea Heights, gas heating specialist Chelsea Heights",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/chelsea-heights/",
   },

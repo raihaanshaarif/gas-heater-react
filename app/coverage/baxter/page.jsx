@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Baxter Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Baxter, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Baxter, gas heater installation Baxter, gas heater repairs Melbourne, Baxter gas heating, ducted gas heating Baxter",
+  title: "Baxter Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Baxter, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Baxter, baxter gas heater service, emergency heating Baxter, gas heating specialist Baxter",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/baxter/",
   },

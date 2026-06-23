@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Macleod Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Macleod, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Macleod, gas heater installation Macleod, gas heater repairs Melbourne, Macleod gas heating, ducted gas heating Macleod",
+  title: "Macleod Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Macleod, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Macleod, macleod gas heater service, emergency heating Macleod, gas heating specialist Macleod",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/macleod/",
   },

@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Berwick Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Berwick, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Berwick, gas heater installation Berwick, gas heater repairs Melbourne, Berwick gas heating, ducted gas heating Berwick",
+  title: "Berwick Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Berwick, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Berwick, berwick gas heater service, emergency heating Berwick, gas heating specialist Berwick",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/berwick/",
   },

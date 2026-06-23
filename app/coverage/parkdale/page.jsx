@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Parkdale Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Parkdale, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Parkdale, gas heater installation Parkdale, gas heater repairs Melbourne, Parkdale gas heating, ducted gas heating Parkdale",
+  title: "Parkdale Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Parkdale, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Parkdale, parkdale gas heater service, emergency heating Parkdale, gas heating specialist Parkdale",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/parkdale/",
   },

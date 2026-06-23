@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Chadstone Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Chadstone, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Chadstone, gas heater installation Chadstone, gas heater repairs Melbourne, Chadstone gas heating, ducted gas heating Chadstone",
+  title: "Chadstone Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Chadstone, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Chadstone, chadstone gas heater service, emergency heating Chadstone, gas heating specialist Chadstone",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/chadstone/",
   },

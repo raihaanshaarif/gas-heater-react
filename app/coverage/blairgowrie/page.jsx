@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Blairgowrie Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Blairgowrie, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Blairgowrie, gas heater installation Blairgowrie, gas heater repairs Melbourne, Blairgowrie gas heating, ducted gas heating Blairgowrie",
+  title: "Blairgowrie Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Blairgowrie, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Blairgowrie, blairgowrie gas heater service, emergency heating Blairgowrie, gas heating specialist Blairgowrie",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/blairgowrie/",
   },

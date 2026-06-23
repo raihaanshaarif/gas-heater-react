@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Boronia Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Boronia, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Boronia, gas heater installation Boronia, gas heater repairs Melbourne, Boronia gas heating, ducted gas heating Boronia",
+  title: "Boronia Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Boronia, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Boronia, boronia gas heater service, emergency heating Boronia, gas heating specialist Boronia",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/boronia/",
   },

@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Melbourne East Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Melbourne East, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Melbourne East, gas heater installation Melbourne East, gas heater repairs Melbourne, Melbourne East gas heating, ducted gas heating Melbourne East",
+  title: "Melbourne East Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Melbourne East, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Melbourne East, melbourne-east gas heater service, emergency heating Melbourne East, gas heating specialist Melbourne East",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/melbourne-east/",
   },

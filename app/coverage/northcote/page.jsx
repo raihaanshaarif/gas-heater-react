@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Northcote Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Northcote, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Northcote, gas heater installation Northcote, gas heater repairs Melbourne, Northcote gas heating, ducted gas heating Northcote",
+  title: "Northcote Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Northcote, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Northcote, northcote gas heater service, emergency heating Northcote, gas heating specialist Northcote",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/northcote/",
   },

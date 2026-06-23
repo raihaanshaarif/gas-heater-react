@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Mount Eliza Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Mount Eliza, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Mount Eliza, gas heater installation Mount Eliza, gas heater repairs Melbourne, Mount Eliza gas heating, ducted gas heating Mount Eliza",
+  title: "Mount Eliza Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Mount Eliza, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Mount Eliza, mount-eliza gas heater service, emergency heating Mount Eliza, gas heating specialist Mount Eliza",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/mount-eliza/",
   },

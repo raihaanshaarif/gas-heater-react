@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Burwood 3125 Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Burwood 3125, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Burwood 3125, gas heater installation Burwood 3125, gas heater repairs Melbourne, Burwood 3125 gas heating, ducted gas heating Burwood 3125",
+  title: "Burwood 3125 Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Burwood 3125, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Burwood 3125, burwood-3125 gas heater service, emergency heating Burwood 3125, gas heating specialist Burwood 3125",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/burwood-3125/",
   },

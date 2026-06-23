@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Melton Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Melton, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Melton, gas heater installation Melton, gas heater repairs Melbourne, Melton gas heating, ducted gas heating Melton",
+  title: "Melton Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Melton, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Melton, melton gas heater service, emergency heating Melton, gas heating specialist Melton",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/melton/",
   },

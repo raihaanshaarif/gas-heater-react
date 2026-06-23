@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Mornington Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Mornington, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Mornington, gas heater installation Mornington, gas heater repairs Melbourne, Mornington gas heating, ducted gas heating Mornington",
+  title: "Mornington Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Mornington, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Mornington, mornington gas heater service, emergency heating Mornington, gas heating specialist Mornington",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/mornington/",
   },

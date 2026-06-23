@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Fawkner Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Fawkner, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Fawkner, gas heater installation Fawkner, gas heater repairs Melbourne, Fawkner gas heating, ducted gas heating Fawkner",
+  title: "Fawkner Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Fawkner, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Fawkner, fawkner gas heater service, emergency heating Fawkner, gas heating specialist Fawkner",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/fawkner/",
   },

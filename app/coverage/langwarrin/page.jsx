@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Langwarrin Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Langwarrin, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Langwarrin, gas heater installation Langwarrin, gas heater repairs Melbourne, Langwarrin gas heating, ducted gas heating Langwarrin",
+  title: "Langwarrin Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Langwarrin, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Langwarrin, langwarrin gas heater service, emergency heating Langwarrin, gas heating specialist Langwarrin",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/langwarrin/",
   },

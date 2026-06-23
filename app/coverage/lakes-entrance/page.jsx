@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Lakes Entrance Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Lakes Entrance, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Lakes Entrance, gas heater installation Lakes Entrance, gas heater repairs Melbourne, Lakes Entrance gas heating, ducted gas heating Lakes Entrance",
+  title: "Lakes Entrance Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Lakes Entrance, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Lakes Entrance, lakes-entrance gas heater service, emergency heating Lakes Entrance, gas heating specialist Lakes Entrance",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/lakes-entrance/",
   },

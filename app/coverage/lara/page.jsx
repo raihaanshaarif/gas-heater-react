@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Lara Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Lara, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Lara, gas heater installation Lara, gas heater repairs Melbourne, Lara gas heating, ducted gas heating Lara",
+  title: "Lara Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Lara, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Lara, lara gas heater service, emergency heating Lara, gas heating specialist Lara",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/lara/",
   },

@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Bentleigh Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Bentleigh, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Bentleigh, gas heater installation Bentleigh, gas heater repairs Melbourne, Bentleigh gas heating, ducted gas heating Bentleigh",
+  title: "Bentleigh Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Bentleigh, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Bentleigh, bentleigh gas heater service, emergency heating Bentleigh, gas heating specialist Bentleigh",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/bentleigh/",
   },

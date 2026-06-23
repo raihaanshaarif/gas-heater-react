@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Caulfield Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Caulfield, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Caulfield, gas heater installation Caulfield, gas heater repairs Melbourne, Caulfield gas heating, ducted gas heating Caulfield",
+  title: "Caulfield Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Caulfield, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Caulfield, caulfield gas heater service, emergency heating Caulfield, gas heating specialist Caulfield",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/caulfield/",
   },

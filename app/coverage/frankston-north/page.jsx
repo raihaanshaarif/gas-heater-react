@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Frankston North Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Frankston North, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Frankston North, gas heater installation Frankston North, gas heater repairs Melbourne, Frankston North gas heating, ducted gas heating Frankston North",
+  title: "Frankston North Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Frankston North, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Frankston North, frankston-north gas heater service, emergency heating Frankston North, gas heating specialist Frankston North",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/frankston-north/",
   },

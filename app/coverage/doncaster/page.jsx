@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Doncaster Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Doncaster, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Doncaster, gas heater installation Doncaster, gas heater repairs Melbourne, Doncaster gas heating, ducted gas heating Doncaster",
+  title: "Doncaster Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Doncaster, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Doncaster, doncaster gas heater service, emergency heating Doncaster, gas heating specialist Doncaster",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/doncaster/",
   },

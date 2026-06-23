@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Heatherton Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Heatherton, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Heatherton, gas heater installation Heatherton, gas heater repairs Melbourne, Heatherton gas heating, ducted gas heating Heatherton",
+  title: "Heatherton Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Heatherton, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Heatherton, heatherton gas heater service, emergency heating Heatherton, gas heating specialist Heatherton",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/heatherton/",
   },

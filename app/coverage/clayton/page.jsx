@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Clayton Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Clayton, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Clayton, gas heater installation Clayton, gas heater repairs Melbourne, Clayton gas heating, ducted gas heating Clayton",
+  title: "Clayton Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Clayton, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Clayton, clayton gas heater service, emergency heating Clayton, gas heating specialist Clayton",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/clayton/",
   },

@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Hoppers Crossing Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Hoppers Crossing, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Hoppers Crossing, gas heater installation Hoppers Crossing, gas heater repairs Melbourne, Hoppers Crossing gas heating, ducted gas heating Hoppers Crossing",
+  title: "Hoppers Crossing Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Hoppers Crossing, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Hoppers Crossing, hoppers-crossing gas heater service, emergency heating Hoppers Crossing, gas heating specialist Hoppers Crossing",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/hoppers-crossing/",
   },

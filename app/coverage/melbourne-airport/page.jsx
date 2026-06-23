@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Melbourne Airport Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Melbourne Airport, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Melbourne Airport, gas heater installation Melbourne Airport, gas heater repairs Melbourne, Melbourne Airport gas heating, ducted gas heating Melbourne Airport",
+  title: "Melbourne Airport Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Melbourne Airport, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Melbourne Airport, melbourne-airport gas heater service, emergency heating Melbourne Airport, gas heating specialist Melbourne Airport",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/melbourne-airport/",
   },

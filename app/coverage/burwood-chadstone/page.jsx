@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Burwood Chadstone Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Burwood Chadstone, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Burwood Chadstone, gas heater installation Burwood Chadstone, gas heater repairs Melbourne, Burwood Chadstone gas heating, ducted gas heating Burwood Chadstone",
+  title: "Burwood Chadstone Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Burwood Chadstone, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Burwood Chadstone, burwood-chadstone gas heater service, emergency heating Burwood Chadstone, gas heating specialist Burwood Chadstone",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/burwood-chadstone/",
   },

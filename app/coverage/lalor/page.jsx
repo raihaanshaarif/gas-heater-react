@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Lalor Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Lalor, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Lalor, gas heater installation Lalor, gas heater repairs Melbourne, Lalor gas heating, ducted gas heating Lalor",
+  title: "Lalor Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Lalor, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Lalor, lalor gas heater service, emergency heating Lalor, gas heating specialist Lalor",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/lalor/",
   },

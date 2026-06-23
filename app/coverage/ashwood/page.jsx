@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Ashwood Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Ashwood, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Ashwood, gas heater installation Ashwood, gas heater repairs Melbourne, Ashwood gas heating, ducted gas heating Ashwood",
+  title: "Ashwood Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Ashwood, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Ashwood, ashwood gas heater service, emergency heating Ashwood, gas heating specialist Ashwood",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/ashwood/",
   },

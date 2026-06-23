@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Southbank Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Southbank, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Southbank, gas heater installation Southbank, gas heater repairs Melbourne, Southbank gas heating, ducted gas heating Southbank",
+  title: "Southbank Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Southbank, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Southbank, southbank gas heater service, emergency heating Southbank, gas heating specialist Southbank",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/southbank/",
   },

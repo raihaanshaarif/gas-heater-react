@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Port Melbourne Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Port Melbourne, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Port Melbourne, gas heater installation Port Melbourne, gas heater repairs Melbourne, Port Melbourne gas heating, ducted gas heating Port Melbourne",
+  title: "Port Melbourne Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Port Melbourne, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Port Melbourne, port-melbourne gas heater service, emergency heating Port Melbourne, gas heating specialist Port Melbourne",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/port-melbourne/",
   },

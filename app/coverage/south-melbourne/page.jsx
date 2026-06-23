@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services South Melbourne Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in South Melbourne, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services South Melbourne, gas heater installation South Melbourne, gas heater repairs Melbourne, South Melbourne gas heating, ducted gas heating South Melbourne",
+  title: "South Melbourne Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in South Melbourne, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair South Melbourne, south-melbourne gas heater service, emergency heating South Melbourne, gas heating specialist South Melbourne",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/south-melbourne/",
   },

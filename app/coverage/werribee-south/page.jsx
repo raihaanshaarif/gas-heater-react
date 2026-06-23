@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Werribee South Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Werribee South, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Werribee South, gas heater installation Werribee South, gas heater repairs Melbourne, Werribee South gas heating, ducted gas heating Werribee South",
+  title: "Werribee South Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Werribee South, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Werribee South, werribee-south gas heater service, emergency heating Werribee South, gas heating specialist Werribee South",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/werribee-south/",
   },

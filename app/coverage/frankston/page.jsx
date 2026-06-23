@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Frankston Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Frankston, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Frankston, gas heater installation Frankston, gas heater repairs Melbourne, Frankston gas heating, ducted gas heating Frankston",
+  title: "Frankston Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Frankston, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Frankston, frankston gas heater service, emergency heating Frankston, gas heating specialist Frankston",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/frankston/",
   },

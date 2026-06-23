@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Yarraville Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Yarraville, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Yarraville, gas heater installation Yarraville, gas heater repairs Melbourne, Yarraville gas heating, ducted gas heating Yarraville",
+  title: "Yarraville Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Yarraville, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Yarraville, yarraville gas heater service, emergency heating Yarraville, gas heating specialist Yarraville",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/yarraville/",
   },

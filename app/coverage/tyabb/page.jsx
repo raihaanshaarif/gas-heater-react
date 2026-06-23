@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Tyabb Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Tyabb, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Tyabb, gas heater installation Tyabb, gas heater repairs Melbourne, Tyabb gas heating, ducted gas heating Tyabb",
+  title: "Tyabb Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Tyabb, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Tyabb, tyabb gas heater service, emergency heating Tyabb, gas heating specialist Tyabb",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/tyabb/",
   },

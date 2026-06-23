@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services South Morang Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in South Morang, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services South Morang, gas heater installation South Morang, gas heater repairs Melbourne, South Morang gas heating, ducted gas heating South Morang",
+  title: "South Morang Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in South Morang, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair South Morang, south-morang gas heater service, emergency heating South Morang, gas heating specialist South Morang",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/south-morang/",
   },

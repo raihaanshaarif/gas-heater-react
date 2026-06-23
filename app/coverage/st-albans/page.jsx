@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services St Albans Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in St Albans, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services St Albans, gas heater installation St Albans, gas heater repairs Melbourne, St Albans gas heating, ducted gas heating St Albans",
+  title: "St Albans Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in St Albans, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair St Albans, st-albans gas heater service, emergency heating St Albans, gas heating specialist St Albans",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/st-albans/",
   },

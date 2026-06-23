@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Blackburn North Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Blackburn North, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Blackburn North, gas heater installation Blackburn North, gas heater repairs Melbourne, Blackburn North gas heating, ducted gas heating Blackburn North",
+  title: "Blackburn North Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Blackburn North, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Blackburn North, blackburn-north gas heater service, emergency heating Blackburn North, gas heating specialist Blackburn North",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/blackburn-north/",
   },

@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Truemans Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Truemans, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Truemans, gas heater installation Truemans, gas heater repairs Melbourne, Truemans gas heating, ducted gas heating Truemans",
+  title: "Truemans Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Truemans, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Truemans, truemans gas heater service, emergency heating Truemans, gas heating specialist Truemans",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/truemans/",
   },

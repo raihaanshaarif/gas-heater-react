@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Mordialloc Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Mordialloc, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Mordialloc, gas heater installation Mordialloc, gas heater repairs Melbourne, Mordialloc gas heating, ducted gas heating Mordialloc",
+  title: "Mordialloc Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Mordialloc, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Mordialloc, mordialloc gas heater service, emergency heating Mordialloc, gas heating specialist Mordialloc",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/mordialloc/",
   },

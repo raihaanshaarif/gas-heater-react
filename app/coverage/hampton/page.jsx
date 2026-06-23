@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Hampton Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Hampton, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Hampton, gas heater installation Hampton, gas heater repairs Melbourne, Hampton gas heating, ducted gas heating Hampton",
+  title: "Hampton Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Hampton, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Hampton, hampton gas heater service, emergency heating Hampton, gas heating specialist Hampton",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/hampton/",
   },

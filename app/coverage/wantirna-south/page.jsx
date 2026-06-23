@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Wantirna South Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Wantirna South, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Wantirna South, gas heater installation Wantirna South, gas heater repairs Melbourne, Wantirna South gas heating, ducted gas heating Wantirna South",
+  title: "Wantirna South Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Wantirna South, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Wantirna South, wantirna-south gas heater service, emergency heating Wantirna South, gas heating specialist Wantirna South",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/wantirna-south/",
   },

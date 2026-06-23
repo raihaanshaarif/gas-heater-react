@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Tarneit Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Tarneit, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Tarneit, gas heater installation Tarneit, gas heater repairs Melbourne, Tarneit gas heating, ducted gas heating Tarneit",
+  title: "Tarneit Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Tarneit, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Tarneit, tarneit gas heater service, emergency heating Tarneit, gas heating specialist Tarneit",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/tarneit/",
   },

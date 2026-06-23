@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Yellingbo Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Yellingbo, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Yellingbo, gas heater installation Yellingbo, gas heater repairs Melbourne, Yellingbo gas heating, ducted gas heating Yellingbo",
+  title: "Yellingbo Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Yellingbo, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Yellingbo, yellingbo gas heater service, emergency heating Yellingbo, gas heating specialist Yellingbo",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/yellingbo/",
   },

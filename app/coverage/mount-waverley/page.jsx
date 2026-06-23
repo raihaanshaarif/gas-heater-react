@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Mount Waverley Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Mount Waverley, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Mount Waverley, gas heater installation Mount Waverley, gas heater repairs Melbourne, Mount Waverley gas heating, ducted gas heating Mount Waverley",
+  title: "Mount Waverley Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Mount Waverley, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Mount Waverley, mount-waverley gas heater service, emergency heating Mount Waverley, gas heating specialist Mount Waverley",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/mount-waverley/",
   },

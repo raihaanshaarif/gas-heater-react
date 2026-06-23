@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Bundoora Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Bundoora, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Bundoora, gas heater installation Bundoora, gas heater repairs Melbourne, Bundoora gas heating, ducted gas heating Bundoora",
+  title: "Bundoora Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Bundoora, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Bundoora, bundoora gas heater service, emergency heating Bundoora, gas heating specialist Bundoora",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/bundoora/",
   },

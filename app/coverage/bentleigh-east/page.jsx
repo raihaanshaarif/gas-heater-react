@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Bentleigh East Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Bentleigh East, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Bentleigh East, gas heater installation Bentleigh East, gas heater repairs Melbourne, Bentleigh East gas heating, ducted gas heating Bentleigh East",
+  title: "Bentleigh East Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Bentleigh East, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Bentleigh East, bentleigh-east gas heater service, emergency heating Bentleigh East, gas heating specialist Bentleigh East",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/bentleigh-east/",
   },

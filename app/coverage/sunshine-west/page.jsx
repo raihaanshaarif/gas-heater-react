@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Sunshine West Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Sunshine West, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Sunshine West, gas heater installation Sunshine West, gas heater repairs Melbourne, Sunshine West gas heating, ducted gas heating Sunshine West",
+  title: "Sunshine West Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Sunshine West, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Sunshine West, sunshine-west gas heater service, emergency heating Sunshine West, gas heating specialist Sunshine West",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/sunshine-west/",
   },

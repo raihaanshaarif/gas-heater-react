@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Maroondah Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Maroondah, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Maroondah, gas heater installation Maroondah, gas heater repairs Melbourne, Maroondah gas heating, ducted gas heating Maroondah",
+  title: "Maroondah Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Maroondah, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Maroondah, maroondah gas heater service, emergency heating Maroondah, gas heating specialist Maroondah",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/maroondah/",
   },

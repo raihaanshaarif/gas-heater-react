@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Oakleigh South Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Oakleigh South, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Oakleigh South, gas heater installation Oakleigh South, gas heater repairs Melbourne, Oakleigh South gas heating, ducted gas heating Oakleigh South",
+  title: "Oakleigh South Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Oakleigh South, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Oakleigh South, oakleigh-south gas heater service, emergency heating Oakleigh South, gas heating specialist Oakleigh South",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/oakleigh-south/",
   },

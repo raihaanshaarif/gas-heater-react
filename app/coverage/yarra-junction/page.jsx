@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Yarra Junction Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Yarra Junction, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Yarra Junction, gas heater installation Yarra Junction, gas heater repairs Melbourne, Yarra Junction gas heating, ducted gas heating Yarra Junction",
+  title: "Yarra Junction Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Yarra Junction, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Yarra Junction, yarra-junction gas heater service, emergency heating Yarra Junction, gas heating specialist Yarra Junction",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/yarra-junction/",
   },

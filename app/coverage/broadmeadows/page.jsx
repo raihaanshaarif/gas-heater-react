@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Broadmeadows Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Broadmeadows, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Broadmeadows, gas heater installation Broadmeadows, gas heater repairs Melbourne, Broadmeadows gas heating, ducted gas heating Broadmeadows",
+  title: "Broadmeadows Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Broadmeadows, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Broadmeadows, broadmeadows gas heater service, emergency heating Broadmeadows, gas heating specialist Broadmeadows",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/broadmeadows/",
   },

@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Pascoe Vale Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Pascoe Vale, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Pascoe Vale, gas heater installation Pascoe Vale, gas heater repairs Melbourne, Pascoe Vale gas heating, ducted gas heating Pascoe Vale",
+  title: "Pascoe Vale Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Pascoe Vale, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Pascoe Vale, pascoe-vale gas heater service, emergency heating Pascoe Vale, gas heating specialist Pascoe Vale",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/pascoe-vale/",
   },

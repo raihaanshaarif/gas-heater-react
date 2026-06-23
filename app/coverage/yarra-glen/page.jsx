@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Yarra Glen Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Yarra Glen, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Yarra Glen, gas heater installation Yarra Glen, gas heater repairs Melbourne, Yarra Glen gas heating, ducted gas heating Yarra Glen",
+  title: "Yarra Glen Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Yarra Glen, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Yarra Glen, yarra-glen gas heater service, emergency heating Yarra Glen, gas heating specialist Yarra Glen",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/yarra-glen/",
   },

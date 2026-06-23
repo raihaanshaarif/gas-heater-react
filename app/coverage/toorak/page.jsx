@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Toorak Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Toorak, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Toorak, gas heater installation Toorak, gas heater repairs Melbourne, Toorak gas heating, ducted gas heating Toorak",
+  title: "Toorak Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Toorak, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Toorak, toorak gas heater service, emergency heating Toorak, gas heating specialist Toorak",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/toorak/",
   },

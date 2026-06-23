@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Wheelers Hill Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Wheelers Hill, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Wheelers Hill, gas heater installation Wheelers Hill, gas heater repairs Melbourne, Wheelers Hill gas heating, ducted gas heating Wheelers Hill",
+  title: "Wheelers Hill Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Wheelers Hill, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Wheelers Hill, wheelers-hill gas heater service, emergency heating Wheelers Hill, gas heating specialist Wheelers Hill",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/wheelers-hill/",
   },

@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Scoresby Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Scoresby, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Scoresby, gas heater installation Scoresby, gas heater repairs Melbourne, Scoresby gas heating, ducted gas heating Scoresby",
+  title: "Scoresby Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Scoresby, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Scoresby, scoresby gas heater service, emergency heating Scoresby, gas heating specialist Scoresby",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/scoresby/",
   },

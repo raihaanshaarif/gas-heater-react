@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Boneo Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Boneo, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Boneo, gas heater installation Boneo, gas heater repairs Melbourne, Boneo gas heating, ducted gas heating Boneo",
+  title: "Boneo Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Boneo, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Boneo, boneo gas heater service, emergency heating Boneo, gas heating specialist Boneo",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/boneo/",
   },

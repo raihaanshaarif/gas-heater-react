@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Clyde North Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Clyde North, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Clyde North, gas heater installation Clyde North, gas heater repairs Melbourne, Clyde North gas heating, ducted gas heating Clyde North",
+  title: "Clyde North Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Clyde North, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Clyde North, clyde-north gas heater service, emergency heating Clyde North, gas heating specialist Clyde North",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/clyde-north/",
   },

@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Glen Waverley Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Glen Waverley, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Glen Waverley, gas heater installation Glen Waverley, gas heater repairs Melbourne, Glen Waverley gas heating, ducted gas heating Glen Waverley",
+  title: "Glen Waverley Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Glen Waverley, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Glen Waverley, glen-waverley gas heater service, emergency heating Glen Waverley, gas heating specialist Glen Waverley",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/glen-waverley/",
   },

@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services St Kilda Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in St Kilda, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services St Kilda, gas heater installation St Kilda, gas heater repairs Melbourne, St Kilda gas heating, ducted gas heating St Kilda",
+  title: "St Kilda Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in St Kilda, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair St Kilda, st-kilda gas heater service, emergency heating St Kilda, gas heating specialist St Kilda",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/st-kilda/",
   },

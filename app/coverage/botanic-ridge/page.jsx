@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Botanic Ridge Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Botanic Ridge, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Botanic Ridge, gas heater installation Botanic Ridge, gas heater repairs Melbourne, Botanic Ridge gas heating, ducted gas heating Botanic Ridge",
+  title: "Botanic Ridge Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Botanic Ridge, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Botanic Ridge, botanic-ridge gas heater service, emergency heating Botanic Ridge, gas heating specialist Botanic Ridge",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/botanic-ridge/",
   },

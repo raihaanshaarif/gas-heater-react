@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Keilor Downs Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Keilor Downs, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Keilor Downs, gas heater installation Keilor Downs, gas heater repairs Melbourne, Keilor Downs gas heating, ducted gas heating Keilor Downs",
+  title: "Keilor Downs Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Keilor Downs, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Keilor Downs, keilor-downs gas heater service, emergency heating Keilor Downs, gas heating specialist Keilor Downs",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/keilor-downs/",
   },

@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Narre Warren South Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Narre Warren South, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Narre Warren South, gas heater installation Narre Warren South, gas heater repairs Melbourne, Narre Warren South gas heating, ducted gas heating Narre Warren South",
+  title: "Narre Warren South Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Narre Warren South, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Narre Warren South, narre-warren-south gas heater service, emergency heating Narre Warren South, gas heating specialist Narre Warren South",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/narre-warren-south/",
   },

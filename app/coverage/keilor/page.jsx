@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Keilor Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Keilor, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Keilor, gas heater installation Keilor, gas heater repairs Melbourne, Keilor gas heating, ducted gas heating Keilor",
+  title: "Keilor Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Keilor, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Keilor, keilor gas heater service, emergency heating Keilor, gas heating specialist Keilor",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/keilor/",
   },

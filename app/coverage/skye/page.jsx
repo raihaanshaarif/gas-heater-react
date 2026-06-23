@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Skye Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Skye, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Skye, gas heater installation Skye, gas heater repairs Melbourne, Skye gas heating, ducted gas heating Skye",
+  title: "Skye Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Skye, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Skye, skye gas heater service, emergency heating Skye, gas heating specialist Skye",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/skye/",
   },

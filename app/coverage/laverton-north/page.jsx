@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Laverton North Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Laverton North, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Laverton North, gas heater installation Laverton North, gas heater repairs Melbourne, Laverton North gas heating, ducted gas heating Laverton North",
+  title: "Laverton North Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Laverton North, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Laverton North, laverton-north gas heater service, emergency heating Laverton North, gas heating specialist Laverton North",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/laverton-north/",
   },

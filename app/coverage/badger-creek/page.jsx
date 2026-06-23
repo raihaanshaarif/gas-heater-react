@@ -89,12 +89,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Badger Creek Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Badger Creek, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Badger Creek, gas heater installation Badger Creek, gas heater repairs Melbourne, Badger Creek gas heating, ducted gas heating Badger Creek",
+  title: "Badger Creek Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Badger Creek, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Badger Creek, badger-creek gas heater service, emergency heating Badger Creek, gas heating specialist Badger Creek",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/badger-creek/",
   },

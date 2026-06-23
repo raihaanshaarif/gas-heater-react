@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 //Import Css
 import styles from "../../_components/Blog/Singlepost.module.css";
 import styles2 from "../../_components/Blog/Blog.module.css";
@@ -18,12 +19,91 @@ export function generateStaticParams() {
   }));
 }
 
+// Generate dynamic metadata for each blog post (2026 Google SEO compliance)
+export async function generateMetadata({ params }) {
+  const { id } = await params;
+  const postData = posts.find((post) => post.id == id);
+  
+  if (!postData) {
+    return {
+      title: "Blog Post Not Found",
+      description: "The blog post you're looking for doesn't exist.",
+    };
+  }
+
+  const postUrl = `https://gasheaterservicemelbourne.com.au/blog/${id}/`;
+  
+  return {
+    title: `${postData.title} | Gas Heater Service Melbourne Blog`,
+    description: postData.description || "Read our expert blog post on gas heater services, maintenance, and repair solutions.",
+    keywords: `${postData.tag}, gas heater service, heating repair, ${postData.category}`,
+    authors: [{ name: "Gas Heater Service Melbourne Team" }],
+    openGraph: {
+      title: postData.title,
+      description: postData.description,
+      url: postUrl,
+      type: "article",
+      publishedTime: `${postData.time__posting__year}-${String(postData.time__posting__month).padStart(2, '0')}-${String(postData.time__posting__day).padStart(2, '0')}`,
+      images: [
+        {
+          url: postData.img || "/images/blog/default-post.jpg",
+          width: 1200,
+          height: 630,
+          alt: postData.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: postData.title,
+      description: postData.description,
+      image: postData.img || "/images/blog/default-post.jpg",
+    },
+    alternates: {
+      canonical: postUrl,
+    },
+  };
+}
+
 //Page Layout
 export default async function SinglePost({ params }) {
   const { id } = await params;
   const postData = posts.find((post) => post.id == id);
+  
+  // Generate Article Schema for Google (2026 SEO compliance)
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: postData.title,
+    description: postData.description,
+    image: [postData.img || "/images/blog/default-post.jpg"],
+    datePublished: `${postData.time__posting__year}-${String(postData.time__posting__month).padStart(2, '0')}-${String(postData.time__posting__day).padStart(2, '0')}`,
+    dateModified: `${postData.time__posting__year}-${String(postData.time__posting__month).padStart(2, '0')}-${String(postData.time__posting__day).padStart(2, '0')}`,
+    author: {
+      "@type": "Organization",
+      name: "Gas Heater Service Melbourne",
+      url: "https://gasheaterservicemelbourne.com.au"
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Gas Heater Service Melbourne",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://gasheaterservicemelbourne.com.au/logo.png",
+        width: 250,
+        height: 60
+      }
+    }
+  };
+  
   return (
     <>
+      <Script
+        id={`blog-article-schema-${id}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        strategy="beforeInteractive"
+      />
       <PageTitle
         dataSubTitle={`Blog`}
         dataSubTitleSrc={`/blog`}

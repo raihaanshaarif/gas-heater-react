@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Chelsea Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Chelsea, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Chelsea, gas heater installation Chelsea, gas heater repairs Melbourne, Chelsea gas heating, ducted gas heating Chelsea",
+  title: "Chelsea Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Chelsea, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Chelsea, chelsea gas heater service, emergency heating Chelsea, gas heating specialist Chelsea",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/chelsea/",
   },

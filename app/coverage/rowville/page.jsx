@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Rowville Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Rowville, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Rowville, gas heater installation Rowville, gas heater repairs Melbourne, Rowville gas heating, ducted gas heating Rowville",
+  title: "Rowville Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Rowville, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Rowville, rowville gas heater service, emergency heating Rowville, gas heating specialist Rowville",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/rowville/",
   },

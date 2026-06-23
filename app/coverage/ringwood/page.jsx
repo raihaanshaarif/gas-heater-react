@@ -90,12 +90,9 @@ const faqSchema = {
 
 // Metadata
 export const metadata = {
-  title:
-    "Gas Heater Services Ringwood Melbourne | Installation, Repairs & Servicing",
-  description:
-    "Professional gas heater services in Ringwood, Melbourne. Expert installation, fast repairs, and annual maintenance. Carbon Monoxide testing included. Fully licensed VBA gas fitters.",
-  keywords:
-    "gas heater services Ringwood, gas heater installation Ringwood, gas heater repairs Melbourne, Ringwood gas heating, ducted gas heating Ringwood",
+  title: "Ringwood Gas Heater Repair Melbourne | 24/7 Emergency Service",
+  description: "Professional gas heater repair in Ringwood, Melbourne. Licensed technicians, same-day service, transparent pricing. Call 0405133761.",
+  keywords: "gas heater repair Ringwood, ringwood gas heater service, emergency heating Ringwood, gas heating specialist Ringwood",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au/coverage/ringwood/",
   },
