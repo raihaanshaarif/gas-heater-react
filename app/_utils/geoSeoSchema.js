@@ -230,8 +230,8 @@ export function generateGeoAnswerContent(suburb) {
     // FAQ structure for search engines
     faqItems: [
       {
-        q: `How much does gas heater repair cost in ${suburb}?`,
-        a: `Our ${suburb} gas heater repair costs range from $150-$600. The $120 service call fee includes initial diagnostic. Parts and labor are additional.`,
+        q: `What are common gas heater problems in ${suburb}?`,
+        a: `Common gas heater issues in ${suburb} include no heat, pilot light failures, strange noises, and temperature fluctuations. Our licensed technicians diagnose and repair all issues quickly.`,
       },
       {
         q: `Do you offer same-day emergency service in ${suburb}?`,

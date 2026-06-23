@@ -68,11 +68,11 @@ export default function RinnaiPage() {
               "@type": "FAQPage",
               mainEntity: [
                 { "@type": "Question", name: "What is continuous flow heating?", acceptedAnswer: { "@type": "Answer", text: "Rinnai continuous flow provides hot water on-demand without a storage tank. Water is heated instantly as you use it, saving space and energy compared to traditional storage systems." } },
-                { "@type": "Question", name: "How much does Rinnai ignition repair cost?", acceptedAnswer: { "@type": "Answer", text: "Ignition Module Repair: $180-280. Ignition Electrode Replacement: $120-200. Full System Diagnostics: $100-150 (often waived with repair). Emergency after-hours adds $50-100." } },
+                { "@type": "Question", name: "What are common Rinnai ignition problems?", acceptedAnswer: { "@type": "Answer", text: "Common ignition issues include no instant heat activation, delayed heating response, or continuous operation failures. Our certified technicians diagnose and repair all Rinnai ignition systems quickly." } },
                 { "@type": "Question", name: "Why is my Rinnai making strange noises?", acceptedAnswer: { "@type": "Answer", text: "Grinding, whistling, or banging sounds indicate problems. Common causes: air in pipes, burner scaling, or heat exchanger issues. Call us for diagnosis." } },
                 { "@type": "Question", name: "How long does a Rinnai system last?", acceptedAnswer: { "@type": "Answer", text: "Well-maintained Rinnai systems typically last 12-18 years. Some reach 20+ years. Annual servicing is key to longevity." } },
-                { "@type": "Question", name: "Can you repair my older Rinnai model?", acceptedAnswer: { "@type": "Answer", text: "Yes, we service all Rinnai models from 10+ years old to latest releases. If repair isn't viable, we recommend cost-effective replacements." } },
-                { "@type": "Question", name: "What does an annual Rinnai service include?", acceptedAnswer: { "@type": "Answer", text: "Annual service includes safety inspection, heat exchanger flush, burner cleaning, temperature calibration, pressure testing, and full system check. Cost: $150-250." } }
+                { "@type": "Question", name: "Can you repair my older Rinnai model?", acceptedAnswer: { "@type": "Answer", text: "Yes, we service all Rinnai models from 10+ years old to latest releases. Our technicians have parts and expertise for every Rinnai generation." } },
+                { "@type": "Question", name: "What does an annual Rinnai service include?", acceptedAnswer: { "@type": "Answer", text: "Annual service includes safety inspection, heat exchanger flush, burner cleaning, temperature calibration, pressure testing, and full system check." } }
               ]
             }),
           }}
@@ -103,8 +103,7 @@ export default function RinnaiPage() {
                   24/7 emergency repairs, professional installation,
                   comprehensive maintenance, and expert service for all Rinnai
                   continuous operation heating systems across Melbourne. With
-                  genuine parts, upfront pricing, and same-day service
-                  available, we&apos;re your trusted Rinnai repair experts.
+                  genuine parts and same-day service available, we&apos;re your trusted Rinnai repair experts.
                 </p>
 
                 <p className="indent__top">
@@ -257,8 +256,8 @@ export default function RinnaiPage() {
                     <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Rinnai continuous flow (or tankless) heating provides hot water on-demand without a storage tank. Water is heated instantly as you use it, saving space and energy compared to traditional storage systems. Ideal for homes wanting efficiency and unlimited hot water.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
-                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How much does Rinnai ignition repair cost?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Ignition Module Repair:</strong> $180-280. <strong>Ignition Electrode Replacement:</strong> $120-200. <strong>Full System Diagnostics:</strong> $100-150 (often waived with repair). Emergency after-hours adds $50-100. Upfront quotes always provided.</p></div>
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What are common Rinnai ignition problems?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Common ignition issues include: no instant heat, delayed heating response, continuous operation failures, or error codes. Our certified technicians have expertise with every Rinnai ignition system and resolve issues quickly. Contact us for same-day diagnosis.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Why is my Rinnai making strange noises?<span className="text-xl">+</span></summary>
@@ -270,11 +269,11 @@ export default function RinnaiPage() {
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you repair my older Rinnai model?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, we service all Rinnai models from 10+ years old to the latest releases. Even if parts are harder to source, we find solutions. If repair isn't viable, we'll recommend cost-effective replacement options.</p></div>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, we service all Rinnai models from 10+ years old to the latest releases. Even if parts are harder to source, we find solutions. Our technicians have extensive experience with every Rinnai generation.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What does an annual Rinnai service include?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Annual service includes: safety inspection, heat exchanger flush, burner cleaning, temperature calibration, pressure testing, and full system check. Cost: $150-250. Prevents breakdowns and maintains efficiency.</p></div>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Annual service includes: safety inspection, heat exchanger flush, burner cleaning, temperature calibration, pressure testing, and full system check. Regular servicing prevents breakdowns and maintains efficiency and safety.</p></div>
                   </details>
                 </div>
 
@@ -324,28 +323,28 @@ export default function RinnaiPage() {
                   </table>
                 </div>
 
-                <h3 className="ttsubtitle ttsubtitle__top">Rinnai Repair Costs & Pricing</h3>
+                <h3 className="ttsubtitle ttsubtitle__top">Our Rinnai Service Guarantee</h3>
                 <div className="grid md:grid-cols-2 gap-4 my-8">
                   <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                    <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
+                    <h4 className="font-bold text-green-900 mb-3">Professional Repairs</h4>
                     <ul className="text-sm text-green-800 space-y-2">
-                      <li><strong>Ignition Module:</strong> $180-280</li>
-                      <li><strong>Ignition Electrode:</strong> $120-200</li>
-                      <li><strong>Heat Exchanger Flush:</strong> $150-250</li>
-                      <li><strong>Thermistor Replacement:</strong> $120-200</li>
-                      <li><strong>Diverter Valve:</strong> $250-350</li>
-                      <li><strong>Emergency Callout:</strong> $50-100 (after-hours)</li>
+                      <li>✓ Rinnai certified technicians</li>
+                      <li>✓ Genuine Rinnai parts always used</li>
+                      <li>✓ Same-day service available</li>
+                      <li>✓ 12-month workmanship warranty</li>
+                      <li>✓ All repairs tested before handover</li>
+                      <li>✓ Free follow-up support included</li>
                     </ul>
                   </div>
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                    <h4 className="font-bold text-blue-900 mb-3">Installation Services</h4>
+                    <h4 className="font-bold text-blue-900 mb-3">Complete Service</h4>
                     <ul className="text-sm text-blue-800 space-y-2">
-                      <li><strong>Tankless System Install:</strong> $1,200-2,500</li>
-                      <li><strong>Replace Storage Tank:</strong> $1,800-2,800</li>
-                      <li><strong>System Upgrade:</strong> $800-1,500</li>
-                      <li><strong>Annual Service:</strong> $150-250</li>
-                      <li><strong>Heat Exchanger Cleaning:</strong> $100-180</li>
-                      <li><strong>All prices include labor + parts</strong></li>
+                      <li>✓ Installation by licensed gas fitters</li>
+                      <li>✓ Full system commissioning included</li>
+                      <li>✓ Annual maintenance programs available</li>
+                      <li>✓ Emergency 24/7 response service</li>
+                      <li>✓ All Melbourne suburbs covered</li>
+                      <li>✓ Customer satisfaction guaranteed</li>
                     </ul>
                   </div>
                 </div>
@@ -356,7 +355,7 @@ export default function RinnaiPage() {
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Rinnai Not Providing Hot Water</h4>
                       <p className="text-sm text-yellow-800 mb-2"><strong>First check:</strong> Is gas supply on? Are valves open? Is water connected? Check error codes on display panel if present.</p>
-                      <p className="text-sm text-yellow-800"><strong>Common causes:</strong> Dirty water filter, airlock, thermistor failure, or ignition module issue. Most resolved same-day.</p>
+                      <p className="text-sm text-yellow-800"><strong>Common causes:</strong> Dirty water filter, airlock, thermistor failure, or ignition module issue. Our technicians diagnose and resolve quickly.</p>
                     </div>
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Rinnai Temperature Fluctuates</h4>

@@ -526,34 +526,6 @@ export default function GembrookGasHeaterServices() {
             </div>
           </div>
         </div>
-        
-                {/* Local Pricing Grid */}
-                <div className="mt-[40px]">
-                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Gas Heater Service Costs in Gembrook</h3>
-                  <div className="grid md:grid-cols-2 gap-[20px]">
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Common Repairs</h4>
-                      <ul className="space-y-[8px] text-[14px]">
-                        <li className="flex justify-between"><span>Service Call</span> <span className="font-bold">$80-150</span></li>
-                        <li className="flex justify-between"><span>Pilot Light</span> <span className="font-bold">$100-180</span></li>
-                        <li className="flex justify-between"><span>Ignition Module</span> <span className="font-bold">$120-250</span></li>
-                        <li className="flex justify-between"><span>Thermostat</span> <span className="font-bold">$120-220</span></li>
-                        <li className="flex justify-between"><span>Full Service</span> <span className="font-bold">$180-280</span></li>
-                      </ul>
-                    </div>
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Installation &amp; Maintenance</h4>
-                      <ul className="space-y-[8px] text-[14px]">
-                        <li className="flex justify-between"><span>System Diagnosis</span> <span className="font-bold">$70-150</span></li>
-                        <li className="flex justify-between"><span>Annual Service</span> <span className="font-bold">$180-250</span></li>
-                        <li className="flex justify-between"><span>New Installation</span> <span className="font-bold">$1,500-3,500</span></li>
-                        <li className="flex justify-between"><span>Emergency After-Hours</span> <span className="font-bold">+$50-100</span></li>
-                        <li className="flex justify-between"><span>Same-Day Service</span> <span className="font-bold">Available</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
                 {/* Service Area Details */}
                 <div className="mt-[40px]">
                   <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Why Choose Us for Gembrook Gas Heating</h3>
@@ -567,8 +539,7 @@ export default function GembrookGasHeaterServices() {
                       <p>All our technicians are fully licensed VBA gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
                     </div>
                     <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold mb-[12px] text-[#092a66]">Transparent Pricing</h4>
-                      <p>We provide upfront quotes before starting work. No hidden fees, no surprises. You know exactly what you'll pay.</p>
+                      <h4 className="font-bold mb-[12px] text-[#092a66]">Professional Service</h4><p>Our technicians are fully qualified and deliver professional service to every job. No shortcuts, no compromises on quality or safety.</p>
                     </div>
                     <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
                       <h4 className="font-bold mb-[12px] text-[#092a66]">24/7 Emergency Service</h4>

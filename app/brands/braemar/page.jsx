@@ -77,10 +77,10 @@ export default function BraemarPage() {
                 },
                 {
                   "@type": "Question",
-                  name: "How much does Braemar WiFi module repair cost?",
+                  name: "What if my Braemar WiFi module stops working?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "WiFi Module Repair: $150-250 (diagnostic + repair). WiFi Module Replacement: $300-450 (includes new module + installation + app setup). Emergency after-hours: Add $50-100 callout fee."
+                    text: "If your MyClimate module stops connecting or fails, our certified technicians can diagnose and repair the issue. We repair or replace modules and restore app connectivity quickly. Same-day service available."
                   }
                 },
                 {
@@ -370,8 +370,8 @@ export default function BraemarPage() {
                     <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Braemar MyClimate is a WiFi-enabled smart heating control system. You can monitor and adjust your heating remotely via smartphone app, set temperature schedules, and receive alerts from anywhere. It's a premium feature that provides convenience and energy savings.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
-                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How much does Braemar WiFi module repair cost?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>WiFi Module Repair:</strong> $150-250 (diagnostic + repair). <strong>WiFi Module Replacement:</strong> $300-450 (includes new module + installation + app setup). <strong>Emergency after-hours:</strong> Add $50-100 callout fee. We provide quotes before work starts.</p></div>
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What if my Braemar WiFi module stops working?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">If your MyClimate module stops connecting or fails, our certified technicians can diagnose and repair the issue. We repair or replace modules and restore app connectivity quickly. Same-day service available.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Why isn't MyClimate app connecting?<span className="text-xl">+</span></summary>

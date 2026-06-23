@@ -29,12 +29,12 @@ export default function GasWaterHeaterServices() {
               "@context": "https://schema.org",
               "@type": "FAQPage",
               mainEntity: [
-                { "@type": "Question", name: "How much does gas water heater repair cost?", acceptedAnswer: { "@type": "Answer", text: "Common repairs range $80-$350. Diagnostics: $70-150. Thermostat: $100-180. Gas valve: $150-280. Pilot light: $80-150. We provide upfront quotes before starting work." } },
+                { "@type": "Question", name: "What are common gas water heater problems?", acceptedAnswer: { "@type": "Answer", text: "Common issues include: no hot water, pilot light going out, strange noises, leaking tanks, and temperature fluctuations. Our licensed technicians diagnose and fix all water heater problems." } },
                 { "@type": "Question", name: "What's the lifespan of a gas water heater?", acceptedAnswer: { "@type": "Answer", text: "Properly maintained units typically last 10-15 years. Some reach 20 years. Regular servicing and prompt repairs extend lifespan significantly." } },
                 { "@type": "Question", name: "Can you repair all water heater brands?", acceptedAnswer: { "@type": "Answer", text: "Yes, we service all brands including Rinnai, Bosch, Rheem, Dux, Aqua Max, Thermann, Vulcan, Kaden, Pyrox, Braemar, Brivis, Bonaire, and others." } },
                 { "@type": "Question", name: "What's included in water heater installation?", acceptedAnswer: { "@type": "Answer", text: "Full installation includes system selection, gas line installation, electrical connection, safety testing, compliance certification, and complete system check." } },
                 { "@type": "Question", name: "Do you provide emergency water heater service?", acceptedAnswer: { "@type": "Answer", text: "Yes, we provide 24/7 emergency service for water heater failures across all Melbourne. Same-day repairs often possible." } },
-                { "@type": "Question", name: "When should I replace vs repair my water heater?", acceptedAnswer: { "@type": "Answer", text: "If repair cost is under 50% of replacement and system is under 12 years old, repair makes sense. Systems 15+ years old with multiple issues should be replaced." } }
+                { "@type": "Question", name: "When should I replace vs repair my water heater?", acceptedAnswer: { "@type": "Answer", text: "If system is under 12 years old and repair is feasible, repair makes sense. Systems 15+ years old with multiple issues should be replaced. Our technicians provide expert recommendations." } }
               ]
             }),
           }}
@@ -57,7 +57,7 @@ export default function GasWaterHeaterServices() {
                     <li>✓ Licensed VBA Gas Fitters – All installations meet Victorian safety standards</li>
                     <li>✓ 24/7 Emergency Service – No hot water? We're available day or night</li>
                     <li>✓ Same-Day Response – Most suburbs served within 30–45 minutes</li>
-                    <li>✓ Transparent Pricing – Quote provided before any work begins</li>
+                    <li>✓ Professional Service – Expert technicians on every job</li>
                     <li>✓ All Brands Serviced – Rinnai, Bosch, Rheem, Dux, and all major makes</li>
                     <li>✓ 100% Satisfaction Guarantee – Your satisfaction is our promise</li>
                   </ul>
@@ -122,8 +122,8 @@ export default function GasWaterHeaterServices() {
                   <h3 className="text-xl font-bold mb-4">Frequently Asked Questions</h3>
                   <div className="space-y-3">
                     <details className="group border border-gray-300 rounded-lg">
-                      <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How much does a gas water heater repair cost in Melbourne?<span className="text-xl">+</span></summary>
-                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">A typical gas water heater repair ranges from $200 to $800 depending on the issue. Common repairs like thermostat replacement ($250–$400) or element repair ($200–$500) are affordable. We provide a quote before starting any work.</p></div>
+                      <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What signs indicate water heater repair is needed?<span className="text-xl">+</span></summary>
+                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Watch for: lukewarm or no hot water, strange noises (popping/banging), water leaks around the tank, rust stains, and gas smell. Any of these warrant professional inspection. Never ignore gas leaks or odors.</p></div>
                     </details>
                     <details className="group border border-gray-300 rounded-lg">
                       <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What are signs my gas hot water system needs repair?<span className="text-xl">+</span></summary>
@@ -159,11 +159,11 @@ export default function GasWaterHeaterServices() {
                     </details>
                     <details className="group border border-gray-300 rounded-lg">
                       <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's the difference between gas and electric water heaters?<span className="text-xl">+</span></summary>
-                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Gas heaters are faster and cheaper to run but need ventilation. Electric heaters are simpler but slower and more expensive. For Melbourne's climate, gas systems are typically more cost-effective.</p></div>
+                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Gas heaters are faster and reliable with lower operating efficiency. Electric heaters are simpler but slower at heating. Both have their advantages depending on your home setup and needs.</p></div>
                     </details>
                     <details className="group border border-gray-300 rounded-lg">
-                      <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How much does a new gas water heater cost installed?<span className="text-xl">+</span></summary>
-                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Quality gas water heaters range $800–$2,500 depending on size and brand. Installation adds $400–$1,000. We provide transparent quotes with all options explained.</p></div>
+                      <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What factors should I consider when choosing a gas water heater?<span className="text-xl">+</span></summary>
+                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Consider: household size (affects capacity), energy efficiency, brand reputation, available space, and gas supply configuration. Our technicians provide expert advice on the best system for your needs.</p></div>
                     </details>
                     <details className="group border border-gray-300 rounded-lg">
                       <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you install a water heater in my apartment?<span className="text-xl">+</span></summary>

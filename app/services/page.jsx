@@ -4,8 +4,6 @@ import TabsServices from "../_components/Services/TabServices";
 import WhatIsIncluded from "../_components/Services/WhatIsIncluded";
 import ListWithTitle from "../_components/Common/ListWithTitle";
 import TabInfo from "../_components/Services/TabInfo";
-//Import Data
-import { dataImpactCost } from "../_components/Services/WhatImpactsCostData";
 //Page Layout
 export default function Services() {
   return (
@@ -47,17 +45,6 @@ export default function Services() {
         <div className="section__indent">
           <div className="container container__fluid-lg rounded-[20px] border border-[#d9e4fa] bg-white p-[18px] md:p-[24px] shadow-[0_14px_32px_rgba(17,42,84,0.08)]">
             <WhatIsIncluded />
-          </div>
-        </div>
-        <div className="section__indent base__bg section__inner">
-          <div className="container container__fluid-lg rounded-[20px] border border-[#d9e4fa] bg-[linear-gradient(180deg,#f8fbff_0%,#f2f7ff_100%)] p-[18px] md:p-[24px]">
-            <SectionTitle dataTitle="What Affects Service Pricing?" />
-            <div className="mb-[26px]">
-              <ListWithTitle
-                dataLayout={dataImpactCost}
-                dataAddClass="grid md-max:gap-[16px] md:gap-[30px] md:grid-cols-2"
-              />
-            </div>
           </div>
         </div>
         <TabInfo />

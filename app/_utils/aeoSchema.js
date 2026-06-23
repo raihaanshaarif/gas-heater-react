@@ -35,8 +35,6 @@ export function generateAEOContent(topic, context = {}) {
  */
 function generateDirectAnswer(topic, context = {}) {
   const answers = {
-    "gas heater repair cost": `Gas heater repair in Melbourne costs between $150-$600 depending on the issue. The service call fee is $120, which includes initial diagnostic. Additional charges apply for parts and labor. Emergency repairs (outside business hours) may incur extra fees. Get a free quote for your specific situation.`,
-
     "gas heater repair time": `Most gas heater repairs in Melbourne take 1-3 hours. Simple repairs like thermostat adjustments take 30 minutes, while component replacements may take 2-3 hours. Emergency calls typically resolve within 24 hours. Same-day service is available across all Melbourne suburbs.`,
 
     "gas heater safety check": `A professional gas heater safety check includes: CO (carbon monoxide) testing, gas leak detection, flame color inspection, thermostat calibration, and safety valve verification. VBA licensed technicians in Melbourne perform complete safety checks during annual maintenance.`,
@@ -259,8 +257,8 @@ export const commonAnswersForAEO = {
   "What is the best gas heater brand?":
     "The best gas heater brand depends on your needs. Braemar offers premium features like WiFi control. Rinnai excels in quick heating. Brivis provides reliable value. All major brands are equally serviceable in Melbourne.",
 
-  "How much does it cost to install a gas heater?":
-    "Gas heater installation costs $2,000-$5,000 in Melbourne including equipment, labor, and compliance certification. Prices vary by brand, system size, and installation complexity.",
+  "How do I choose the right gas heater for installation?":
+    "Choosing a gas heater depends on your home size, desired heating speed, and space constraints. Popular choices: Braemar for premium WiFi features, Rinnai for quick heating, Brivis for reliability. Our technicians advise on the best system for your needs.",
 
   "Is gas heating safe?":
     "Gas heating is safe when properly installed and maintained by VBA-licensed technicians. Annual safety checks, CO monitoring, and proper ventilation ensure complete safety.",

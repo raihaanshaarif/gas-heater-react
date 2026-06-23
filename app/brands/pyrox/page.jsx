@@ -45,7 +45,7 @@ export default function PyroxPage() {
                 { "@type": "Question", name: "What's typical Pyrox repair pricing?", acceptedAnswer: { "@type": "Answer", text: "Pilot/Ignition Repair: $100-170. Ignition Module: $130-210. Thermostat: $120-240. Gas Valve: $170-280. Emergency: +$50-100." } },
                 { "@type": "Question", name: "How long should a Pyrox heater last?", acceptedAnswer: { "@type": "Answer", text: "With proper maintenance, Pyrox systems typically last 10-15 years. Some well-maintained units reach 18-20 years." } },
                 { "@type": "Question", name: "Are Pyrox parts still available?", acceptedAnswer: { "@type": "Answer", text: "Yes. While Pyrox is no longer manufactured, parts remain available. Common components readily sourced." } },
-                { "@type": "Question", name: "When should I replace vs repair my Pyrox?", acceptedAnswer: { "@type": "Answer", text: "If repair cost is under 50% of new system, repair is worth it. For systems 15+ years old with multiple issues, replacement may be more economical." } },
+                { "@type": "Question", name: "When should I replace vs repair my Pyrox?", acceptedAnswer: { "@type": "Answer", text: "For systems under 12 years old, repair is usually best. For systems 15+ years old with multiple issues, replacement may be necessary. Our technicians provide honest recommendations based on system age and condition." } },
                 { "@type": "Question", name: "Can you service all Pyrox models?", acceptedAnswer: { "@type": "Answer", text: "Yes, we service all Pyrox models. Our technicians have expertise and maintain technical knowledge for all models." } }
               ]
             }),
@@ -246,7 +246,7 @@ export default function PyroxPage() {
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">When should I replace vs repair my Pyrox?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">If repair cost is under 50% of new system cost, repair is worth it. However, if system is 15+ years old and multiple issues arise, replacement may be more economical. We provide honest recommendations based on age and condition.</p></div>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">For systems under 12 years old, repair is usually best. For systems 15+ years old with multiple issues, replacement may be necessary. Our technicians provide honest recommendations based on system age and condition.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you service all Pyrox models?<span className="text-xl">+</span></summary>
@@ -300,28 +300,28 @@ export default function PyroxPage() {
                   </table>
                 </div>
 
-                <h3 className="ttsubtitle ttsubtitle__top">Pyrox Repair Costs & Pricing</h3>
+                <h3 className="ttsubtitle ttsubtitle__top">Our Pyrox Service Commitment</h3>
                 <div className="grid md:grid-cols-2 gap-4 my-8">
                   <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                    <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
+                    <h4 className="font-bold text-green-900 mb-3">Professional Repairs</h4>
                     <ul className="text-sm text-green-800 space-y-2">
-                      <li><strong>Pilot/Ignition Repair:</strong> $100-170</li>
-                      <li><strong>Ignition Module:</strong> $130-210</li>
-                      <li><strong>Thermostat:</strong> $120-240</li>
-                      <li><strong>Gas Valve:</strong> $170-280</li>
-                      <li><strong>Heat Exchanger Service:</strong> $100-180</li>
-                      <li><strong>Emergency Callout:</strong> $50-100 (after-hours)</li>
+                      <li>✓ Pyrox certified technicians</li>
+                      <li>✓ Genuine Pyrox parts</li>
+                      <li>✓ Same-day service available</li>
+                      <li>✓ Full diagnostic included</li>
+                      <li>✓ 12-month warranty on repairs</li>
+                      <li>✓ Emergency 24/7 service</li>
                     </ul>
                   </div>
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                    <h4 className="font-bold text-blue-900 mb-3">Services</h4>
+                    <h4 className="font-bold text-blue-900 mb-3">Maintenance Services</h4>
                     <ul className="text-sm text-blue-800 space-y-2">
-                      <li><strong>Annual Service:</strong> $100-170</li>
-                      <li><strong>Burner Cleaning:</strong> $80-120</li>
-                      <li><strong>Filter Replacement:</strong> $50-100</li>
-                      <li><strong>Safety Inspection:</strong> $70-100</li>
-                      <li><strong>Diagnostics:</strong> $80-130 (often waived with repair)</li>
-                      <li><strong>All prices include labor + parts</strong></li>
+                      <li>✓ Annual service programs</li>
+                      <li>✓ Burner cleaning and inspection</li>
+                      <li>✓ Safety testing included</li>
+                      <li>✓ Filter replacement service</li>
+                      <li>✓ Efficiency optimization</li>
+                      <li>✓ All Melbourne suburbs covered</li>
                     </ul>
                   </div>
                 </div>
@@ -332,7 +332,7 @@ export default function PyroxPage() {
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Pyrox Won't Ignite</h4>
                       <p className="text-sm text-yellow-800 mb-2"><strong>Check first:</strong> Is gas supply on? Is pilot light lit? Press ignition button 5-6 times and wait 30 seconds.</p>
-                      <p className="text-sm text-yellow-800"><strong>If still won't light:</strong> Likely ignition module or spark electrode issue ($130-210). Call us for quick diagnosis.</p>
+                      <p className="text-sm text-yellow-800"><strong>If still won't light:</strong> Likely ignition module or spark electrode issue. Call us for quick diagnosis.</p>
                     </div>
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Pyrox Pilot Light Keeps Going Out</h4>

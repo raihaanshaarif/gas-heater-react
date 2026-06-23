@@ -42,7 +42,7 @@ export default function KadenPage() {
               "@type": "FAQPage",
               mainEntity: [
                 { "@type": "Question", name: "Is Kaden a reliable heating brand?", acceptedAnswer: { "@type": "Answer", text: "Kaden offers good value heating systems with solid reliability record. Budget-focused with straightforward design and durability." } },
-                { "@type": "Question", name: "What does Kaden heater repair usually cost?", acceptedAnswer: { "@type": "Answer", text: "Pilot/Ignition: $100-170. Ignition Module: $130-220. Thermostat: $120-240. Gas Valve: $170-280. Emergency: +$50-100." } },
+                { "@type": "Question", name: "What are common Kaden heater problems?", acceptedAnswer: { "@type": "Answer", text: "Common issues include pilot light failures, thermostat problems, ignition module failure, and gas valve issues. Our certified technicians specialize in Kaden repairs with genuine parts available." } },
                 { "@type": "Question", name: "How long will my Kaden system last?", acceptedAnswer: { "@type": "Answer", text: "Properly maintained Kaden systems typically last 10-15 years. Well-cared-for units can reach 18-20 years." } },
                 { "@type": "Question", name: "Are Kaden parts available?", acceptedAnswer: { "@type": "Answer", text: "Yes. While Kaden is no longer manufactured, parts remain available. Common components readily sourced." } },
                 { "@type": "Question", name: "Should I repair or replace my Kaden?", acceptedAnswer: { "@type": "Answer", text: "If repair cost is under 50% of replacement, repair is worth it. For systems 15+ years old with multiple issues, replacement may be more economical." } },
@@ -227,11 +227,11 @@ export default function KadenPage() {
                 <div className="space-y-3 my-8">
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Is Kaden a reliable heating brand?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Kaden offers good value heating systems with solid reliability record. While budget-focused, Kaden systems are straightforward and durable. Popular choice for homeowners seeking cost-effective heating without premium pricing.</p></div>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Kaden offers reliable heating systems with solid performance. Straightforward design and durability make Kaden a popular choice. Many systems run 15-20 years with proper maintenance.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
-                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What does Kaden heater repair usually cost?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Pilot/Ignition:</strong> $100-170. <strong>Ignition Module:</strong> $130-220. <strong>Thermostat:</strong> $120-240. <strong>Gas Valve:</strong> $170-280. <strong>Emergency after-hours:</strong> +$50-100. Upfront quotes always provided before work.</p></div>
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What are common Kaden heater problems?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Common issues include pilot light failures, thermostat problems, ignition module failure, and gas valve issues. Our certified technicians specialize in Kaden repairs with genuine parts available for same-day service.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How long will my Kaden system last?<span className="text-xl">+</span></summary>
@@ -243,7 +243,7 @@ export default function KadenPage() {
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Should I repair or replace my Kaden?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">If repair cost is under 50% of replacement, repair is worth it. For systems 15+ years old with multiple issues, replacement may be more economical long-term. We provide honest recommendations.</p></div>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">For systems under 12 years old, repair is usually the best option. For systems 15+ years old with multiple issues, replacement may be necessary. Our technicians provide honest recommendations on repair vs. replacement.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you service Kaden models?<span className="text-xl">+</span></summary>

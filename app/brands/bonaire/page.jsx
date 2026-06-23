@@ -42,7 +42,7 @@ export default function BonairePage() {
               "@type": "FAQPage",
               mainEntity: [
                 { "@type": "Question", name: "Why is Bonaire heating popular in Australia?", acceptedAnswer: { "@type": "Answer", text: "Bonaire is Australian-owned and trusted for decades. Known for reliable, affordable heating with straightforward design, easy maintenance, and good parts availability." } },
-                { "@type": "Question", name: "How much does Bonaire heater repair cost?", acceptedAnswer: { "@type": "Answer", text: "Pilot Light/Ignition: $100-180. Ignition Module: $140-220. Heat Exchanger Service: $120-200. Thermostat: $120-250. Emergency: +$50-100." } },
+                { "@type": "Question", name: "What are common Bonaire heating problems?", acceptedAnswer: { "@type": "Answer", text: "Common issues include pilot light failures, ignition module problems, heat exchanger blockages, and thermostat malfunctions. Our certified technicians have expertise with all Bonaire systems and resolve issues quickly." } },
                 { "@type": "Question", name: "Are Bonaire parts easy to find?", acceptedAnswer: { "@type": "Answer", text: "Yes, very. Bonaire is well-supported with parts readily available. We stock common components. Most repairs completed same-day or next-day." } },
                 { "@type": "Question", name: "Is my old Bonaire heater still worth repairing?", acceptedAnswer: { "@type": "Answer", text: "Usually yes. Bonaire systems are built tough. If repair cost is under 50% of replacement, repair is best option." } },
                 { "@type": "Question", name: "What's the typical lifespan of a Bonaire?", acceptedAnswer: { "@type": "Answer", text: "Bonaire systems typically last 12-18 years with regular maintenance. Some well-maintained units run 20+ years." } },
@@ -274,8 +274,8 @@ export default function BonairePage() {
                     <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Bonaire is an Australian-owned brand trusted for decades. Known for reliable, affordable heating with straightforward design, easy maintenance, and good spare parts availability. Great value for budget-conscious homeowners without compromising quality.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
-                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How much does Bonaire heater repair cost?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Pilot Light/Ignition:</strong> $100-180. <strong>Ignition Module:</strong> $140-220. <strong>Heat Exchanger Service:</strong> $120-200. <strong>Thermostat:</strong> $120-250. <strong>Emergency after-hours:</strong> +$50-100. Upfront quotes always provided.</p></div>
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What are common Bonaire heating problems?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Common issues include pilot light failures, ignition module problems, heat exchanger blockages, and thermostat malfunctions. Our certified technicians have expertise with all Bonaire systems and resolve issues quickly.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Are Bonaire parts easy to find?<span className="text-xl">+</span></summary>
@@ -283,7 +283,7 @@ export default function BonairePage() {
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Is my old Bonaire heater still worth repairing?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Usually yes. Bonaire systems are built tough and parts are affordable. If repair cost is under 50% of replacement, repair is best option. We provide honest advice on repair vs. replacement based on system age and condition.</p></div>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Bonaire systems are built tough with good spare parts availability. Our technicians evaluate your system and provide expert advice on repair vs. replacement based on system age and condition.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's the typical lifespan of a Bonaire?<span className="text-xl">+</span></summary>
@@ -291,7 +291,7 @@ export default function BonairePage() {
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you help with Bonaire warranty claims?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes. If your Bonaire is still under warranty, we'll work with the manufacturer to claim covered repairs. If warranty has expired, we provide transparent pricing on all repairs with competitive rates.</p></div>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes. If your Bonaire is still under warranty, we'll work with the manufacturer to claim covered repairs. Our licensed technicians handle all warranty paperwork and ensure proper resolution.</p></div>
                   </details>
                 </div>
 

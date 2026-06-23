@@ -42,7 +42,7 @@ export default function BrivisPage() {
               "@type": "FAQPage",
               mainEntity: [
                 { "@type": "Question", name: "What makes Brivis heaters reliable?", acceptedAnswer: { "@type": "Answer", text: "Brivis has decades of reputation for durable, cost-effective systems. Robust build quality and straightforward design make them reliable. Many systems run 20+ years with proper maintenance." } },
-                { "@type": "Question", name: "How much does Brivis repair typically cost?", acceptedAnswer: { "@type": "Answer", text: "Pilot Light/Ignition: $120-220. Heat Exchanger: $150-250. Thermostat: $150-280. Gas Valve: $200-350. Emergency after-hours: +$50-100." } },
+                { "@type": "Question", name: "What are common Brivis repair issues?", acceptedAnswer: { "@type": "Answer", text: "Common issues include pilot light problems, thermostat failures, heat exchanger issues, and gas valve problems. Our certified technicians diagnose and repair all Brivis heating systems efficiently." } },
                 { "@type": "Question", name: "Is my old Brivis still worth repairing?", acceptedAnswer: { "@type": "Answer", text: "Usually yes. Brivis systems are built to last. If repair cost is less than 50% of replacement, repair is typically worthwhile." } },
                 { "@type": "Question", name: "Do you have genuine Brivis parts in stock?", acceptedAnswer: { "@type": "Answer", text: "Yes. We stock common Brivis parts. For less common components, we order with typical 24-48 hour delivery." } },
                 { "@type": "Question", name: "What's included in annual Brivis service?", acceptedAnswer: { "@type": "Answer", text: "Annual service includes safety inspection, ignition check, heat exchanger cleaning, burner inspection, gas pressure test, and full system checkout. Cost: $120-200." } },
@@ -306,12 +306,12 @@ export default function BrivisPage() {
                     <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Brivis has decades of reputation for durable, cost-effective heating systems. Their robust build quality, proven ignition systems, and straightforward design make them one of Australia's most reliable brands. Many Brivis systems run 20+ years with proper maintenance.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
-                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How much does Brivis repair typically cost?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Pilot Light/Ignition:</strong> $120-220. <strong>Heat Exchanger Service:</strong> $150-250. <strong>Thermostat:</strong> $150-280. <strong>Gas Valve:</strong> $200-350. <strong>Emergency after-hours:</strong> +$50-100. We always quote before starting work.</p></div>
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What are common Brivis repair issues?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Common issues include pilot light problems, thermostat failures, heat exchanger scaling, and gas valve issues. Our certified technicians diagnose and repair all Brivis heating systems efficiently with genuine parts.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Is my old Brivis still worth repairing?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Usually yes. Brivis systems are built to last, and parts are affordable. If repair cost is less than 50% of replacement, repair is typically worthwhile. We'll advise honestly on repair vs. replacement options.</p></div>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Brivis systems are built to last. Many reliable systems run 20+ years with proper maintenance. Our technicians evaluate your system and provide expert advice on repair vs. replacement options.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Do you have genuine Brivis parts in stock?<span className="text-xl">+</span></summary>

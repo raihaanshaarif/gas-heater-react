@@ -31,9 +31,9 @@ export const commonGasHeaterFAQs = [
       "Most gas heater repairs take 1-3 hours depending on the issue. Simple repairs like thermostat adjustments take 30 minutes, while component replacements may take 2-3 hours. We offer same-day emergency service across all Melbourne suburbs, with most emergency calls resolved within 24 hours.",
   },
   {
-    question: "What is the cost of emergency gas heater repair in Melbourne?",
+    question: "Is emergency gas heater repair available in Melbourne?",
     answer:
-      "Emergency gas heater repair costs in Melbourne range from $150-$600 depending on the issue. Service call fee is $120, with additional charges for parts and labor. We provide free quotes and transparent pricing. For suburb-specific pricing in your area, contact us for an assessment.",
+      "Yes, we provide 24/7 emergency gas heater repair service across all Melbourne suburbs. Emergency calls receive same-day response, with most issues resolved immediately. We dispatch licensed VBA technicians for urgent repairs. Contact our emergency line at 0405 133 761 for immediate assistance.",
   },
   {
     question: "Is my gas heater covered by warranty in Melbourne?",

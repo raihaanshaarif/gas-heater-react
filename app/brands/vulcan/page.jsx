@@ -42,7 +42,7 @@ export default function VulcanPage() {
               "@type": "FAQPage",
               mainEntity: [
                 { "@type": "Question", name: "Is Vulcan good for commercial heating?", acceptedAnswer: { "@type": "Answer", text: "Yes, Vulcan specializes in heavy-duty commercial and industrial heating systems. Designed for continuous operation in demanding environments." } },
-                { "@type": "Question", name: "What's typical Vulcan commercial repair cost?", acceptedAnswer: { "@type": "Answer", text: "Commercial diagnostics: $150-250. Ignition Module: $200-300. Commercial valve: $300-450. Heat exchanger: $250-400. After-hours: +$100-200." } },
+                { "@type": "Question", name: "What are common Vulcan commercial heating problems?", acceptedAnswer: { "@type": "Answer", text: "Common commercial issues include ignition failures in high-use environments, valve problems under pressure, heat exchanger blockages, and control system malfunctions. Our technicians specialize in commercial Vulcan repairs." } },
                 { "@type": "Question", name: "How long does a Vulcan commercial system last?", acceptedAnswer: { "@type": "Answer", text: "Well-maintained Vulcan systems last 15-20+ years. With regular servicing and prompt repairs, lifespan extends to 25 years." } },
                 { "@type": "Question", name: "Do you service Vulcan commercial systems?", acceptedAnswer: { "@type": "Answer", text: "Yes, we're experienced with Vulcan commercial and industrial systems. We understand critical nature of commercial heating." } },
                 { "@type": "Question", name: "What's included in Vulcan commercial maintenance?", acceptedAnswer: { "@type": "Answer", text: "Maintenance includes full inspection, heat exchanger cleaning, burner service, ignition testing, gas pressure verification, and safety certification." } },
@@ -309,8 +309,8 @@ export default function VulcanPage() {
                     <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, Vulcan specializes in heavy-duty commercial and industrial heating systems. Designed for durability and continuous operation in demanding environments. Popular for commercial properties, workshops, and industrial applications requiring reliable, robust heating.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
-                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's typical Vulcan commercial repair cost?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Commercial diagnostics:</strong> $150-250. <strong>Ignition Module:</strong> $200-300. <strong>Commercial valve:</strong> $300-450. <strong>Heat exchanger service:</strong> $250-400. <strong>After-hours emergency:</strong> +$100-200. Commercial service prioritizes rapid response.</p></div>
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What are common Vulcan commercial heating problems?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Common commercial issues include ignition failures in high-use environments, valve problems under pressure, heat exchanger blockages, and control system malfunctions. Our technicians specialize in commercial Vulcan repairs with rapid response.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How long does a Vulcan commercial system last?<span className="text-xl">+</span></summary>
@@ -376,28 +376,28 @@ export default function VulcanPage() {
                   </table>
                 </div>
 
-                <h3 className="ttsubtitle ttsubtitle__top">Vulcan Commercial Repair Costs & Pricing</h3>
+                <h3 className="ttsubtitle ttsubtitle__top">Our Vulcan Commercial Service Commitment</h3>
                 <div className="grid md:grid-cols-2 gap-4 my-8">
                   <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                    <h4 className="font-bold text-green-900 mb-3">Common Commercial Repairs</h4>
+                    <h4 className="font-bold text-green-900 mb-3">Professional Repairs</h4>
                     <ul className="text-sm text-green-800 space-y-2">
-                      <li><strong>Commercial Diagnostics:</strong> $150-250</li>
-                      <li><strong>Ignition Module:</strong> $200-300</li>
-                      <li><strong>Commercial Valve:</strong> $300-450</li>
-                      <li><strong>Heat Exchanger:</strong> $250-400</li>
-                      <li><strong>Burner Service:</strong> $150-300</li>
-                      <li><strong>Emergency After-Hours:</strong> +$100-200</li>
+                      <li>✓ Commercial certified technicians</li>
+                      <li>✓ Priority emergency response</li>
+                      <li>✓ Genuine Vulcan parts</li>
+                      <li>✓ Minimal downtime approach</li>
+                      <li>✓ Full diagnostics included</li>
+                      <li>✓ Commercial warranty available</li>
                     </ul>
                   </div>
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                    <h4 className="font-bold text-blue-900 mb-3">Commercial Services</h4>
+                    <h4 className="font-bold text-blue-900 mb-3">Maintenance Programs</h4>
                     <ul className="text-sm text-blue-800 space-y-2">
-                      <li><strong>Preventative Maintenance:</strong> $250-500/mo</li>
-                      <li><strong>Annual Compliance Inspection:</strong> $200-400</li>
-                      <li><strong>System Commissioning:</strong> $400-800</li>
-                      <li><strong>Performance Optimization:</strong> $300-600</li>
-                      <li><strong>Downtime Priority Response:</strong> $100-200 premium</li>
-                      <li><strong>Commercial warranty available</strong></li>
+                      <li>✓ Preventative maintenance programs</li>
+                      <li>✓ Annual compliance inspections</li>
+                      <li>✓ System optimization service</li>
+                      <li>✓ 24/7 emergency support</li>
+                      <li>✓ Performance monitoring</li>
+                      <li>✓ Commercial fleet support</li>
                     </ul>
                   </div>
                 </div>
