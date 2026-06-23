@@ -277,6 +277,127 @@ export default function BraemarPage() {
                   </div>
                 </div>
 
+                <h3 className="ttsubtitle ttsubtitle__top">Braemar WiFi Heating FAQs</h3>
+                <div className="space-y-3 my-8">
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What does MyClimate WiFi mean?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Braemar MyClimate is a WiFi-enabled smart heating control system. You can monitor and adjust your heating remotely via smartphone app, set temperature schedules, and receive alerts from anywhere. It's a premium feature that provides convenience and energy savings.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How much does Braemar WiFi module repair cost?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>WiFi Module Repair:</strong> $150-250 (diagnostic + repair). <strong>WiFi Module Replacement:</strong> $300-450 (includes new module + installation + app setup). <strong>Emergency after-hours:</strong> Add $50-100 callout fee. We provide quotes before work starts.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Why isn't MyClimate app connecting?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Common causes: WiFi module offline, network issues, app needs update, WiFi password changed, or module hardware failure. We diagnose the issue quickly and fix it. Most connectivity problems are resolved same-day with a technician visit or remote support.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you repair my Braemar if warranty is expired?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, absolutely. We repair all Braemar systems regardless of warranty status. We'll provide transparent pricing upfront. If warranty can still cover parts, we'll help you claim it with the manufacturer.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's the lifespan of a Braemar WiFi heating system?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Braemar heating systems typically last 15-20 years with proper maintenance. WiFi modules may need replacement after 8-10 years. Regular annual servicing extends system life significantly and prevents breakdowns.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Do you service all Braemar models?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, we service all Braemar models including MyClimate WiFi, older non-WiFi models, and commercial systems. Whether it's instant heat, continuous flow, or storage systems, our technicians have expertise with every model.</p></div>
+                  </details>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Braemar vs Other Brands Comparison</h3>
+                <div className="overflow-x-auto my-8">
+                  <table className="w-full border-collapse text-sm">
+                    <thead>
+                      <tr className="bg-blue-100">
+                        <th className="border border-gray-300 p-2 text-left font-bold">Feature</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Braemar</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Rinnai</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Brivis</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">WiFi Control</td>
+                        <td className="border border-gray-300 p-2">MyClimate app ✓</td>
+                        <td className="border border-gray-300 p-2">Limited options</td>
+                        <td className="border border-gray-300 p-2">Basic control</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Smart Scheduling</td>
+                        <td className="border border-gray-300 p-2">Advanced ✓</td>
+                        <td className="border border-gray-300 p-2">Basic</td>
+                        <td className="border border-gray-300 p-2">Basic</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Typical Lifespan</td>
+                        <td className="border border-gray-300 p-2">15-20 years ✓</td>
+                        <td className="border border-gray-300 p-2">12-18 years</td>
+                        <td className="border border-gray-300 p-2">10-15 years</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Energy Efficiency</td>
+                        <td className="border border-gray-300 p-2">Excellent ✓</td>
+                        <td className="border border-gray-300 p-2">Very Good</td>
+                        <td className="border border-gray-300 p-2">Good</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Repair Availability</td>
+                        <td className="border border-gray-300 p-2">Widely available ✓</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Braemar Repair Costs & Pricing</h3>
+                <div className="grid md:grid-cols-2 gap-4 my-8">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
+                    <ul className="text-sm text-green-800 space-y-2">
+                      <li><strong>Pilot Light Issue:</strong> $120-180</li>
+                      <li><strong>Ignition Module:</strong> $180-280</li>
+                      <li><strong>WiFi Module Repair:</strong> $150-250</li>
+                      <li><strong>Thermostat Replacement:</strong> $200-350</li>
+                      <li><strong>Gas Valve Repair:</strong> $250-400</li>
+                      <li><strong>Emergency Callout Fee:</strong> $50-100 (after-hours)</li>
+                    </ul>
+                  </div>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <h4 className="font-bold text-blue-900 mb-3">Installation Services</h4>
+                    <ul className="text-sm text-blue-800 space-y-2">
+                      <li><strong>New System Installation:</strong> $1,500-3,000</li>
+                      <li><strong>WiFi Module Add-on:</strong> $400-600</li>
+                      <li><strong>System Upgrade:</strong> $800-1,500</li>
+                      <li><strong>Annual Service:</strong> $150-250</li>
+                      <li><strong>Filter/Part Replacement:</strong> $50-150</li>
+                      <li><strong>All prices include labor + parts</strong></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Advanced Braemar Troubleshooting</h3>
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 my-8">
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Braemar Won't Light</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Diagnosis:</strong> Check pilot light (should be steady blue flame). If out, press ignition button 5-6 times. If still out after 30 seconds, stop and call us.</p>
+                      <p className="text-sm text-yellow-800"><strong>Common causes:</strong> Dirty pilot orifice, faulty ignition module, or gas supply issue. We fix most within one visit.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">MyClimate App Disconnects Frequently</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>First step:</strong> Restart your WiFi router (turn off 30 seconds, turn back on). Move router closer to heating system if possible.</p>
+                      <p className="text-sm text-yellow-800"><strong>If problem persists:</strong> WiFi module may need update or replacement. Our technicians can diagnose and fix remotely or with a visit.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">System Cycles On/Off Constantly</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Likely issues:</strong> Thermostat malfunction, airlock in system, or gas pressure problem. Don't ignore this – it wastes energy and stresses the system.</p>
+                      <p className="text-sm text-yellow-800"><strong>Action:</strong> Call us for immediate diagnosis. Most cycling issues are fixable same-day.</p>
+                    </div>
+                  </div>
+                </div>
+
                 <PromoLayout
                   dataText="Emergency Braemar smart heating repair Melbourne! WiFi problems? MyClimate not working? Available 24/7 with smart heating specialists. Call now!"
                   dataScrImg="/images/services/promo01-img01.png"

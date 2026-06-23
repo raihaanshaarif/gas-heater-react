@@ -281,6 +281,127 @@ export default function BrivisPage() {
                   </div>
                 </div>
 
+                <h3 className="ttsubtitle ttsubtitle__top">Brivis Gas Heater FAQs</h3>
+                <div className="space-y-3 my-8">
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What makes Brivis heaters reliable?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Brivis has decades of reputation for durable, cost-effective heating systems. Their robust build quality, proven ignition systems, and straightforward design make them one of Australia's most reliable brands. Many Brivis systems run 20+ years with proper maintenance.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How much does Brivis repair typically cost?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Pilot Light/Ignition:</strong> $120-220. <strong>Heat Exchanger Service:</strong> $150-250. <strong>Thermostat:</strong> $150-280. <strong>Gas Valve:</strong> $200-350. <strong>Emergency after-hours:</strong> +$50-100. We always quote before starting work.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Is my old Brivis still worth repairing?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Usually yes. Brivis systems are built to last, and parts are affordable. If repair cost is less than 50% of replacement, repair is typically worthwhile. We'll advise honestly on repair vs. replacement options.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Do you have genuine Brivis parts in stock?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes. We stock common Brivis parts including ignition modules, thermostats, gas valves, and thermistors. For less common components, we order from suppliers with typical 24-48 hour delivery. Emergency repairs often completed same-day.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's included in annual Brivis service?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Annual service includes: Safety inspection, ignition check, heat exchanger cleaning, burner inspection, gas pressure test, temperature calibration, and full system checkout. Cost: $120-200. Extends system life and prevents failures.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you install a new Brivis system?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, we're licensed to install Brivis systems. Full installation includes: system selection, ductwork design, gas line installation, electrical connection, safety testing, and compliance certification. We guide you on the right system for your home size and budget.</p></div>
+                  </details>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Brivis vs Other Brands Comparison</h3>
+                <div className="overflow-x-auto my-8">
+                  <table className="w-full border-collapse text-sm">
+                    <thead>
+                      <tr className="bg-blue-100">
+                        <th className="border border-gray-300 p-2 text-left font-bold">Feature</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Brivis</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Rinnai</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Braemar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Price</td>
+                        <td className="border border-gray-300 p-2">Most affordable ✓</td>
+                        <td className="border border-gray-300 p-2">Higher</td>
+                        <td className="border border-gray-300 p-2">Mid-range</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Reliability</td>
+                        <td className="border border-gray-300 p-2">Proven track record ✓</td>
+                        <td className="border border-gray-300 p-2">Excellent</td>
+                        <td className="border border-gray-300 p-2">Excellent</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Service Parts Cost</td>
+                        <td className="border border-gray-300 p-2">Budget-friendly ✓</td>
+                        <td className="border border-gray-300 p-2">Moderate</td>
+                        <td className="border border-gray-300 p-2">Moderate</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Typical Lifespan</td>
+                        <td className="border border-gray-300 p-2">10-15 years</td>
+                        <td className="border border-gray-300 p-2">12-18 years</td>
+                        <td className="border border-gray-300 p-2">15-20 years ✓</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Parts Availability</td>
+                        <td className="border border-gray-300 p-2">Easy to find ✓</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Brivis Repair Costs & Pricing</h3>
+                <div className="grid md:grid-cols-2 gap-4 my-8">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
+                    <ul className="text-sm text-green-800 space-y-2">
+                      <li><strong>Pilot Light/Ignition:</strong> $120-220</li>
+                      <li><strong>Ignition Module:</strong> $150-250</li>
+                      <li><strong>Heat Exchanger Service:</strong> $150-250</li>
+                      <li><strong>Thermostat Replacement:</strong> $150-280</li>
+                      <li><strong>Gas Valve Repair:</strong> $200-350</li>
+                      <li><strong>Emergency Callout:</strong> $50-100 (after-hours)</li>
+                    </ul>
+                  </div>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <h4 className="font-bold text-blue-900 mb-3">Installation Services</h4>
+                    <ul className="text-sm text-blue-800 space-y-2">
+                      <li><strong>New System Installation:</strong> $1,200-2,200</li>
+                      <li><strong>System Replacement:</strong> $1,500-2,500</li>
+                      <li><strong>System Upgrade:</strong> $800-1,400</li>
+                      <li><strong>Annual Service:</strong> $120-200</li>
+                      <li><strong>Burner Cleaning:</strong> $80-150</li>
+                      <li><strong>All prices include labor + parts</strong></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Advanced Brivis Troubleshooting</h3>
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 my-8">
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Brivis Pilot Light Won't Stay Lit</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Common causes:</strong> Dirty pilot orifice, faulty thermocouple, or weak ignition spark. Check if flame is steady blue – if it's yellow/orange, orifice needs cleaning.</p>
+                      <p className="text-sm text-yellow-800"><strong>Action:</strong> We clean the orifice or replace thermocouple. Usually $120-180. Don't let this persist – it prevents heating.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Brivis Making Whistling or Whistling Sound</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>This indicates:</strong> Air in the heat exchanger, scale buildup, or airlock in gas line. Not an emergency but needs attention soon.</p>
+                      <p className="text-sm text-yellow-800"><strong>Solution:</strong> Heat exchanger flush or airlock bleed. Cost $80-150. Prevents reduced heating efficiency.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Brivis Not Heating Enough</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Check first:</strong> Is thermostat set correctly? Is air filter clean? Is burner flame blue (not orange)?</p>
+                      <p className="text-sm text-yellow-800"><strong>If still weak:</strong> Heat exchanger may need cleaning or burner adjustment. Call us for quick diagnosis – usually a simple service ($80-150).</p>
+                    </div>
+                  </div>
+                </div>
+
                 <PromoLayout
                   dataText="Emergency Brivis gas heater repair Melbourne! Reliable service with 30+ years experience. Available 24/7 with certified technicians and genuine parts. Call now!"
                   dataScrImg="/images/services/promo01-img01.png"

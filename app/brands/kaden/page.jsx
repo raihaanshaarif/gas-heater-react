@@ -205,6 +205,127 @@ export default function KadenPage() {
                   </div>
                 </div>
 
+                <h3 className="ttsubtitle ttsubtitle__top">Kaden Gas Heater FAQs</h3>
+                <div className="space-y-3 my-8">
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Is Kaden a reliable heating brand?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Kaden offers good value heating systems with solid reliability record. While budget-focused, Kaden systems are straightforward and durable. Popular choice for homeowners seeking cost-effective heating without premium pricing.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What does Kaden heater repair usually cost?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Pilot/Ignition:</strong> $100-170. <strong>Ignition Module:</strong> $130-220. <strong>Thermostat:</strong> $120-240. <strong>Gas Valve:</strong> $170-280. <strong>Emergency after-hours:</strong> +$50-100. Upfront quotes always provided before work.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How long will my Kaden system last?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Properly maintained Kaden systems typically last 10-15 years. Well-cared-for units can reach 18-20 years. Annual servicing and prompt repairs are key to longevity.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Are Kaden parts available?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes. While Kaden is no longer manufactured, parts remain available through suppliers. Common components like ignition modules and thermostats are readily sourced. We can fix any Kaden system same-day or next-day.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Should I repair or replace my Kaden?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">If repair cost is under 50% of replacement, repair is worth it. For systems 15+ years old with multiple issues, replacement may be more economical long-term. We provide honest recommendations.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you service Kaden models?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, we service all Kaden models. Our technicians have extensive experience with Kaden systems and maintain technical knowledge for all models. We can diagnose and fix virtually any Kaden heating issue.</p></div>
+                  </details>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Kaden vs Other Brands Comparison</h3>
+                <div className="overflow-x-auto my-8">
+                  <table className="w-full border-collapse text-sm">
+                    <thead>
+                      <tr className="bg-blue-100">
+                        <th className="border border-gray-300 p-2 text-left font-bold">Feature</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Kaden</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Pyrox</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Brivis</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Budget Option</td>
+                        <td className="border border-gray-300 p-2">Very affordable ✓</td>
+                        <td className="border border-gray-300 p-2">Very affordable</td>
+                        <td className="border border-gray-300 p-2">Affordable</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Still Manufactured</td>
+                        <td className="border border-gray-300 p-2">No</td>
+                        <td className="border border-gray-300 p-2">No</td>
+                        <td className="border border-gray-300 p-2">Yes ✓</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Legacy Support</td>
+                        <td className="border border-gray-300 p-2">Yes ✓</td>
+                        <td className="border border-gray-300 p-2">Yes ✓</td>
+                        <td className="border border-gray-300 p-2">N/A</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Repair Affordability</td>
+                        <td className="border border-gray-300 p-2">Very good ✓</td>
+                        <td className="border border-gray-300 p-2">Very good ✓</td>
+                        <td className="border border-gray-300 p-2">Good</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Typical Lifespan</td>
+                        <td className="border border-gray-300 p-2">10-15 years</td>
+                        <td className="border border-gray-300 p-2">10-15 years</td>
+                        <td className="border border-gray-300 p-2">10-15 years</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Kaden Repair Costs & Pricing</h3>
+                <div className="grid md:grid-cols-2 gap-4 my-8">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
+                    <ul className="text-sm text-green-800 space-y-2">
+                      <li><strong>Pilot/Ignition Repair:</strong> $100-170</li>
+                      <li><strong>Ignition Module:</strong> $130-220</li>
+                      <li><strong>Thermostat:</strong> $120-240</li>
+                      <li><strong>Gas Valve:</strong> $170-280</li>
+                      <li><strong>Heat Exchanger:</strong> $100-180</li>
+                      <li><strong>Emergency Callout:</strong> $50-100 (after-hours)</li>
+                    </ul>
+                  </div>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <h4 className="font-bold text-blue-900 mb-3">Services</h4>
+                    <ul className="text-sm text-blue-800 space-y-2">
+                      <li><strong>Annual Service:</strong> $100-170</li>
+                      <li><strong>Burner Cleaning:</strong> $80-120</li>
+                      <li><strong>Filter Replacement:</strong> $50-100</li>
+                      <li><strong>Safety Check:</strong> $70-100</li>
+                      <li><strong>Diagnostics:</strong> $80-130 (often waived with repair)</li>
+                      <li><strong>All prices include labor + parts</strong></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Advanced Kaden Troubleshooting</h3>
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 my-8">
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Kaden Won't Light Up</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Check:</strong> Gas supply on? Pilot light on? Try ignition button 5-6 times, wait 30 seconds.</p>
+                      <p className="text-sm text-yellow-800"><strong>If still no light:</strong> Ignition module or spark electrode likely faulty ($130-220). Quick diagnosis by phone or visit.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Kaden Pilot Light Keeps Extinguishing</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Common causes:</strong> Dirty orifice, weak thermocouple, or draft problems. Blue flame is normal – yellow/orange means orifice needs cleaning.</p>
+                      <p className="text-sm text-yellow-800"><strong>Fix:</strong> Orifice cleaning ($80-120) or thermocouple replacement ($100-170). Important to fix promptly.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Kaden Not Heating Properly</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Check first:</strong> Is filter clean? Is burner flame blue? Is thermostat adjusted? Low gas pressure reduces output.</p>
+                      <p className="text-sm text-yellow-800"><strong>Service:</strong> Gas pressure adjustment, burner cleaning, or flame adjustment ($80-150). Call for quick diagnosis.</p>
+                    </div>
+                  </div>
+                </div>
+
                 <PromoLayout
                   dataText="Get a free Kaden gas heater quote with professional installation and comprehensive warranty coverage!"
                   dataScrImg="/images/services/promo01-img01.png"

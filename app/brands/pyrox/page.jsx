@@ -208,6 +208,127 @@ export default function PyroxPage() {
                   </div>
                 </div>
 
+                <h3 className="ttsubtitle ttsubtitle__top">Pyrox Gas Heater FAQs</h3>
+                <div className="space-y-3 my-8">
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Is Pyrox a good budget heater?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, Pyrox offers excellent value for budget-conscious buyers. While not premium-feature-rich, Pyrox systems are reliable, straightforward to operate, and cost-effective to repair. Great for families looking for dependable heating without premium pricing.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's typical Pyrox repair pricing?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Pilot/Ignition Repair:</strong> $100-170. <strong>Ignition Module:</strong> $130-210. <strong>Thermostat:</strong> $120-240. <strong>Gas Valve:</strong> $170-280. <strong>Emergency after-hours:</strong> +$50-100. We always provide quotes upfront.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How long should a Pyrox heater last?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">With proper maintenance, Pyrox systems typically last 10-15 years. Some well-maintained units reach 18-20 years. Annual servicing and prompt repairs significantly extend lifespan.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Are Pyrox parts still available?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes. While Pyrox is no longer manufactured, parts remain available through suppliers. Common components like ignition modules and thermostats are readily sourced. We can typically fix any Pyrox system same-day or next-day.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">When should I replace vs repair my Pyrox?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">If repair cost is under 50% of new system cost, repair is worth it. However, if system is 15+ years old and multiple issues arise, replacement may be more economical. We provide honest recommendations based on age and condition.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you service all Pyrox models?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, we service all Pyrox models regardless of age. Our technicians have extensive experience with Pyrox systems and maintain knowledge of all models. We can diagnose and fix virtually any Pyrox heating issue.</p></div>
+                  </details>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Pyrox vs Other Brands Comparison</h3>
+                <div className="overflow-x-auto my-8">
+                  <table className="w-full border-collapse text-sm">
+                    <thead>
+                      <tr className="bg-blue-100">
+                        <th className="border border-gray-300 p-2 text-left font-bold">Feature</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Pyrox</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Bonaire</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Brivis</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Price</td>
+                        <td className="border border-gray-300 p-2">Very budget ✓</td>
+                        <td className="border border-gray-300 p-2">Budget</td>
+                        <td className="border border-gray-300 p-2">Affordable</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Still Manufactured</td>
+                        <td className="border border-gray-300 p-2">No</td>
+                        <td className="border border-gray-300 p-2">Yes ✓</td>
+                        <td className="border border-gray-300 p-2">Yes ✓</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Parts Availability</td>
+                        <td className="border border-gray-300 p-2">Legacy support ✓</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Repair Cost</td>
+                        <td className="border border-gray-300 p-2">Very affordable ✓</td>
+                        <td className="border border-gray-300 p-2">Affordable</td>
+                        <td className="border border-gray-300 p-2">Affordable</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Typical Lifespan</td>
+                        <td className="border border-gray-300 p-2">10-15 years</td>
+                        <td className="border border-gray-300 p-2">12-18 years</td>
+                        <td className="border border-gray-300 p-2">10-15 years</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Pyrox Repair Costs & Pricing</h3>
+                <div className="grid md:grid-cols-2 gap-4 my-8">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
+                    <ul className="text-sm text-green-800 space-y-2">
+                      <li><strong>Pilot/Ignition Repair:</strong> $100-170</li>
+                      <li><strong>Ignition Module:</strong> $130-210</li>
+                      <li><strong>Thermostat:</strong> $120-240</li>
+                      <li><strong>Gas Valve:</strong> $170-280</li>
+                      <li><strong>Heat Exchanger Service:</strong> $100-180</li>
+                      <li><strong>Emergency Callout:</strong> $50-100 (after-hours)</li>
+                    </ul>
+                  </div>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <h4 className="font-bold text-blue-900 mb-3">Services</h4>
+                    <ul className="text-sm text-blue-800 space-y-2">
+                      <li><strong>Annual Service:</strong> $100-170</li>
+                      <li><strong>Burner Cleaning:</strong> $80-120</li>
+                      <li><strong>Filter Replacement:</strong> $50-100</li>
+                      <li><strong>Safety Inspection:</strong> $70-100</li>
+                      <li><strong>Diagnostics:</strong> $80-130 (often waived with repair)</li>
+                      <li><strong>All prices include labor + parts</strong></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Advanced Pyrox Troubleshooting</h3>
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 my-8">
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Pyrox Won't Ignite</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Check first:</strong> Is gas supply on? Is pilot light lit? Press ignition button 5-6 times and wait 30 seconds.</p>
+                      <p className="text-sm text-yellow-800"><strong>If still won't light:</strong> Likely ignition module or spark electrode issue ($130-210). Call us for quick diagnosis.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Pyrox Pilot Light Keeps Going Out</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Common causes:</strong> Dirty pilot orifice, weak thermocouple, or draft issues. Check if flame is steady blue – if yellow/orange, needs cleaning.</p>
+                      <p className="text-sm text-yellow-800"><strong>Solution:</strong> Orifice cleaning ($80-120) or thermocouple replacement ($100-170). Quick fix, don't delay.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Pyrox Reduced Heating Output</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Check:</strong> Is filter clean? Burner flame blue? Thermostat set correctly? Low gas pressure can cause reduced output.</p>
+                      <p className="text-sm text-yellow-800"><strong>Service needed:</strong> Gas pressure adjustment, burner cleaning, or flame electrode replacement ($80-150). Call for quick diagnosis.</p>
+                    </div>
+                  </div>
+                </div>
+
                 <PromoLayout
                   dataText="Get a free Pyrox gas heater quote with professional installation and comprehensive warranty coverage!"
                   dataScrImg="/images/services/promo01-img01.png"

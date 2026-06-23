@@ -249,6 +249,127 @@ export default function BonairePage() {
                   </div>
                 </div>
 
+                <h3 className="ttsubtitle ttsubtitle__top">Bonaire Gas Heater FAQs</h3>
+                <div className="space-y-3 my-8">
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Why is Bonaire heating popular in Australia?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Bonaire is an Australian-owned brand trusted for decades. Known for reliable, affordable heating with straightforward design, easy maintenance, and good spare parts availability. Great value for budget-conscious homeowners without compromising quality.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How much does Bonaire heater repair cost?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Pilot Light/Ignition:</strong> $100-180. <strong>Ignition Module:</strong> $140-220. <strong>Heat Exchanger Service:</strong> $120-200. <strong>Thermostat:</strong> $120-250. <strong>Emergency after-hours:</strong> +$50-100. Upfront quotes always provided.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Are Bonaire parts easy to find?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, very. Bonaire is still well-supported with parts readily available from suppliers. We stock common components like ignition modules, thermostats, and pilots. Most repairs completed same-day or next-day.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Is my old Bonaire heater still worth repairing?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Usually yes. Bonaire systems are built tough and parts are affordable. If repair cost is under 50% of replacement, repair is best option. We provide honest advice on repair vs. replacement based on system age and condition.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's the typical lifespan of a Bonaire?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Bonaire systems typically last 12-18 years with regular maintenance. Some well-maintained units run 20+ years. Annual servicing and prompt repairs extend system life significantly.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you help with Bonaire warranty claims?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes. If your Bonaire is still under warranty, we'll work with the manufacturer to claim covered repairs. If warranty has expired, we provide transparent pricing on all repairs with competitive rates.</p></div>
+                  </details>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Bonaire vs Other Brands Comparison</h3>
+                <div className="overflow-x-auto my-8">
+                  <table className="w-full border-collapse text-sm">
+                    <thead>
+                      <tr className="bg-blue-100">
+                        <th className="border border-gray-300 p-2 text-left font-bold">Feature</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Bonaire</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Brivis</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Rinnai</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Price Point</td>
+                        <td className="border border-gray-300 p-2">Budget-friendly ✓</td>
+                        <td className="border border-gray-300 p-2">Affordable</td>
+                        <td className="border border-gray-300 p-2">Premium</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Australian Made</td>
+                        <td className="border border-gray-300 p-2">Originally ✓</td>
+                        <td className="border border-gray-300 p-2">No</td>
+                        <td className="border border-gray-300 p-2">No</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Repair Cost</td>
+                        <td className="border border-gray-300 p-2">Very affordable ✓</td>
+                        <td className="border border-gray-300 p-2">Affordable</td>
+                        <td className="border border-gray-300 p-2">Higher</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Reliability</td>
+                        <td className="border border-gray-300 p-2">Proven ✓</td>
+                        <td className="border border-gray-300 p-2">Proven</td>
+                        <td className="border border-gray-300 p-2">Excellent</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Spare Parts</td>
+                        <td className="border border-gray-300 p-2">Readily available ✓</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Bonaire Repair Costs & Pricing</h3>
+                <div className="grid md:grid-cols-2 gap-4 my-8">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
+                    <ul className="text-sm text-green-800 space-y-2">
+                      <li><strong>Pilot Light/Ignition:</strong> $100-180</li>
+                      <li><strong>Ignition Module:</strong> $140-220</li>
+                      <li><strong>Heat Exchanger Service:</strong> $120-200</li>
+                      <li><strong>Thermostat:</strong> $120-250</li>
+                      <li><strong>Gas Valve Repair:</strong> $180-300</li>
+                      <li><strong>Emergency Callout:</strong> $50-100 (after-hours)</li>
+                    </ul>
+                  </div>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <h4 className="font-bold text-blue-900 mb-3">Installation Services</h4>
+                    <ul className="text-sm text-blue-800 space-y-2">
+                      <li><strong>New System Installation:</strong> $1,100-2,000</li>
+                      <li><strong>System Replacement:</strong> $1,400-2,300</li>
+                      <li><strong>System Upgrade:</strong> $700-1,300</li>
+                      <li><strong>Annual Service:</strong> $100-180</li>
+                      <li><strong>Burner Inspection:</strong> $80-120</li>
+                      <li><strong>All prices include labor + parts</strong></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Advanced Bonaire Troubleshooting</h3>
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 my-8">
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Bonaire Pilot Light Issues</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Check:</strong> Pilot flame should be steady, blue cone (1-1.5 inches). If yellow/orange or flickering, pilot orifice needs cleaning.</p>
+                      <p className="text-sm text-yellow-800"><strong>Cost to fix:</strong> $100-150 for cleaning or thermocouple replacement. Don't delay – pilot failures prevent heating.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Bonaire Noisy Operation</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Common noises:</strong> Banging, whistling, or grinding usually indicates scale buildup, airlock, or loose components.</p>
+                      <p className="text-sm text-yellow-800"><strong>Solution:</strong> Heat exchanger flush ($120-200) or component tightening ($80-120). Get it checked to prevent damage.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Bonaire Not Reaching Temperature</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>First steps:</strong> Check filter cleanliness, thermostat setting, and whether burner flame is blue.</p>
+                      <p className="text-sm text-yellow-800"><strong>If still weak:</strong> May need gas pressure adjustment, burner cleaning, or heat exchanger service. Call us for diagnosis – usually $80-180.</p>
+                    </div>
+                  </div>
+                </div>
+
                 <PromoLayout
                   dataText="Emergency Bonaire gas heater repair Melbourne! Available 24/7 with certified technicians, genuine parts, and same-day service. Don't freeze - call now!"
                   dataScrImg="/images/services/promo01-img01.png"

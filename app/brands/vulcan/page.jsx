@@ -284,6 +284,127 @@ export default function VulcanPage() {
                   </div>
                 </div>
 
+                <h3 className="ttsubtitle ttsubtitle__top">Vulcan Gas Heater FAQs</h3>
+                <div className="space-y-3 my-8">
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Is Vulcan good for commercial heating?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, Vulcan specializes in heavy-duty commercial and industrial heating systems. Designed for durability and continuous operation in demanding environments. Popular for commercial properties, workshops, and industrial applications requiring reliable, robust heating.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's typical Vulcan commercial repair cost?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Commercial diagnostics:</strong> $150-250. <strong>Ignition Module:</strong> $200-300. <strong>Commercial valve:</strong> $300-450. <strong>Heat exchanger service:</strong> $250-400. <strong>After-hours emergency:</strong> +$100-200. Commercial service prioritizes rapid response.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How long does a Vulcan commercial system last?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Well-maintained Vulcan commercial systems last 15-20+ years. With regular servicing, inspections, and prompt repairs, lifespan can extend to 25 years. Heavy-duty construction means longevity with proper care.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Do you service Vulcan commercial systems?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, we're experienced with Vulcan commercial and industrial systems. We understand the critical nature of commercial heating and provide priority service with minimal downtime. Same-day repairs often possible.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's included in Vulcan commercial maintenance?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Commercial maintenance includes: Full system inspection, heat exchanger cleaning, burner service, ignition testing, gas pressure verification, safety certification, and performance optimization. Cost varies by system size. Prevents downtime and extends system life.</p></div>
+                  </details>
+                  <details className="group border border-gray-300 rounded-lg">
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can you do emergency Vulcan service for my business?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Absolutely. We understand business continuity is critical. We offer 24/7 emergency commercial service with priority dispatch. We'll get your heating back online ASAP to minimize business disruption. Call now for emergency support.</p></div>
+                  </details>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Vulcan vs Other Commercial Brands Comparison</h3>
+                <div className="overflow-x-auto my-8">
+                  <table className="w-full border-collapse text-sm">
+                    <thead>
+                      <tr className="bg-blue-100">
+                        <th className="border border-gray-300 p-2 text-left font-bold">Feature</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Vulcan</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Rinnai Commercial</th>
+                        <th className="border border-gray-300 p-2 text-left font-bold">Brivis</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Commercial Focus</td>
+                        <td className="border border-gray-300 p-2">Heavy-duty specialist ✓</td>
+                        <td className="border border-gray-300 p-2">Industrial capable</td>
+                        <td className="border border-gray-300 p-2">Residential/Light Commercial</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Durability</td>
+                        <td className="border border-gray-300 p-2">Extreme ✓</td>
+                        <td className="border border-gray-300 p-2">Very High</td>
+                        <td className="border border-gray-300 p-2">High</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Uptime Reliability</td>
+                        <td className="border border-gray-300 p-2">99%+ ✓</td>
+                        <td className="border border-gray-300 p-2">Very high</td>
+                        <td className="border border-gray-300 p-2">High</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Typical Lifespan</td>
+                        <td className="border border-gray-300 p-2">15-20+ years ✓</td>
+                        <td className="border border-gray-300 p-2">12-18 years</td>
+                        <td className="border border-gray-300 p-2">10-15 years</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="border border-gray-300 p-2 font-semibold">Emergency Service</td>
+                        <td className="border border-gray-300 p-2">Priority available ✓</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                        <td className="border border-gray-300 p-2">Available</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Vulcan Commercial Repair Costs & Pricing</h3>
+                <div className="grid md:grid-cols-2 gap-4 my-8">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <h4 className="font-bold text-green-900 mb-3">Common Commercial Repairs</h4>
+                    <ul className="text-sm text-green-800 space-y-2">
+                      <li><strong>Commercial Diagnostics:</strong> $150-250</li>
+                      <li><strong>Ignition Module:</strong> $200-300</li>
+                      <li><strong>Commercial Valve:</strong> $300-450</li>
+                      <li><strong>Heat Exchanger:</strong> $250-400</li>
+                      <li><strong>Burner Service:</strong> $150-300</li>
+                      <li><strong>Emergency After-Hours:</strong> +$100-200</li>
+                    </ul>
+                  </div>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <h4 className="font-bold text-blue-900 mb-3">Commercial Services</h4>
+                    <ul className="text-sm text-blue-800 space-y-2">
+                      <li><strong>Preventative Maintenance:</strong> $250-500/mo</li>
+                      <li><strong>Annual Compliance Inspection:</strong> $200-400</li>
+                      <li><strong>System Commissioning:</strong> $400-800</li>
+                      <li><strong>Performance Optimization:</strong> $300-600</li>
+                      <li><strong>Downtime Priority Response:</strong> $100-200 premium</li>
+                      <li><strong>Commercial warranty available</strong></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <h3 className="ttsubtitle ttsubtitle__top">Advanced Vulcan Commercial Troubleshooting</h3>
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 my-8">
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Vulcan Commercial System Down</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Action:</strong> Call immediately for priority emergency dispatch. Check for error codes on control panel. Note any strange sounds or smells.</p>
+                      <p className="text-sm text-yellow-800"><strong>Response time:</strong> We prioritize commercial downtime – typically 30-60 minutes in Melbourne CBD. Most commercial failures fixable same-day.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Reduced Output in Commercial System</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Check first:</strong> Is burner flame steady and blue? Are intake vents clear? Is heat exchanger clean? Commercial systems with reduced output still need attention.</p>
+                      <p className="text-sm text-yellow-800"><strong>Service:</strong> Heat exchanger cleaning, burner adjustment, or pressure verification ($150-300). Important for maintaining efficiency and avoiding complete failure.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-yellow-900 mb-2">Vulcan Cycling or Intermittent Operation</h4>
+                      <p className="text-sm text-yellow-800 mb-2"><strong>Risk:</strong> Intermittent operation affects business heating and can stress components. Do NOT ignore or work around the issue.</p>
+                      <p className="text-sm text-yellow-800"><strong>Action:</strong> Call for immediate diagnostic. Likely thermostat malfunction, gas pressure issue, or control board problem ($200-400). We'll stabilize system quickly.</p>
+                    </div>
+                  </div>
+                </div>
+
                 <PromoLayout
                   dataText="Emergency Vulcan commercial heating repair Melbourne! Business priority service with heavy-duty specialists. Available 24/7 for commercial applications. Call now!"
                   dataScrImg="/images/services/promo01-img01.png"
