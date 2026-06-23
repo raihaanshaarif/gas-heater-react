@@ -72,6 +72,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 1,
     },
+    // Hot Water Systems (New High-Value Service)
+    {
+      url: `${baseUrl}/hot-water-systems/`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
     // Residential Services
     {
       url: `${baseUrl}/services/services__residential/gas-heater-installation/`,
