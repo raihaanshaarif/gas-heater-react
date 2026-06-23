@@ -7,6 +7,7 @@ import SectionTitle from "../../_components/Common/SectionTitle";
 import LogoPartners from "../../_components/Common/LogoPartners";
 //Import Layout
 import Image from "next/image";
+import Script from "next/script";
 import PromoLayout from "../../_components/ServicesSubPages/PromoLayout";
 import ListWithTitle from "../../_components/Common/ListWithTitle";
 import Link from "next/link";
@@ -21,11 +22,48 @@ import { ComercialListData } from "../../_components/ServicesCommercial/Comercia
 import { dataServicesInclude } from "../../_components/ServicesCommercial/ServicesIncludeData";
 import imageLayout from "../../../public/images/services/services_img02.jpg";
 
+// SEO Metadata
+export const metadata = {
+  title: "Commercial Gas Heater Services Melbourne | Business Heating Solutions",
+  description: "Commercial gas heater services for businesses in Melbourne. Installation, repairs, maintenance for offices, retail, industrial. 24/7 emergency support. Call 0405133761.",
+  keywords: "commercial gas heater, business heating solutions, commercial hvac melbourne, industrial gas heating, office heating service",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/services/services__commercial/",
+  },
+};
+
 //Page Layout
 export default function ServicesCommercial() {
   return (
-    <>
-      <PageTitle dataTitle="Commercial Gas Heating Services" />
+    <>      <Script
+        id="commercial-rating-schema"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Commercial Gas Heater Services",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Gas Heater Service Melbourne",
+              "url": "https://gasheaterservicemelbourne.com.au",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "127",
+                "bestRating": "5",
+                "worstRating": "1"
+              }
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Melbourne"
+            },
+            "description": "Commercial gas heater installation, repair, and maintenance services for businesses across Melbourne."
+          })
+        }}
+      />      <PageTitle dataTitle="Commercial Gas Heating Services" />
       <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
         <div className="section__indent">
           <div className="container container__fluid-xl">

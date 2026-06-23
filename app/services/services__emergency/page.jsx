@@ -12,6 +12,8 @@ import PromoAside from "../../_components/ServicesSubPages/PromoAside";
 import BoxListAside from "../../_components/ServicesSubPages/BoxListAside";
 import FormAside from "../../_components/ServicesSubPages/FormAside";
 import ServicesListAside from "../../_components/ServicesSubPages/ServicesListAside";
+//Import Layout
+import Script from "next/script";
 //Import Data
 import { ReasonsListData } from "../../_components/Services/AsideReasonsListData";
 import { EmergencyListData } from "../../_components/ServicesEmergency/EmergencyListData";
@@ -33,8 +35,33 @@ export const metadata = {
 //Page Layout
 export default function ServicesEmergency() {
   return (
-    <>
-      <PageTitle dataTitle="Emergency Gas Heater Services" />
+    <>      <Script
+        id="emergency-rating-schema"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EmergencyService",
+            "name": "24/7 Emergency Gas Heater Repair",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Gas Heater Service Melbourne",
+              "url": "https://gasheaterservicemelbourne.com.au",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "127",
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "telephone": "+61 405 133 761",
+              "areaServed": { "@type": "City", "name": "Melbourne" }
+            },
+            "description": "24/7 emergency gas heater repair service. Same-day emergency response, carbon monoxide testing, gas safety inspections."
+          })
+        }}
+      />      <PageTitle dataTitle="Emergency Gas Heater Services" />
       <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
         <div className="section__indent">
           <div className="container container__fluid-xl">

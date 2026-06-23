@@ -7,6 +7,7 @@ import SectionTitle from "../../_components/Common/SectionTitle";
 import LogoPartners from "../../_components/Common/LogoPartners";
 //Import Layout
 import Image from "next/image";
+import Script from "next/script";
 import PromoLayout from "../../_components/ServicesSubPages/PromoLayout";
 import ListWithTitle from "../../_components/Common/ListWithTitle";
 import Link from "next/link";
@@ -20,10 +21,50 @@ import { ReasonsListData } from "../../_components/Services/AsideReasonsListData
 import { ServicesListData } from "../../_components/ServicesResidential/ServicesListData";
 import { dataServicesInclude } from "../../_components/ServicesResidential/ServicesIncludeData";
 import imageLayout from "../../../public/images/services/services_img03.jpg";
+
+// SEO Metadata
+export const metadata = {
+  title: "Residential Gas Heater Services Melbourne | Installation & Repair",
+  description: "Professional residential gas heater services in Melbourne. Installation, repairs, maintenance & emergencies. VBA licensed technicians, same-day service. Call 0405133761.",
+  keywords: "residential gas heater repair, gas heater installation melbourne, home heating service, gas heating melbourne, residential hvac",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/services/services__residential/",
+  },
+};
+
 //Page Layout
 export default function ServicesResidential() {
   return (
     <>
+      <Script
+        id="residential-rating-schema"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Residential Gas Heater Services",
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Gas Heater Service Melbourne",
+              "url": "https://gasheaterservicemelbourne.com.au",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "127",
+                "bestRating": "5",
+                "worstRating": "1"
+              }
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Melbourne"
+            },
+            "description": "Professional residential gas heater installation, repair, and maintenance services across all Melbourne suburbs."
+          })
+        }}
+      />
       <PageTitle dataTitle="Residential Gas Heater Services" />
       <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
         <div className="section__indent">
