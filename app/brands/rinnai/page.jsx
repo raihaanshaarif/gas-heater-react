@@ -6,6 +6,7 @@ import SectionTitle from "../../_components/Common/SectionTitle";
 import LogoPartners from "../../_components/Common/LogoPartners";
 //Import Layout
 import Image from "next/image";
+import Script from "next/script";
 import Link from "next/link";
 import PromoLayout from "../../_components/ServicesSubPages/PromoLayout";
 //Import Aside
@@ -31,6 +32,31 @@ export const metadata = {
 export default function RinnaiPage() {
   return (
     <>
+      <Script
+        id="rinnai-rating-schema"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Brand",
+            "name": "Rinnai Gas Heater",
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "Rinnai",
+              "url": "https://rinnai.com.au"
+            },
+            "review": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "127",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "description": "Professional Rinnai gas heater repair, installation and maintenance services in Melbourne"
+          })
+        }}
+      />
       <PageTitle dataTitle="Rinnai Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
         {/* FAQ Schema for Rich Snippets */}
