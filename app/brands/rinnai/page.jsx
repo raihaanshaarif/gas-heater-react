@@ -33,6 +33,24 @@ export default function RinnaiPage() {
     <>
       <PageTitle dataTitle="Rinnai Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
+        {/* FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                { "@type": "Question", name: "What is continuous flow heating?", acceptedAnswer: { "@type": "Answer", text: "Rinnai continuous flow provides hot water on-demand without a storage tank. Water is heated instantly as you use it, saving space and energy compared to traditional storage systems." } },
+                { "@type": "Question", name: "How much does Rinnai ignition repair cost?", acceptedAnswer: { "@type": "Answer", text: "Ignition Module Repair: $180-280. Ignition Electrode Replacement: $120-200. Full System Diagnostics: $100-150 (often waived with repair). Emergency after-hours adds $50-100." } },
+                { "@type": "Question", name: "Why is my Rinnai making strange noises?", acceptedAnswer: { "@type": "Answer", text: "Grinding, whistling, or banging sounds indicate problems. Common causes: air in pipes, burner scaling, or heat exchanger issues. Call us for diagnosis." } },
+                { "@type": "Question", name: "How long does a Rinnai system last?", acceptedAnswer: { "@type": "Answer", text: "Well-maintained Rinnai systems typically last 12-18 years. Some reach 20+ years. Annual servicing is key to longevity." } },
+                { "@type": "Question", name: "Can you repair my older Rinnai model?", acceptedAnswer: { "@type": "Answer", text: "Yes, we service all Rinnai models from 10+ years old to latest releases. If repair isn't viable, we recommend cost-effective replacements." } },
+                { "@type": "Question", name: "What does an annual Rinnai service include?", acceptedAnswer: { "@type": "Answer", text: "Annual service includes safety inspection, heat exchanger flush, burner cleaning, temperature calibration, pressure testing, and full system check. Cost: $150-250." } }
+              ]
+            }),
+          }}
+        />
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">

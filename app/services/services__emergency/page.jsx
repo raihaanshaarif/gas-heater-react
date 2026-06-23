@@ -152,6 +152,64 @@ export default function ServicesEmergency() {
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
+
+                {/* Emergency Service FAQs */}
+                <div className="mt-[40px]">
+                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">24/7 Emergency Gas Heater FAQs</h3>
+                  <div className="space-y-[12px]">
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">What do I do if I smell gas?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Evacuate immediately without using electrical switches or phones. Call 000 from outside. Never return until emergency services clear the building.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">How quickly can you respond to emergencies?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">We aim for same-day response in most Metro Melbourne areas, typically 30-60 minutes. Call 0405 133 761 for your specific location.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Is emergency service more expensive?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Emergency callout fees may apply depending on time and location. We provide transparent quotes before work starts. No hidden surprises.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Are you available nights and weekends?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Yes, 24/7/365. Emergencies don't take weekends or holidays off. We're always available when you need us.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Can you fix it in one visit?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Most emergencies are fixed same-visit. If not possible, we'll advise on options and arrange urgent follow-up service.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">What if my warranty is expired?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">We still repair your system. We provide honest assessments and work with manufacturers if warranty can be honored.</p>
+                    </details>
+                  </div>
+                </div>
+
+                {/* Emergency Service Costs */}
+                <div className="mt-[40px] mb-[40px]">
+                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Emergency Gas Heater Service Pricing</h3>
+                  <div className="grid md:grid-cols-2 gap-[20px]">
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Emergency Repairs</h4>
+                      <ul className="space-y-[8px] text-[14px]">
+                        <li className="flex justify-between"><span>24/7 Callout Fee</span> <span className="font-bold">$50-100</span></li>
+                        <li className="flex justify-between"><span>Emergency Diagnostics</span> <span className="font-bold">$100-150</span></li>
+                        <li className="flex justify-between"><span>Quick Fix</span> <span className="font-bold">$150-300</span></li>
+                        <li className="flex justify-between"><span>Complex Repair</span> <span className="font-bold">$300-500+</span></li>
+                        <li className="flex justify-between"><span>After-Hours Surcharge</span> <span className="font-bold">+$50-100</span></li>
+                      </ul>
+                    </div>
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Emergency Response</h4>
+                      <ul className="space-y-[8px] text-[14px]">
+                        <li className="flex justify-between"><span>Same-Day Response</span> <span className="font-bold">Typical</span></li>
+                        <li className="flex justify-between"><span>Night Response</span> <span className="font-bold">Available</span></li>
+                        <li className="flex justify-between"><span>Weekend Service</span> <span className="font-bold">Available</span></li>
+                        <li className="flex justify-between"><span>Holiday Service</span> <span className="font-bold">Available</span></li>
+                        <li className="flex justify-between"><span>Temporary Heating</span> <span className="font-bold">Can Arrange</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 className={`${styles.aside__wrapper} lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}

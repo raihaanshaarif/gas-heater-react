@@ -21,6 +21,24 @@ export default function EmergencyGasHeaterRepair() {
     <>
       <PageTitle dataTitle="24/7 Emergency Gas Heater Repair Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
+        {/* FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                { "@type": "Question", name: "What do I do if I smell gas?", acceptedAnswer: { "@type": "Answer", text: "Do NOT use electrical switches, lighters, or phones. Evacuate immediately and call 000 from outside. Gas leaks are serious safety emergencies." } },
+                { "@type": "Question", name: "How quickly can you respond to an emergency?", acceptedAnswer: { "@type": "Answer", text: "We aim for same-day response in most Metro Melbourne suburbs (typically 30-60 minutes). Response times vary by location. Call 0405 133 761 for confirmation." } },
+                { "@type": "Question", name: "Is emergency repair more expensive?", acceptedAnswer: { "@type": "Answer", text: "Emergency call-out fees may apply depending on time and location. We provide a transparent quote before work starts. No hidden fees ever." } },
+                { "@type": "Question", name: "Do you work on public holidays and weekends?", acceptedAnswer: { "@type": "Answer", text: "Yes, we're available 24/7/365 including all public holidays, weekends, and nights. Emergencies don't take days off." } },
+                { "@type": "Question", name: "Can you fix my heater in one visit?", acceptedAnswer: { "@type": "Answer", text: "Most emergency repairs are completed same-visit. If not possible, we'll advise on replacement options and arrange follow-up service urgently." } },
+                { "@type": "Question", name: "What if my warranty is void?", acceptedAnswer: { "@type": "Answer", text: "We still repair your system. We'll work with your manufacturer if warranty can be honored, and provide transparent pricing if it can't." } }
+              ]
+            }),
+          }}
+        />
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">

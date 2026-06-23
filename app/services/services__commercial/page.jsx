@@ -434,6 +434,64 @@ export default function ServicesCommercial() {
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
+
+                {/* Commercial Service FAQs */}
+                <div className="mt-[40px]">
+                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Commercial Gas Heating FAQs</h3>
+                  <div className="space-y-[12px]">
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Why is regular commercial heating maintenance important?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Regular maintenance prevents unexpected breakdowns that disrupt operations, ensures compliance with safety standards, extends equipment life, and maintains energy efficiency.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Do you service all building types?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Yes. We service offices, retail spaces, warehouses, schools, hospitals, restaurants, hotels, and other commercial facilities with specialized heating systems.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Can you do emergency commercial repairs?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Absolutely. Commercial emergencies are our priority. We offer 24/7 emergency response with priority dispatch to minimize business disruption.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Do you provide compliance certifications?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Yes, all commercial work includes proper compliance certification meeting WorkSafe Victoria and building code requirements.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">What are typical commercial heating costs?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Commercial diagnostics: $150-300. Repairs: $200-500+. Maintenance contracts: Custom pricing. We provide detailed quotes after assessment.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Can you design a maintenance program for our business?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Yes. We customize maintenance programs based on your equipment age, usage, and budget to keep your systems running smoothly.</p>
+                    </details>
+                  </div>
+                </div>
+
+                {/* Commercial Service Costs */}
+                <div className="mt-[40px] mb-[40px]">
+                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Commercial Gas Heater Service Pricing</h3>
+                  <div className="grid md:grid-cols-2 gap-[20px]">
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Common Commercial Repairs</h4>
+                      <ul className="space-y-[8px] text-[14px]">
+                        <li className="flex justify-between"><span>Diagnostics</span> <span className="font-bold">$150-300</span></li>
+                        <li className="flex justify-between"><span>Ignition Fault</span> <span className="font-bold">$200-350</span></li>
+                        <li className="flex justify-between"><span>Gas Valve</span> <span className="font-bold">$250-400</span></li>
+                        <li className="flex justify-between"><span>Control Board</span> <span className="font-bold">$300-450</span></li>
+                        <li className="flex justify-between"><span>Heat Exchanger</span> <span className="font-bold">$350-550</span></li>
+                      </ul>
+                    </div>
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Commercial Services</h4>
+                      <ul className="space-y-[8px] text-[14px]">
+                        <li className="flex justify-between"><span>Planned Maintenance</span> <span className="font-bold">$200-400/visit</span></li>
+                        <li className="flex justify-between"><span>Annual Inspection</span> <span className="font-bold">$250-400</span></li>
+                        <li className="flex justify-between"><span>Emergency After-Hours</span> <span className="font-bold">+$100-200</span></li>
+                        <li className="flex justify-between"><span>Maintenance Contract</span> <span className="font-bold">Custom</span></li>
+                        <li className="flex justify-between"><span>24/7 Priority Response</span> <span className="font-bold">Available</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div
                 className={`${styles.aside__wrapper} lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}

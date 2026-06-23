@@ -33,6 +33,24 @@ export default function KadenPage() {
     <>
       <PageTitle dataTitle="Kaden Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
+        {/* FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                { "@type": "Question", name: "Is Kaden a reliable heating brand?", acceptedAnswer: { "@type": "Answer", text: "Kaden offers good value heating systems with solid reliability record. Budget-focused with straightforward design and durability." } },
+                { "@type": "Question", name: "What does Kaden heater repair usually cost?", acceptedAnswer: { "@type": "Answer", text: "Pilot/Ignition: $100-170. Ignition Module: $130-220. Thermostat: $120-240. Gas Valve: $170-280. Emergency: +$50-100." } },
+                { "@type": "Question", name: "How long will my Kaden system last?", acceptedAnswer: { "@type": "Answer", text: "Properly maintained Kaden systems typically last 10-15 years. Well-cared-for units can reach 18-20 years." } },
+                { "@type": "Question", name: "Are Kaden parts available?", acceptedAnswer: { "@type": "Answer", text: "Yes. While Kaden is no longer manufactured, parts remain available. Common components readily sourced." } },
+                { "@type": "Question", name: "Should I repair or replace my Kaden?", acceptedAnswer: { "@type": "Answer", text: "If repair cost is under 50% of replacement, repair is worth it. For systems 15+ years old with multiple issues, replacement may be more economical." } },
+                { "@type": "Question", name: "Can you service Kaden models?", acceptedAnswer: { "@type": "Answer", text: "Yes, we service all Kaden models. Our technicians have extensive experience and technical knowledge for all models." } }
+              ]
+            }),
+          }}
+        />
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">

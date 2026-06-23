@@ -33,6 +33,24 @@ export default function VulcanPage() {
     <>
       <PageTitle dataTitle="Vulcan Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
+        {/* FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                { "@type": "Question", name: "Is Vulcan good for commercial heating?", acceptedAnswer: { "@type": "Answer", text: "Yes, Vulcan specializes in heavy-duty commercial and industrial heating systems. Designed for continuous operation in demanding environments." } },
+                { "@type": "Question", name: "What's typical Vulcan commercial repair cost?", acceptedAnswer: { "@type": "Answer", text: "Commercial diagnostics: $150-250. Ignition Module: $200-300. Commercial valve: $300-450. Heat exchanger: $250-400. After-hours: +$100-200." } },
+                { "@type": "Question", name: "How long does a Vulcan commercial system last?", acceptedAnswer: { "@type": "Answer", text: "Well-maintained Vulcan systems last 15-20+ years. With regular servicing and prompt repairs, lifespan extends to 25 years." } },
+                { "@type": "Question", name: "Do you service Vulcan commercial systems?", acceptedAnswer: { "@type": "Answer", text: "Yes, we're experienced with Vulcan commercial and industrial systems. We understand critical nature of commercial heating." } },
+                { "@type": "Question", name: "What's included in Vulcan commercial maintenance?", acceptedAnswer: { "@type": "Answer", text: "Maintenance includes full inspection, heat exchanger cleaning, burner service, ignition testing, gas pressure verification, and safety certification." } },
+                { "@type": "Question", name: "Can you do emergency Vulcan service for my business?", acceptedAnswer: { "@type": "Answer", text: "Absolutely. We offer 24/7 emergency commercial service with priority dispatch to minimize business disruption." } }
+              ]
+            }),
+          }}
+        />
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">

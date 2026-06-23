@@ -33,6 +33,66 @@ export default function BraemarPage() {
     <>
       <PageTitle dataTitle="Braemar Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
+        {/* FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "What does MyClimate WiFi mean?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Braemar MyClimate is a WiFi-enabled smart heating control system. You can monitor and adjust your heating remotely via smartphone app, set temperature schedules, and receive alerts from anywhere."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "How much does Braemar WiFi module repair cost?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "WiFi Module Repair: $150-250 (diagnostic + repair). WiFi Module Replacement: $300-450 (includes new module + installation + app setup). Emergency after-hours: Add $50-100 callout fee."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "Why isn't MyClimate app connecting?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Common causes: WiFi module offline, network issues, app needs update, WiFi password changed, or module hardware failure. We diagnose the issue quickly and fix it. Most connectivity problems resolved same-day."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "Can you repair my Braemar if warranty is expired?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Yes, absolutely. We repair all Braemar systems regardless of warranty status. We'll provide transparent pricing upfront. If warranty can still cover parts, we'll help you claim it."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "What's the lifespan of a Braemar WiFi heating system?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Braemar systems typically last 15-20 years with proper maintenance. WiFi modules may need replacement after 8-10 years. Regular annual servicing extends system life significantly."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "Do you service all Braemar models?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Yes, we service all Braemar models including MyClimate WiFi, older non-WiFi models, and commercial systems. Our technicians have expertise with every model."
+                  }
+                }
+              ]
+            }),
+          }}
+        />
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">

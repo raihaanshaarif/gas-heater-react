@@ -33,6 +33,24 @@ export default function BrivisPage() {
     <>
       <PageTitle dataTitle="Brivis Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
+        {/* FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                { "@type": "Question", name: "What makes Brivis heaters reliable?", acceptedAnswer: { "@type": "Answer", text: "Brivis has decades of reputation for durable, cost-effective systems. Robust build quality and straightforward design make them reliable. Many systems run 20+ years with proper maintenance." } },
+                { "@type": "Question", name: "How much does Brivis repair typically cost?", acceptedAnswer: { "@type": "Answer", text: "Pilot Light/Ignition: $120-220. Heat Exchanger: $150-250. Thermostat: $150-280. Gas Valve: $200-350. Emergency after-hours: +$50-100." } },
+                { "@type": "Question", name: "Is my old Brivis still worth repairing?", acceptedAnswer: { "@type": "Answer", text: "Usually yes. Brivis systems are built to last. If repair cost is less than 50% of replacement, repair is typically worthwhile." } },
+                { "@type": "Question", name: "Do you have genuine Brivis parts in stock?", acceptedAnswer: { "@type": "Answer", text: "Yes. We stock common Brivis parts. For less common components, we order with typical 24-48 hour delivery." } },
+                { "@type": "Question", name: "What's included in annual Brivis service?", acceptedAnswer: { "@type": "Answer", text: "Annual service includes safety inspection, ignition check, heat exchanger cleaning, burner inspection, gas pressure test, and full system checkout. Cost: $120-200." } },
+                { "@type": "Question", name: "Can you install a new Brivis system?", acceptedAnswer: { "@type": "Answer", text: "Yes, we're licensed to install Brivis systems. We guide you on the right system for your home size and budget." } }
+              ]
+            }),
+          }}
+        />
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">

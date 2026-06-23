@@ -21,6 +21,24 @@ export default function GasWaterHeaterServices() {
     <>
       <PageTitle dataTitle="Gas Water Heater Repair & Installation Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
+        {/* FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                { "@type": "Question", name: "How much does gas water heater repair cost?", acceptedAnswer: { "@type": "Answer", text: "Common repairs range $80-$350. Diagnostics: $70-150. Thermostat: $100-180. Gas valve: $150-280. Pilot light: $80-150. We provide upfront quotes before starting work." } },
+                { "@type": "Question", name: "What's the lifespan of a gas water heater?", acceptedAnswer: { "@type": "Answer", text: "Properly maintained units typically last 10-15 years. Some reach 20 years. Regular servicing and prompt repairs extend lifespan significantly." } },
+                { "@type": "Question", name: "Can you repair all water heater brands?", acceptedAnswer: { "@type": "Answer", text: "Yes, we service all brands including Rinnai, Bosch, Rheem, Dux, Aqua Max, Thermann, Vulcan, Kaden, Pyrox, Braemar, Brivis, Bonaire, and others." } },
+                { "@type": "Question", name: "What's included in water heater installation?", acceptedAnswer: { "@type": "Answer", text: "Full installation includes system selection, gas line installation, electrical connection, safety testing, compliance certification, and complete system check." } },
+                { "@type": "Question", name: "Do you provide emergency water heater service?", acceptedAnswer: { "@type": "Answer", text: "Yes, we provide 24/7 emergency service for water heater failures across all Melbourne. Same-day repairs often possible." } },
+                { "@type": "Question", name: "When should I replace vs repair my water heater?", acceptedAnswer: { "@type": "Answer", text: "If repair cost is under 50% of replacement and system is under 12 years old, repair makes sense. Systems 15+ years old with multiple issues should be replaced." } }
+              ]
+            }),
+          }}
+        />
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">

@@ -431,6 +431,64 @@ export default function ServicesResidential() {
                   dataScrImg="../images/services/promo01-img01.png"
                   dataScrImg2="../images/services/promo01-img01.webp"
                 />
+
+                {/* Residential Service FAQs */}
+                <div className="mt-[40px]">
+                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Residential Gas Heater Service FAQs</h3>
+                  <div className="space-y-[12px]">
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">How often should I service my residential gas heater?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Professional servicing is recommended annually, ideally before winter. This prevents breakdowns during peak heating season.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Can you service all home types?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Yes! We service houses, apartments, townhouses, rental properties, and renovations. Every home heating system is different - we're experienced with them all.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">What if I rent my home?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Landlords are legally required to maintain working heating systems. We provide landlord-friendly service documentation and invoicing for maintenance records.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Do you help with new home heating systems?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Absolutely. We help you choose the right system for your home size and budget, then handle professional installation with full safety certification.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">How much does residential service cost?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Service calls: $80-150. Annual servicing: $120-250. Repairs: $100-350 depending on issue. We provide free quotes before any work starts.</p>
+                    </details>
+                    <details className="group border border-[#e2e8f4] rounded-[8px] p-[16px] cursor-pointer">
+                      <summary className="font-bold text-[16px] text-[#092a66]">Do you offer emergency residential service?</summary>
+                      <p className="mt-[12px] text-[14px] text-[#555]">Yes, 24/7 emergency service. When your heating fails in winter, we're here to help. Many emergency repairs completed same-day across Melbourne suburbs.</p>
+                    </details>
+                  </div>
+                </div>
+
+                {/* Residential Service Costs */}
+                <div className="mt-[40px] mb-[40px]">
+                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Residential Gas Heater Service Pricing Guide</h3>
+                  <div className="grid md:grid-cols-2 gap-[20px]">
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Common Repairs</h4>
+                      <ul className="space-y-[8px] text-[14px]">
+                        <li className="flex justify-between"><span>Pilot Light Service</span> <span className="font-bold">$80-150</span></li>
+                        <li className="flex justify-between"><span>Ignition Module</span> <span className="font-bold">$120-220</span></li>
+                        <li className="flex justify-between"><span>Thermostat</span> <span className="font-bold">$100-200</span></li>
+                        <li className="flex justify-between"><span>Gas Valve</span> <span className="font-bold">$150-280</span></li>
+                        <li className="flex justify-between"><span>Heat Exchanger</span> <span className="font-bold">$150-280</span></li>
+                      </ul>
+                    </div>
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Service &amp; Installation</h4>
+                      <ul className="space-y-[8px] text-[14px]">
+                        <li className="flex justify-between"><span>Annual Service</span> <span className="font-bold">$120-250</span></li>
+                        <li className="flex justify-between"><span>System Diagnosis</span> <span className="font-bold">$70-150</span></li>
+                        <li className="flex justify-between"><span>New Installation</span> <span className="font-bold">$1,500-3,500</span></li>
+                        <li className="flex justify-between"><span>Emergency After-Hours</span> <span className="font-bold">+$50-100</span></li>
+                        <li className="flex justify-between"><span>Same-Day Service</span> <span className="font-bold">Available</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

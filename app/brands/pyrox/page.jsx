@@ -33,6 +33,24 @@ export default function PyroxPage() {
     <>
       <PageTitle dataTitle="Pyrox Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
+        {/* FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                { "@type": "Question", name: "Is Pyrox a good budget heater?", acceptedAnswer: { "@type": "Answer", text: "Yes, Pyrox offers excellent value for budget-conscious buyers. Reliable, straightforward, and cost-effective to repair." } },
+                { "@type": "Question", name: "What's typical Pyrox repair pricing?", acceptedAnswer: { "@type": "Answer", text: "Pilot/Ignition Repair: $100-170. Ignition Module: $130-210. Thermostat: $120-240. Gas Valve: $170-280. Emergency: +$50-100." } },
+                { "@type": "Question", name: "How long should a Pyrox heater last?", acceptedAnswer: { "@type": "Answer", text: "With proper maintenance, Pyrox systems typically last 10-15 years. Some well-maintained units reach 18-20 years." } },
+                { "@type": "Question", name: "Are Pyrox parts still available?", acceptedAnswer: { "@type": "Answer", text: "Yes. While Pyrox is no longer manufactured, parts remain available. Common components readily sourced." } },
+                { "@type": "Question", name: "When should I replace vs repair my Pyrox?", acceptedAnswer: { "@type": "Answer", text: "If repair cost is under 50% of new system, repair is worth it. For systems 15+ years old with multiple issues, replacement may be more economical." } },
+                { "@type": "Question", name: "Can you service all Pyrox models?", acceptedAnswer: { "@type": "Answer", text: "Yes, we service all Pyrox models. Our technicians have expertise and maintain technical knowledge for all models." } }
+              ]
+            }),
+          }}
+        />
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">

@@ -33,6 +33,24 @@ export default function BonairePage() {
     <>
       <PageTitle dataTitle="Bonaire Gas Heater Repair & Service Melbourne" />
       <main id="tt-pageContent" className="overflow-hidden">
+        {/* FAQ Schema for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                { "@type": "Question", name: "Why is Bonaire heating popular in Australia?", acceptedAnswer: { "@type": "Answer", text: "Bonaire is Australian-owned and trusted for decades. Known for reliable, affordable heating with straightforward design, easy maintenance, and good parts availability." } },
+                { "@type": "Question", name: "How much does Bonaire heater repair cost?", acceptedAnswer: { "@type": "Answer", text: "Pilot Light/Ignition: $100-180. Ignition Module: $140-220. Heat Exchanger Service: $120-200. Thermostat: $120-250. Emergency: +$50-100." } },
+                { "@type": "Question", name: "Are Bonaire parts easy to find?", acceptedAnswer: { "@type": "Answer", text: "Yes, very. Bonaire is well-supported with parts readily available. We stock common components. Most repairs completed same-day or next-day." } },
+                { "@type": "Question", name: "Is my old Bonaire heater still worth repairing?", acceptedAnswer: { "@type": "Answer", text: "Usually yes. Bonaire systems are built tough. If repair cost is under 50% of replacement, repair is best option." } },
+                { "@type": "Question", name: "What's the typical lifespan of a Bonaire?", acceptedAnswer: { "@type": "Answer", text: "Bonaire systems typically last 12-18 years with regular maintenance. Some well-maintained units run 20+ years." } },
+                { "@type": "Question", name: "Can you help with Bonaire warranty claims?", acceptedAnswer: { "@type": "Answer", text: "Yes. If your Bonaire is under warranty, we'll work with the manufacturer. If warranty expired, we provide transparent pricing." } }
+              ]
+            }),
+          }}
+        />
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
