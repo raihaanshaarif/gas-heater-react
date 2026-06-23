@@ -52,6 +52,7 @@ export default function Home() {
             email: "nihaanexpertise@gmail.com",
             address: {
               "@type": "PostalAddress",
+              streetAddress: "Melbourne, Victoria",
               addressLocality: "Melbourne",
               addressRegion: "Victoria",
               addressCountry: "Australia",
@@ -70,14 +71,6 @@ export default function Home() {
                 "@type": "State",
                 name: "Victoria",
               },
-            ],
-            serviceType: [
-              "Gas Heater Repair",
-              "Gas Heater Installation",
-              "Gas Heater Maintenance",
-              "Emergency Gas Heater Service",
-              "Gas Leak Detection",
-              "Carbon Monoxide Testing",
             ],
             priceRange: "$$",
             openingHours: ["Mo-Su 00:00-23:59"],
@@ -159,12 +152,6 @@ export default function Home() {
               name: "Emergency Gas Heater Repair Melbourne",
               description:
                 "24/7 emergency gas heater repair service available throughout Melbourne. Same-day service and immediate response for heating emergencies.",
-              provider: {
-                "@type": "LocalBusiness",
-                name: "Gas Heater Service Melbourne",
-                telephone: "0405133761",
-                email: "nihaanexpertise@gmail.com",
-              },
               areaServed: {
                 "@type": "City",
                 name: "Melbourne",
@@ -173,7 +160,7 @@ export default function Home() {
                   name: "Victoria",
                 },
               },
-              availableLanguage: "English",
+              inLanguage: "en-AU",
               telephone: "0405133761",
             }),
           }}
@@ -202,7 +189,6 @@ export default function Home() {
                 },
               },
               areaServed: "Melbourne",
-              serviceType: "Gas Heater Repair",
               category: "Home Services",
             }),
           }}

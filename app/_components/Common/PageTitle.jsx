@@ -16,9 +16,9 @@ const PageTitle = (props) => {
 				/>
 				<div className={`${styles.container__custom} container relative z-3`}>
 					{props.dataTitle ? (
-						<div className={styles.pageTitle__title}>
+						<h1 className={styles.pageTitle__title}>
 							{props.dataTitle}
-						</div>
+						</h1>
 					):null}
 					<ul className={`${styles.breadCrumbs} flex items-center flex-wrap unselectable`} aria-label="breadcrumb">
 						<li><Link href="/">Home</Link></li>

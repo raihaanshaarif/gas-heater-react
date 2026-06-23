@@ -6,7 +6,7 @@ const LayoutHolder = () => (
     <div
       className={`${styles.rowLayout} f-logo-layout text-center no-resize-text`}
     >
-      <a href="index.html" className={`${styles.fLogo} inline-flex`}>
+      <a href="/" className={`${styles.fLogo} inline-flex`}>
         <Image
           src="/images/f-logo.png"
           width={146}

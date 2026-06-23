@@ -70,6 +70,10 @@ RewriteRule ^(.+)$ /$1/ [R=301,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
+# Redirect /path/index.html to /path/
+
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+
 # Block .txt requests that don't exist to prevent 500 errors
 
 RewriteCond %{REQUEST_URI} !\.txt$
