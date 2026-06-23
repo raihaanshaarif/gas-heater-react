@@ -203,7 +203,7 @@ export default function EmergencyGasHeaterShutdowns() {
   return (
     <>
       <PageTitle dataTitle="Emergency Gas Heater Shutdowns Melbourne | 24/7 Safety Response" />
-      <main id="tt-pageContent" className="overflow-hidden">
+      <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
 
         {/* ═══════════════════════════════════════════════════════
             1. HERO — 24/7 Urgency

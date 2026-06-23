@@ -26,17 +26,38 @@ export default function ServicesCommercial() {
   return (
     <>
       <PageTitle dataTitle="Commercial Gas Heating Services" />
-      <main id="tt-pageContent" className="overflow-hidden">
+      <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
-                <SectionTitle
-                  dataSubtitle="commercial gas heating services"
-                  dataTitle="Professional Commercial Gas Heating Services Melbourne"
-                  dataMaxWidth="630px"
-                />
-                <div className="leading-none">
+                <div className="relative overflow-hidden rounded-[22px] border border-[#dbe5fb] bg-white/95 p-[24px] md:p-[30px] shadow-[0_22px_55px_rgba(14,47,116,0.12)] backdrop-blur-sm">
+                  <span className="absolute -right-[55px] -top-[55px] h-[150px] w-[150px] rounded-full bg-[#0f4fb3]/10" />
+                  <span className="absolute -left-[30px] -bottom-[65px] h-[130px] w-[130px] rounded-full bg-[#19a463]/10" />
+                  <SectionTitle
+                    dataSubtitle="commercial gas heating services"
+                    dataTitle="Professional Commercial Gas Heating Services Melbourne"
+                    dataMaxWidth="630px"
+                  />
+                  <div className="mt-[4px] grid gap-[10px] sm:grid-cols-3">
+                    {[
+                      { label: "Commercial Support", value: "24 / 7" },
+                      { label: "Compliance", value: "VIC Certified" },
+                      { label: "Response Speed", value: "Priority Dispatch" },
+                    ].map((item) => (
+                      <div
+                        key={item.label}
+                        className="rounded-[12px] border border-[#dfe8fb] bg-[#f6f9ff] px-[12px] py-[11px]"
+                      >
+                        <p className="mb-[2px] text-[11px] font-semibold uppercase tracking-[0.12em] text-[#46628f]">
+                          {item.label}
+                        </p>
+                        <p className="mb-0 text-[15px] font-bold text-[#092a66]">{item.value}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="mt-[20px] overflow-hidden rounded-[16px] border border-[#d7e2fb] leading-none shadow-[0_16px_38px_rgba(19,56,124,0.13)]">
                   <Image
                     src={imageLayout}
                     width={735}
@@ -58,8 +79,11 @@ export default function ServicesCommercial() {
                   From installation to emergency repairs, we deliver
                   comprehensive commercial gas heating services:
                 </p>
-                <div className="sm:flex sm:gap-[30px] mt-[20px]">
-                  <div className="sm:basis-1/2">
+                <div className="mt-[20px] grid gap-[12px] sm:grid-cols-2">
+                  <div className="rounded-[12px] border border-[#e2e8f4] bg-[#fafcff] p-[14px]">
+                    <p className="mb-[8px] text-[12px] font-bold uppercase tracking-[0.12em] text-[#3f5f97]">
+                      Commercial Sites
+                    </p>
                     <ul className="list__type1">
                       <li>Office Building Gas Heating</li>
                       <li>Warehouse Heating Systems</li>
@@ -69,7 +93,10 @@ export default function ServicesCommercial() {
                       <li>Medical Facility Heating</li>
                     </ul>
                   </div>
-                  <div className="sm:basis-1/2">
+                  <div className="rounded-[12px] border border-[#e2e8f4] bg-[#fafcff] p-[14px]">
+                    <p className="mb-[8px] text-[12px] font-bold uppercase tracking-[0.12em] text-[#3f5f97]">
+                      Service Coverage
+                    </p>
                     <ul className="list__type1">
                       <li>Hotel & Hospitality Heating</li>
                       <li>Educational Facility Heating</li>
@@ -81,7 +108,7 @@ export default function ServicesCommercial() {
                   </div>
                 </div>
                 {/* Commercial service cards */}
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-[30px] mt-[50px]">
+                <div className="mt-[50px] grid gap-[20px] sm:grid-cols-2 lg:grid-cols-3">
                   {[
                     {
                       id: 1,
@@ -263,7 +290,10 @@ export default function ServicesCommercial() {
                         "/services/services__commercial/emergency-gas-heater-repairs",
                     },
                   ].map(({ id, icon, title, text, list, btn__src }) => (
-                    <div key={id} className={`${cardStyles.item__holder}`}>
+                    <div
+                      key={id}
+                      className={`${cardStyles.item__holder} rounded-[14px] border border-[#dbe5fb] bg-white shadow-[0_14px_30px_rgba(20,47,89,0.08)] transition-transform duration-300 hover:-translate-y-[3px]`}
+                    >
                       <div className={`${cardStyles.item__icon}`}>
                         <svg
                           className={cardStyles.item__icon_bg}
@@ -408,25 +438,29 @@ export default function ServicesCommercial() {
               <div
                 className={`${styles.aside__wrapper} lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
-                <div>
+                <div className="rounded-[14px] border border-[#dbe5fb] bg-white p-[14px] shadow-[0_12px_28px_rgba(17,42,84,0.08)]">
                   <div className={`ttsubtitle`}>
                     Commercial Gas Heating Services
                   </div>
                   <ServicesListAside dataList={ComercialListData} />
                 </div>
-                <div>
+                <div className="mt-[14px] rounded-[14px] border border-[#dbe5fb] bg-white p-[14px] shadow-[0_12px_28px_rgba(17,42,84,0.08)]">
                   <div className={`ttsubtitle`}>Get Free Commercial Quote</div>
                   <FormAside />
                 </div>
-                <PromoAside
-                  dataTitle="Need Commercial Gas Heating?"
-                  dataText="Get a Free Business Quote Today"
-                  dataTelefon="0405 133 761"
-                />
-                <BoxListAside
-                  dataTitle={"6 Different Reasons \n You Should Choose Us"}
-                  dataList={ReasonsListData}
-                />
+                <div className="mt-[14px]">
+                  <PromoAside
+                    dataTitle="Need Commercial Gas Heating?"
+                    dataText="Get a Free Business Quote Today"
+                    dataTelefon="0405 133 761"
+                  />
+                </div>
+                <div className="mt-[14px] rounded-[14px] border border-[#dbe5fb] bg-white p-[12px] shadow-[0_12px_28px_rgba(17,42,84,0.08)]">
+                  <BoxListAside
+                    dataTitle={"6 Different Reasons \n You Should Choose Us"}
+                    dataList={ReasonsListData}
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -435,7 +469,7 @@ export default function ServicesCommercial() {
           className="section__inner bg-no-repeat bg-center lazyload"
           data-bg="../images/extra-bg01.png"
         >
-          <div className="container container__fluid-xl no-resize-text">
+          <div className="container container__fluid-xl no-resize-text rounded-[22px] border border-[#d9e4fa] bg-[linear-gradient(180deg,#f8fbff_0%,#f2f7ff_100%)] p-[20px] md:p-[28px]">
             <SectionTitle
               dataSubtitle="we work with"
               dataTitle="Our Partners"

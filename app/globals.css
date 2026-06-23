@@ -36,6 +36,79 @@
         -ms-text-size-adjust:  100%;
     }
 }
+
+/* Coverage modern system */
+.coverage-modern .section__indent > .container {
+    position: relative;
+}
+.coverage-modern .section__indent > .container:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 1px solid #dce5f7;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.92) 0%, rgba(247,250,255,0.92) 100%);
+    box-shadow: 0 18px 45px rgba(16, 42, 84, 0.08);
+    pointer-events: none;
+}
+.coverage-modern .section__indent > .container > .md\:flex {
+    position: relative;
+    z-index: 1;
+    padding: 24px;
+}
+.coverage-modern .ttsubtitle {
+    color: #0c2d6b;
+}
+.coverage-modern .ttsubtitle_sm {
+    color: #173d7b;
+}
+.coverage-modern details {
+    border-radius: 12px;
+    border: 1px solid #dbe4f5;
+    background: #ffffff;
+    box-shadow: 0 7px 20px rgba(20, 47, 89, 0.06);
+}
+.coverage-modern details summary {
+    color: #0c2d6b;
+}
+.coverage-modern .ttbox02 {
+    border-radius: 12px;
+    border: 1px solid #ffcfbe;
+    border-left: 4px solid #ff4917;
+    background: linear-gradient(135deg, #fff4f0 0%, #fffaf8 100%);
+}
+.coverage-modern .section__inner .container__fluid-xl {
+    border-radius: 22px;
+    border: 1px solid #d9e4fa;
+    background: linear-gradient(180deg, #f8fbff 0%, #f2f7ff 100%);
+    padding: 20px;
+}
+.coverage-modern .list__type1 li {
+    margin-bottom: 4px;
+}
+.coverage-modern .list__type1 a,
+.coverage-modern .list__type1 span {
+    display: inline-block;
+    border: 1px solid #dbe5f6;
+    background: #f8fbff;
+    color: #2b436f;
+    border-radius: 999px;
+    padding: 4px 11px;
+    line-height: 1.35;
+}
+@media (max-width: 1024px) {
+    .coverage-modern .section__indent > .container > .md\:flex {
+        padding: 18px;
+    }
+}
+@media (max-width: 767px) {
+    .coverage-modern .section__indent > .container > .md\:flex {
+        padding: 14px;
+    }
+    .coverage-modern .section__inner .container__fluid-xl {
+        padding: 16px;
+    }
+}
 div, p, a, li, td { -webkit-text-size-adjust:none; }
 body {
 	color: var(--base-text-color);

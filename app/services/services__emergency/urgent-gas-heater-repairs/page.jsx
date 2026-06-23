@@ -174,7 +174,7 @@ export default function UrgentGasHeaterRepairs() {
   return (
     <>
       <PageTitle dataTitle="Urgent Gas Heater Repairs Melbourne | 24/7 Emergency Callout" />
-      <main id="tt-pageContent" className="overflow-hidden">
+      <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
 
         {/* ── 1. HERO ──────────────────────────────────────────────────── */}
         <section className={repairStyles.hero}>

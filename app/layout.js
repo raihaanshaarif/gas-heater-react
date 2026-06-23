@@ -130,6 +130,8 @@ export default function RootLayout({ children }) {
           <Footer />
           <ButtonScrollUp />
         </Suspense>
+        {/* Email Protection Decoder - Load BEFORE other scripts */}
+        <Script src="/js/cloudflare-email-decode.js" strategy="beforeInteractive" />
         <Script src="/js/global-main.js" strategy="lazyOnload" />
       </body>
     </html>

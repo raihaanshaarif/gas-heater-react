@@ -1,9 +1,25 @@
 import { MetadataRoute } from "next";
+import { readdirSync } from "fs";
+import { join } from "path";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://gasheaterservicemelbourne.com.au";
+  const coverageDir = join(process.cwd(), "app", "coverage");
+  const coverageSuburbs = readdirSync(coverageDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort();
+
+  const coverageSuburbRoutes: MetadataRoute.Sitemap = coverageSuburbs.map(
+    (suburb) => ({
+      url: `${baseUrl}/coverage/${suburb}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    })
+  );
 
   return [
     {
@@ -30,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.7,
     },
+    ...coverageSuburbRoutes,
     {
       url: `${baseUrl}/brands`,
       lastModified: new Date(),

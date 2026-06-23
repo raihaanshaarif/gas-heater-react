@@ -193,7 +193,7 @@ export default function GasHeaterServicing() {
   return (
     <>
       <PageTitle dataTitle="Gas Heater Servicing Melbourne" />
-      <main id="tt-pageContent" className="overflow-hidden">
+      <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
 
         {/* ── 1. HERO ──────────────────────────────────────────────────── */}
         <section className={servicingStyles.hero}>

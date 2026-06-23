@@ -219,7 +219,7 @@ export default function CarbonMonoxideTesting() {
   return (
     <>
       <PageTitle dataTitle="Carbon Monoxide Testing Melbourne" />
-      <main id="tt-pageContent" className="overflow-hidden">
+      <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
 
         {/* ── 1. HERO ──────────────────────────────────────────────────── */}
         <section className={coStyles.hero}>

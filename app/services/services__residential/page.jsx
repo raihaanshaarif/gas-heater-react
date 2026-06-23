@@ -25,17 +25,38 @@ export default function ServicesResidential() {
   return (
     <>
       <PageTitle dataTitle="Residential Gas Heater Services" />
-      <main id="tt-pageContent" className="overflow-hidden">
+      <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="no-resize-text">
-                <SectionTitle
-                  dataSubtitle="residential services"
-                  dataTitle="Professional Gas Heater Services for Your Home"
-                  dataMaxWidth="630px"
-                />
-                <div className="leading-none">
+                <div className="relative overflow-hidden rounded-[22px] border border-[#dbe5fb] bg-white/95 p-[24px] md:p-[30px] shadow-[0_22px_55px_rgba(14,47,116,0.12)] backdrop-blur-sm">
+                  <span className="absolute -right-[55px] -top-[55px] h-[150px] w-[150px] rounded-full bg-[#0f4fb3]/10" />
+                  <span className="absolute -left-[30px] -bottom-[65px] h-[130px] w-[130px] rounded-full bg-[#19a463]/10" />
+                  <SectionTitle
+                    dataSubtitle="residential services"
+                    dataTitle="Professional Gas Heater Services for Your Home"
+                    dataMaxWidth="630px"
+                  />
+                  <div className="mt-[4px] grid gap-[10px] sm:grid-cols-3">
+                    {[
+                      { label: "Home Comfort", value: "All Winter" },
+                      { label: "Safety", value: "CO + Gas Checks" },
+                      { label: "Support", value: "Fast Local Team" },
+                    ].map((item) => (
+                      <div
+                        key={item.label}
+                        className="rounded-[12px] border border-[#dfe8fb] bg-[#f6f9ff] px-[12px] py-[11px]"
+                      >
+                        <p className="mb-[2px] text-[11px] font-semibold uppercase tracking-[0.12em] text-[#46628f]">
+                          {item.label}
+                        </p>
+                        <p className="mb-0 text-[15px] font-bold text-[#092a66]">{item.value}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="mt-[20px] overflow-hidden rounded-[16px] border border-[#d7e2fb] leading-none shadow-[0_16px_38px_rgba(19,56,124,0.13)]">
                   <Image
                     src={imageLayout}
                     width={735}
@@ -55,8 +76,11 @@ export default function ServicesResidential() {
                   comfort and safety. You can trust us for all of these
                   residential gas heating needs:
                 </p>
-                <div className="sm:flex sm:gap-[30px] mt-[20px]">
-                  <div className="sm:basis-1/2">
+                <div className="mt-[20px] grid gap-[12px] sm:grid-cols-2">
+                  <div className="rounded-[12px] border border-[#e2e8f4] bg-[#fafcff] p-[14px]">
+                    <p className="mb-[8px] text-[12px] font-bold uppercase tracking-[0.12em] text-[#3f5f97]">
+                      Home Types
+                    </p>
                     <ul className="list__type1">
                       <li>Single Family Homes</li>
                       <li>Apartments & Condos</li>
@@ -66,7 +90,10 @@ export default function ServicesResidential() {
                       <li>Home Renovations</li>
                     </ul>
                   </div>
-                  <div className="sm:basis-1/2">
+                  <div className="rounded-[12px] border border-[#e2e8f4] bg-[#fafcff] p-[14px]">
+                    <p className="mb-[8px] text-[12px] font-bold uppercase tracking-[0.12em] text-[#3f5f97]">
+                      Service Focus
+                    </p>
                     <ul className="list__type1">
                       <li>Basement Heating Solutions</li>
                       <li>Multi-Zone Heating</li>
@@ -78,7 +105,7 @@ export default function ServicesResidential() {
                   </div>
                 </div>
                 {/* Residential service cards */}
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-[30px] mt-[50px]">
+                <div className="mt-[50px] grid gap-[20px] sm:grid-cols-2 lg:grid-cols-3">
                   {[
                     {
                       id: 1,
@@ -260,7 +287,10 @@ export default function ServicesResidential() {
                         "/services/services__residential/emergency-gas-heater-repairs",
                     },
                   ].map(({ id, icon, title, text, list, btn__src }) => (
-                    <div key={id} className={`${cardStyles.item__holder}`}>
+                    <div
+                      key={id}
+                      className={`${cardStyles.item__holder} rounded-[14px] border border-[#dbe5fb] bg-white shadow-[0_14px_30px_rgba(20,47,89,0.08)] transition-transform duration-300 hover:-translate-y-[3px]`}
+                    >
                       <div className={`${cardStyles.item__icon}`}>
                         <svg
                           className={cardStyles.item__icon_bg}
@@ -409,7 +439,7 @@ export default function ServicesResidential() {
           className="section__inner bg-no-repeat bg-center lazyload"
           data-bg="../images/extra-bg01.png"
         >
-          <div className="container container__fluid-xl no-resize-text">
+          <div className="container container__fluid-xl no-resize-text rounded-[22px] border border-[#d9e4fa] bg-[linear-gradient(180deg,#f8fbff_0%,#f2f7ff_100%)] p-[20px] md:p-[28px]">
             <SectionTitle
               dataSubtitle="we work with"
               dataTitle="Our Partners"

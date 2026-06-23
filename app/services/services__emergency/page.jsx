@@ -35,17 +35,38 @@ export default function ServicesEmergency() {
   return (
     <>
       <PageTitle dataTitle="Emergency Gas Heater Services" />
-      <main id="tt-pageContent" className="overflow-hidden">
+      <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
         <div className="section__indent">
           <div className="container container__fluid-xl">
             <div className="md:flex md:gap-[30px] lg:gap-[60px]">
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
-                <SectionTitle
-                  dataSubtitle="emergency services"
-                  dataTitle="24/7 Emergency Gas Heater Services Melbourne"
-                  dataMaxWidth="630px"
-                />
-                <div className="leading-none">
+                <div className="relative overflow-hidden rounded-[22px] border border-[#dbe5fb] bg-white/95 p-[24px] md:p-[30px] shadow-[0_22px_55px_rgba(14,47,116,0.12)] backdrop-blur-sm">
+                  <span className="absolute -right-[55px] -top-[55px] h-[150px] w-[150px] rounded-full bg-[#0f4fb3]/10" />
+                  <span className="absolute -left-[30px] -bottom-[65px] h-[130px] w-[130px] rounded-full bg-[#ff4917]/10" />
+                  <SectionTitle
+                    dataSubtitle="emergency services"
+                    dataTitle="24/7 Emergency Gas Heater Services Melbourne"
+                    dataMaxWidth="630px"
+                  />
+                  <div className="mt-[4px] grid gap-[10px] sm:grid-cols-3">
+                    {[
+                      { label: "Availability", value: "24 / 7" },
+                      { label: "Critical Faults", value: "Priority Response" },
+                      { label: "Safety Focus", value: "Gas + CO" },
+                    ].map((item) => (
+                      <div
+                        key={item.label}
+                        className="rounded-[12px] border border-[#dfe8fb] bg-[#f6f9ff] px-[12px] py-[11px]"
+                      >
+                        <p className="mb-[2px] text-[11px] font-semibold uppercase tracking-[0.12em] text-[#46628f]">
+                          {item.label}
+                        </p>
+                        <p className="mb-0 text-[15px] font-bold text-[#092a66]">{item.value}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="mt-[20px] overflow-hidden rounded-[16px] border border-[#d7e2fb] leading-none shadow-[0_16px_38px_rgba(19,56,124,0.13)]">
                   <Image
                     src={imageLayout}
                     width={735}
@@ -63,7 +84,7 @@ export default function ServicesEmergency() {
                   gas leaks, we provide rapid response emergency services to
                   keep your family safe and warm.
                 </p>
-                <h4 className="ttsubtitle ttsubtitle__top">
+                <h4 className="ttsubtitle ttsubtitle__top rounded-[12px] border border-[#ffd6ca] bg-[linear-gradient(180deg,#fff6f3_0%,#fffdfc_100%)] px-[14px] py-[10px]">
                   No Heating Emergencies
                 </h4>
                 <p>
@@ -75,7 +96,7 @@ export default function ServicesEmergency() {
                   We carry common replacement parts to get your heating working
                   the same day.
                 </p>
-                <h4 className="ttsubtitle ttsubtitle__top">
+                <h4 className="ttsubtitle ttsubtitle__top rounded-[12px] border border-[#ffd6ca] bg-[linear-gradient(180deg,#fff6f3_0%,#fffdfc_100%)] px-[14px] py-[10px]">
                   Gas Leak Detection & Emergency Repairs
                 </h4>
                 <p>
@@ -87,7 +108,7 @@ export default function ServicesEmergency() {
                   company to ensure your property is safe before restoring gas
                   supply.
                 </p>
-                <h4 className="ttsubtitle ttsubtitle__top">
+                <h4 className="ttsubtitle ttsubtitle__top rounded-[12px] border border-[#ffd6ca] bg-[linear-gradient(180deg,#fff6f3_0%,#fffdfc_100%)] px-[14px] py-[10px]">
                   Carbon Monoxide Alarm Response
                 </h4>
                 <p>
@@ -105,7 +126,7 @@ export default function ServicesEmergency() {
                   verify proper ventilation. We won&apos;t leave until your home
                   is safe.
                 </p>
-                <h4 className="ttsubtitle ttsubtitle__top">
+                <h4 className="ttsubtitle ttsubtitle__top rounded-[12px] border border-[#ffd6ca] bg-[linear-gradient(180deg,#fff6f3_0%,#fffdfc_100%)] px-[14px] py-[10px]">
                   Urgent Gas Heater Repairs
                 </h4>
                 <p>
@@ -116,7 +137,7 @@ export default function ServicesEmergency() {
                   diagnostic tools and common spare parts to complete most
                   repairs on the spot.
                 </p>
-                <h4 className="ttsubtitle ttsubtitle__top">
+                <h4 className="ttsubtitle ttsubtitle__top rounded-[12px] border border-[#ffd6ca] bg-[linear-gradient(180deg,#fff6f3_0%,#fffdfc_100%)] px-[14px] py-[10px]">
                   Emergency Gas Heater Shutdowns
                 </h4>
                 <p>
@@ -135,27 +156,31 @@ export default function ServicesEmergency() {
               <div
                 className={`${styles.aside__wrapper} lg:basis-1/3 md:basis-5/12 md-max:mt-[40px] sm-max:mt-[35px] no-resize-text`}
               >
-                <div>
+                <div className="rounded-[14px] border border-[#dbe5fb] bg-white p-[14px] shadow-[0_12px_28px_rgba(17,42,84,0.08)]">
                   <div className={`ttsubtitle`}>Emergency Services</div>
                   <div className={`${styles.aside__content}`}>
                     <ServicesListAside dataList={EmergencyListData} />
                   </div>
                 </div>
-                <div>
+                <div className="mt-[14px] rounded-[14px] border border-[#dbe5fb] bg-white p-[14px] shadow-[0_12px_28px_rgba(17,42,84,0.08)]">
                   <div className={`ttsubtitle`}>Ask Question</div>
                   <div className={`${styles.aside__content}`}>
                     <FormAside />
                   </div>
                 </div>
-                <PromoAside
-                  dataTitle="Emergency Gas Technician!"
-                  dataText="24/7 Emergency Response Available"
-                  dataTelefon="0405133761"
-                />
-                <BoxListAside
-                  dataTitle={"6 Different Reasons \n You Should Hire Us"}
-                  dataList={ReasonsListData}
-                />
+                <div className="mt-[14px]">
+                  <PromoAside
+                    dataTitle="Emergency Gas Technician!"
+                    dataText="24/7 Emergency Response Available"
+                    dataTelefon="0405133761"
+                  />
+                </div>
+                <div className="mt-[14px] rounded-[14px] border border-[#dbe5fb] bg-white p-[12px] shadow-[0_12px_28px_rgba(17,42,84,0.08)]">
+                  <BoxListAside
+                    dataTitle={"6 Different Reasons \n You Should Hire Us"}
+                    dataList={ReasonsListData}
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -164,7 +189,7 @@ export default function ServicesEmergency() {
           className="section__inner bg-no-repeat bg-center lazyload"
           data-bg="../images/extra-bg01.png"
         >
-          <div className="container container__fluid-xl no-resize-text">
+          <div className="container container__fluid-xl no-resize-text rounded-[22px] border border-[#d9e4fa] bg-[linear-gradient(180deg,#f8fbff_0%,#f2f7ff_100%)] p-[20px] md:p-[28px]">
             <SectionTitle
               dataSubtitle="we work with"
               dataTitle="Our Partners"

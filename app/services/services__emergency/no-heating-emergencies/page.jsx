@@ -174,7 +174,7 @@ export default function NoHeatingEmergencies() {
   return (
     <>
       <PageTitle dataTitle="No Heating Emergencies Melbourne | 24/7 Rapid Response" />
-      <main id="tt-pageContent" className="overflow-hidden">
+      <main id="tt-pageContent" className="overflow-hidden bg-[radial-gradient(circle_at_top,#e7eefc_0%,#ffffff_42%)]">
 
         {/* ── 1. HERO ──────────────────────────────────────────────────── */}
         <section className={repairStyles.hero}>
