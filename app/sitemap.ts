@@ -72,6 +72,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 1,
     },
+    // Emergency Gas Heater Repair (High Priority - 880/mo searches)
+    {
+      url: `${baseUrl}/emergency-gas-heater-repair/`,
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 1,
+    },
     // Hot Water Systems (New High-Value Service)
     {
       url: `${baseUrl}/hot-water-systems/`,
