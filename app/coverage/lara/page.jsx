@@ -36,6 +36,22 @@ const laraFaqs = [
     answer:
       "Energy Safe Victoria and all major heating manufacturers strongly recommend servicing your gas heater every 2 years. However, if your system is older than 10 years, an annual service and Carbon Monoxide test before the start of winter is highly advised to ensure safe, efficient operation and to prevent costly mid-winter breakdowns.",
   },
+,
+  {
+    question: "What types of gas heaters do you service in Lara?",
+    answer:
+      "We service all major brands including Braemar, Rinnai, Rheem, Dux, Bosch, Brivis, Bonaire, Vulcan, and more. Whether you have ducted heating, wall-mounted, or other gas heating systems, our certified technicians have the expertise to help.",
+  },
+  {
+    question: "Can you install a new gas heater in Lara?",
+    answer:
+      "Yes, we provide full professional gas heater installation services in Lara. Our licensed VBA technicians will design, install, and test your system to meet all Victorian safety standards. We provide competitive quotes and can typically schedule installation within 5-7 business days.",
+  },
+  {
+    question: "What makes your Lara gas heater service different?",
+    answer:
+      "We're a fully licensed, local Lara gas heater company with fast response times, transparent pricing, and a commitment to customer safety. Every technician is VBA certified, and we stand behind our work with a satisfaction guarantee.",
+  },
 ];
 
 const serviceSchema = {
@@ -513,8 +529,57 @@ export default function LaraGasHeaterServices() {
             </div>
           </div>
         </div>
-        <div
-          className="section__inner bg-no-repeat bg-center lazyload"
+        
+                {/* Local Pricing Grid */}
+                <div className="mt-[40px]">
+                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Gas Heater Service Costs in Lara</h3>
+                  <div className="grid md:grid-cols-2 gap-[20px]">
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Common Repairs</h4>
+                      <ul className="space-y-[8px] text-[14px]">
+                        <li className="flex justify-between"><span>Service Call</span> <span className="font-bold">$80-150</span></li>
+                        <li className="flex justify-between"><span>Pilot Light</span> <span className="font-bold">$100-180</span></li>
+                        <li className="flex justify-between"><span>Ignition Module</span> <span className="font-bold">$120-250</span></li>
+                        <li className="flex justify-between"><span>Thermostat</span> <span className="font-bold">$120-220</span></li>
+                        <li className="flex justify-between"><span>Full Service</span> <span className="font-bold">$180-280</span></li>
+                      </ul>
+                    </div>
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold text-[16px] text-[#092a66] mb-[12px]">Installation &amp; Maintenance</h4>
+                      <ul className="space-y-[8px] text-[14px]">
+                        <li className="flex justify-between"><span>System Diagnosis</span> <span className="font-bold">$70-150</span></li>
+                        <li className="flex justify-between"><span>Annual Service</span> <span className="font-bold">$180-250</span></li>
+                        <li className="flex justify-between"><span>New Installation</span> <span className="font-bold">$1,500-3,500</span></li>
+                        <li className="flex justify-between"><span>Emergency After-Hours</span> <span className="font-bold">+$50-100</span></li>
+                        <li className="flex justify-between"><span>Same-Day Service</span> <span className="font-bold">Available</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Service Area Details */}
+                <div className="mt-[40px]">
+                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Why Choose Us for Lara Gas Heating</h3>
+                  <div className="grid md:grid-cols-2 gap-[20px] text-[14px]">
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold mb-[12px] text-[#092a66]">Local Expertise</h4>
+                      <p>We know Lara neighborhoods and can respond quickly to your heating needs. Our local presence means fast service and personal attention.</p>
+                    </div>
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold mb-[12px] text-[#092a66]">Licensed &amp; Certified</h4>
+                      <p>All our technicians are fully licensed VBA gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
+                    </div>
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold mb-[12px] text-[#092a66]">Transparent Pricing</h4>
+                      <p>We provide upfront quotes before starting work. No hidden fees, no surprises. You know exactly what you'll pay.</p>
+                    </div>
+                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
+                      <h4 className="font-bold mb-[12px] text-[#092a66]">24/7 Emergency Service</h4>
+                      <p>When your heating fails in winter, we're here to help. Emergency response available any time, including weekends and holidays.</p>
+                    </div>
+                  </div>
+                </div>
+        <div className="section__inner bg-no-repeat bg-center lazyload"
           data-bg="/images/extra-bg01.png"
         >
           <div className="container container__fluid-xl no-resize-text">
