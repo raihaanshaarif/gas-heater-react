@@ -89,7 +89,7 @@ const CustomSlider = () => {
 
         {/* H1 */}
         <h1 className="max-w-3xl text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-          Fast Gas Heater Repairs Across Melbourne
+          Gas Heater Repair Melbourne | Same-Day Emergency Service
         </h1>
 
         {/* H2 with SEO Bolding */}

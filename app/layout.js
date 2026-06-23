@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Header from "./_components/Header/Header";
 import GlobalState from "./_context";
+import StickyPhoneCTA from "./_components/Common/StickyPhoneCTA";
 
 const Footer = lazy(() => import("./_components/Footer/Footer"));
 const ButtonScrollUp = lazy(() =>
@@ -126,6 +127,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <GlobalState>{children}</GlobalState>
+        <StickyPhoneCTA />
         <Suspense>
           <Footer />
           <ButtonScrollUp />

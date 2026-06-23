@@ -15,11 +15,11 @@ import WhyChooseUs from "./_components/About/WhyChooseUs";
 
 export const metadata = {
   title:
-    "Gas Heater Repair Melbourne | Emergency Service & Installation | #1 Experts",
+    "Gas Heater Repair Melbourne | 24/7 Emergency Service & Installation",
   description:
-    "★★★★★ Melbourne's #1 Gas Heater Service - Emergency Repairs, Installation & Maintenance. Same-Day Service Available. Licensed Technicians. Free Quotes. Call 0405133761!",
+    "Gas Heater Repair Melbourne - 24/7 emergency service. Same-day repairs across all Melbourne suburbs. Licensed VBA technicians. ★4.9/5 (127 reviews). Free quotes. Call 0405 133 761 now.",
   keywords:
-    "gas heater repair melbourne, emergency gas heater repair, gas heater installation melbourne, gas heater service melbourne, gas heater maintenance melbourne, same day gas heater repair, 24/7 emergency gas heating, melbourne gas heating specialists, rinnai repair melbourne, brivis repair melbourne",
+    "gas heater repair melbourne, emergency gas heater repair, gas heater repair, 24 hour gas heater repair, same day gas heater repair, melbourne gas heater service, gas heating repairs, emergency heating melbourne, licensed gas heater repair",
   alternates: {
     canonical: "https://gasheaterservicemelbourne.com.au",
   },
