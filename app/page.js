@@ -8,6 +8,9 @@ import HowWeWork from "./_components/index/HowWeWork";
 import PromoFullWidth from "./_components/Common/PromoFullWidth";
 import RequestQuote from "./_components/index/RequestQuote";
 import FaqIndex from "./_components/index/FaqIndex";
+import { commonGasHeaterFAQs, generateFAQSchema } from "./_utils/faqSchema";
+import { generateDetailedAggregateRating } from "./_utils/localReviewSchema";
+import { generateMultiLocationBusinessSchema, generateServiceRadiusSchema } from "./_utils/geoSeoSchema";
 import Testimonials from "./_components/index/Testimonials";
 import NewsLayout from "./_components/index/NewsLayout";
 import Partners from "./_components/index/Partners";
@@ -191,6 +194,38 @@ export default function Home() {
               areaServed: "Melbourne",
               category: "Home Services",
             }),
+          }}
+        />
+
+        {/* FAQ Schema for Answer Engine Optimization (AEO) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateFAQSchema(commonGasHeaterFAQs)),
+          }}
+        />
+
+        {/* Multi-Location Business Schema for Local SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateMultiLocationBusinessSchema()),
+          }}
+        />
+
+        {/* Service Radius Schema for Geographic Coverage */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateServiceRadiusSchema("Melbourne")),
+          }}
+        />
+
+        {/* Detailed AggregateRating for Rich Snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(generateDetailedAggregateRating()),
           }}
         />
       </main>

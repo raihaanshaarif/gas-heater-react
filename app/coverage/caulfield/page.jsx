@@ -587,6 +587,44 @@ export default function CaulfieldGasHeaterServices() {
             <LogoPartners wrapperClass="grid sm-max:grid-cols-2 lg-max:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] only-lg:gap-[20px]  only-md:gap-[20px] sm-max:gap-[15px] lg:mr-[40px] items-start" />
           </div>
         </div>
+        {/* Geographic SEO Schema */}
+        <script
+          id="geo-schema-caulfield"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://gasheaterservicemelbourne.com.au/coverage/caulfield/#geo-business",
+  "name": "Gas Heater Service Melbourne - Caulfield",
+  "description": "Professional gas heater repair, installation and maintenance services in Caulfield, Melbourne. VBA licensed technicians, same-day emergency service.",
+  "url": "https://gasheaterservicemelbourne.com.au/coverage/caulfield/",
+  "telephone": "0405 133 761",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Melbourne, Victoria",
+    "addressLocality": "Caulfield",
+    "addressRegion": "Victoria",
+    "postalCode": "3161",
+    "addressCountry": "AU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-37.8753",
+    "longitude": "145.0483"
+  },
+  "serviceArea": {
+    "@type": "City",
+    "name": "Caulfield"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127"
+  }
+})
+          }}
+        />
       </main>
     </>
   );

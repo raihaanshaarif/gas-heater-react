@@ -587,6 +587,44 @@ export default function DovetonGasHeaterServices() {
             <LogoPartners wrapperClass="grid sm-max:grid-cols-2 lg-max:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] only-lg:gap-[20px]  only-md:gap-[20px] sm-max:gap-[15px] lg:mr-[40px] items-start" />
           </div>
         </div>
+        {/* Geographic SEO Schema */}
+        <script
+          id="geo-schema-doveton"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://gasheaterservicemelbourne.com.au/coverage/doveton/#geo-business",
+  "name": "Gas Heater Service Melbourne - Doveton",
+  "description": "Professional gas heater repair, installation and maintenance services in Doveton, Melbourne. VBA licensed technicians, same-day emergency service.",
+  "url": "https://gasheaterservicemelbourne.com.au/coverage/doveton/",
+  "telephone": "0405 133 761",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Melbourne, Victoria",
+    "addressLocality": "Doveton",
+    "addressRegion": "Victoria",
+    "postalCode": "3000",
+    "addressCountry": "AU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-37.8136",
+    "longitude": "144.9631"
+  },
+  "serviceArea": {
+    "@type": "City",
+    "name": "Doveton"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127"
+  }
+})
+          }}
+        />
       </main>
     </>
   );

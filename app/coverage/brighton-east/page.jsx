@@ -636,6 +636,44 @@ export default function BrightonEastGasHeaterServices() {
             <LogoPartners wrapperClass="grid sm-max:grid-cols-2 lg-max:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] only-lg:gap-[20px]  only-md:gap-[20px] sm-max:gap-[15px] lg:mr-[40px] items-start" />
           </div>
         </div>
+        {/* Geographic SEO Schema */}
+        <script
+          id="geo-schema-brighton-east"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://gasheaterservicemelbourne.com.au/coverage/brighton-east/#geo-business",
+  "name": "Gas Heater Service Melbourne - Brighton East",
+  "description": "Professional gas heater repair, installation and maintenance services in Brighton East, Melbourne. VBA licensed technicians, same-day emergency service.",
+  "url": "https://gasheaterservicemelbourne.com.au/coverage/brighton-east/",
+  "telephone": "0405 133 761",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Melbourne, Victoria",
+    "addressLocality": "Brighton East",
+    "addressRegion": "Victoria",
+    "postalCode": "3187",
+    "addressCountry": "AU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-37.9408",
+    "longitude": "145.0193"
+  },
+  "serviceArea": {
+    "@type": "City",
+    "name": "Brighton East"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127"
+  }
+})
+          }}
+        />
       </main>
     </>
   );
