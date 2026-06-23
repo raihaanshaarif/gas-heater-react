@@ -437,28 +437,28 @@ export default function BraemarPage() {
                   </table>
                 </div>
 
-                <h3 className="ttsubtitle ttsubtitle__top">Braemar Repair Costs & Pricing</h3>
+                <h3 className="ttsubtitle ttsubtitle__top">Braemar Repair & Service Options</h3>
                 <div className="grid md:grid-cols-2 gap-4 my-8">
                   <div className="bg-green-50 border border-green-200 rounded-lg p-4">
                     <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
                     <ul className="text-sm text-green-800 space-y-2">
-                      <li><strong>Pilot Light Issue:</strong> $120-180</li>
-                      <li><strong>Ignition Module:</strong> $180-280</li>
-                      <li><strong>WiFi Module Repair:</strong> $150-250</li>
-                      <li><strong>Thermostat Replacement:</strong> $200-350</li>
-                      <li><strong>Gas Valve Repair:</strong> $250-400</li>
-                      <li><strong>Emergency Callout Fee:</strong> $50-100 (after-hours)</li>
+                      <li><strong>Pilot Light Service</strong></li>
+                      <li><strong>Ignition Module Replacement</strong></li>
+                      <li><strong>WiFi Module Repair & Replacement</strong></li>
+                      <li><strong>Thermostat Replacement</strong></li>
+                      <li><strong>Gas Valve Service & Repair</strong></li>
+                      <li><strong>24/7 Emergency Callout</strong></li>
                     </ul>
                   </div>
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                    <h4 className="font-bold text-blue-900 mb-3">Installation Services</h4>
+                    <h4 className="font-bold text-blue-900 mb-3">Installation & Maintenance</h4>
                     <ul className="text-sm text-blue-800 space-y-2">
-                      <li><strong>New System Installation:</strong> $1,500-3,000</li>
-                      <li><strong>WiFi Module Add-on:</strong> $400-600</li>
-                      <li><strong>System Upgrade:</strong> $800-1,500</li>
-                      <li><strong>Annual Service:</strong> $150-250</li>
-                      <li><strong>Filter/Part Replacement:</strong> $50-150</li>
-                      <li><strong>All prices include labor + parts</strong></li>
+                      <li><strong>New System Installation</strong></li>
+                      <li><strong>WiFi Module Add-on & Setup</strong></li>
+                      <li><strong>System Upgrade & Optimization</strong></li>
+                      <li><strong>Annual Maintenance Service</strong></li>
+                      <li><strong>Filter & Component Replacement</strong></li>
+                      <li><strong>Professional VBA Licensed Technicians</strong></li>
                     </ul>
                   </div>
                 </div>

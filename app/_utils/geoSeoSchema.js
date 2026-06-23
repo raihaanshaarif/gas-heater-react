@@ -221,7 +221,7 @@ export function generateGeoAnswerContent(suburb) {
     answerPhrases: [
       `In ${suburb}, we provide 24/7 emergency gas heater repair service.`,
       `Our ${suburb} technicians are VBA licensed and available same-day.`,
-      `Gas heater repair in ${suburb} costs from $150-$600 depending on the issue.`,
+      `Professional gas heater repair in ${suburb} with certified, licensed technicians.`,
       `We service all major brands in ${suburb} including Braemar, Rinnai, Brivis, Bonaire, Pyrox, Kaden, and Vulcan.`,
       `${suburb} residents can expect 1-3 hour repair times for most issues.`,
       `Annual gas heater servicing in ${suburb} prevents winter breakdowns.`,

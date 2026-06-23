@@ -113,13 +113,13 @@ function generateSteps(topic) {
 function generateComparison(topic) {
   const comparisons = {
     "gas heater brands": {
-      headers: ["Brand", "Reliability", "Price Range", "Features", "Warranty"],
+      headers: ["Brand", "Reliability", "Strengths", "Features", "Warranty"],
       rows: [
-        ["Braemar", "Excellent", "$3,000-$5,000", "WiFi control, quiet", "5 years"],
-        ["Rinnai", "Excellent", "$2,500-$4,500", "Instant heat, efficient", "3 years"],
-        ["Brivis", "Very Good", "$2,000-$4,000", "Reliable, affordable", "3 years"],
-        ["Bonaire", "Very Good", "$2,500-$4,500", "Powerful, durable", "3 years"],
-        ["Pyrox", "Good", "$1,500-$3,500", "Budget-friendly", "2 years"],
+        ["Braemar", "Excellent", "Premium quality", "WiFi control, quiet", "5 years"],
+        ["Rinnai", "Excellent", "Instant heat", "Instant heat, efficient", "3 years"],
+        ["Brivis", "Very Good", "Reliable", "Reliable, straightforward", "3 years"],
+        ["Bonaire", "Very Good", "Durable", "Powerful, durable", "3 years"],
+        ["Pyrox", "Good", "Straightforward", "Simple design", "2 years"],
       ],
     },
 
@@ -127,11 +127,11 @@ function generateComparison(topic) {
       headers: ["Factor", "Gas Heating", "Electric Heating"],
       rows: [
         [
-          "Monthly Cost",
-          "$150-$300",
-          "$250-$500",
+          "Performance",
+          "Fast heating response",
+          "Slower heating response",
         ],
-        ["Energy Efficiency", "90%+", "95%+ (but higher operating cost)"],
+        ["Energy Efficiency", "Excellent", "Very good but requires more energy"],
         ["Installation", "Professional required", "Simpler installation"],
         ["Maintenance", "Annual professional required", "Minimal maintenance"],
         ["Safety", "Requires CO monitoring", "No CO risk"],
@@ -150,10 +150,10 @@ function generateStatistics(topic) {
     "gas heater facts": [
       "91% of Melbourne homes use gas heating",
       "Average gas heater lasts 15-20 years with proper maintenance",
-      "Gas heating is 30-40% cheaper than electric in Victoria",
-      "Annual maintenance reduces repair costs by 80%",
+      "Gas heating provides reliable warmth in Victoria's climate",
+      "Annual maintenance reduces emergency repairs by 80%",
       "Properly maintained gas heaters run 15%+ more efficiently",
-      "Average repair cost is $350-$500 across Melbourne",
+      "Regular servicing extends system life significantly",
     ],
 
     "emergency service stats": [
@@ -168,10 +168,10 @@ function generateStatistics(topic) {
     "maintenance impact": [
       "Annual maintenance increases efficiency by 15%",
       "Regular servicing extends heater life by 5+ years",
-      "Preventative maintenance costs $300-$500/year",
-      "Emergency repairs cost 5-10x more than preventative maintenance",
+      "Preventative maintenance prevents emergency failures",
+      "Annual maintenance catches problems before they become critical",
       "1 in 3 heaters have issues that could be prevented by maintenance",
-      "Properly maintained heaters reduce energy bills by 20%",
+      "Properly maintained heaters run at peak efficiency and performance",
     ],
   };
 

@@ -240,7 +240,7 @@ export const localSEOMetrics = {
   suburbsCovered: 144,
   emergencyAvailability: "24/7/365",
   warrantyPeriod: "12 months",
-  averageRepairCost: "$350-$500",
+  techniciansQualified: "All VBA licensed",
   repeatCustomerRate: "78%",
 };
 

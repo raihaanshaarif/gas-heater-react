@@ -42,7 +42,7 @@ export default function PyroxPage() {
               "@type": "FAQPage",
               mainEntity: [
                 { "@type": "Question", name: "Is Pyrox a good budget heater?", acceptedAnswer: { "@type": "Answer", text: "Yes, Pyrox offers excellent value for budget-conscious buyers. Reliable, straightforward, and cost-effective to repair." } },
-                { "@type": "Question", name: "What's typical Pyrox repair pricing?", acceptedAnswer: { "@type": "Answer", text: "Pilot/Ignition Repair: $100-170. Ignition Module: $130-210. Thermostat: $120-240. Gas Valve: $170-280. Emergency: +$50-100." } },
+                { "@type": "Question", name: "What are common Pyrox repair issues?", acceptedAnswer: { "@type": "Answer", text: "Common issues include pilot/ignition problems, thermostat failures, gas valve malfunctions, and ignition module issues. Our technicians specialize in Pyrox repairs and resolve issues quickly." } },
                 { "@type": "Question", name: "How long should a Pyrox heater last?", acceptedAnswer: { "@type": "Answer", text: "With proper maintenance, Pyrox systems typically last 10-15 years. Some well-maintained units reach 18-20 years." } },
                 { "@type": "Question", name: "Are Pyrox parts still available?", acceptedAnswer: { "@type": "Answer", text: "Yes. While Pyrox is no longer manufactured, parts remain available. Common components readily sourced." } },
                 { "@type": "Question", name: "When should I replace vs repair my Pyrox?", acceptedAnswer: { "@type": "Answer", text: "For systems under 12 years old, repair is usually best. For systems 15+ years old with multiple issues, replacement may be necessary. Our technicians provide honest recommendations based on system age and condition." } },
@@ -233,8 +233,8 @@ export default function PyroxPage() {
                     <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes, Pyrox offers excellent value for budget-conscious buyers. While not premium-feature-rich, Pyrox systems are reliable, straightforward to operate, and cost-effective to repair. Great for families looking for dependable heating without premium pricing.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
-                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's typical Pyrox repair pricing?<span className="text-xl">+</span></summary>
-                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700"><strong>Pilot/Ignition Repair:</strong> $100-170. <strong>Ignition Module:</strong> $130-210. <strong>Thermostat:</strong> $120-240. <strong>Gas Valve:</strong> $170-280. <strong>Emergency after-hours:</strong> +$50-100. We always provide quotes upfront.</p></div>
+                    <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What are common Pyrox repair issues?<span className="text-xl">+</span></summary>
+                    <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Common issues include pilot/ignition problems, thermostat failures, gas valve malfunctions, and ignition module issues. Our technicians specialize in Pyrox repairs and resolve issues quickly.</p></div>
                   </details>
                   <details className="group border border-gray-300 rounded-lg">
                     <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">How long should a Pyrox heater last?<span className="text-xl">+</span></summary>
@@ -337,12 +337,12 @@ export default function PyroxPage() {
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Pyrox Pilot Light Keeps Going Out</h4>
                       <p className="text-sm text-yellow-800 mb-2"><strong>Common causes:</strong> Dirty pilot orifice, weak thermocouple, or draft issues. Check if flame is steady blue – if yellow/orange, needs cleaning.</p>
-                      <p className="text-sm text-yellow-800"><strong>Solution:</strong> Orifice cleaning ($80-120) or thermocouple replacement ($100-170). Quick fix, don't delay.</p>
+                      <p className="text-sm text-yellow-800"><strong>Solution:</strong> Orifice cleaning or thermocouple inspection. Our technicians resolve this quickly.</p>
                     </div>
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Pyrox Reduced Heating Output</h4>
                       <p className="text-sm text-yellow-800 mb-2"><strong>Check:</strong> Is filter clean? Burner flame blue? Thermostat set correctly? Low gas pressure can cause reduced output.</p>
-                      <p className="text-sm text-yellow-800"><strong>Service needed:</strong> Gas pressure adjustment, burner cleaning, or flame electrode replacement ($80-150). Call for quick diagnosis.</p>
+                      <p className="text-sm text-yellow-800"><strong>Service needed:</strong> Gas pressure adjustment, burner cleaning, or flame electrode inspection. Call for quick diagnosis.</p>
                     </div>
                   </div>
                 </div>

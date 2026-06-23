@@ -341,28 +341,28 @@ export default function BonairePage() {
                   </table>
                 </div>
 
-                <h3 className="ttsubtitle ttsubtitle__top">Bonaire Repair Costs & Pricing</h3>
+                <h3 className="ttsubtitle ttsubtitle__top">Bonaire Repair Services</h3>
                 <div className="grid md:grid-cols-2 gap-4 my-8">
                   <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                    <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
+                    <h4 className="font-bold text-green-900 mb-3">Common Repairs We Provide</h4>
                     <ul className="text-sm text-green-800 space-y-2">
-                      <li><strong>Pilot Light/Ignition:</strong> $100-180</li>
-                      <li><strong>Ignition Module:</strong> $140-220</li>
-                      <li><strong>Heat Exchanger Service:</strong> $120-200</li>
-                      <li><strong>Thermostat:</strong> $120-250</li>
-                      <li><strong>Gas Valve Repair:</strong> $180-300</li>
-                      <li><strong>Emergency Callout:</strong> $50-100 (after-hours)</li>
+                      <li><strong>Pilot Light/Ignition Repair</strong></li>
+                      <li><strong>Ignition Module Replacement</strong></li>
+                      <li><strong>Heat Exchanger Service</strong></li>
+                      <li><strong>Thermostat Repair & Replacement</strong></li>
+                      <li><strong>Gas Valve Service & Repair</strong></li>
+                      <li><strong>24/7 Emergency Service</strong></li>
                     </ul>
                   </div>
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                    <h4 className="font-bold text-blue-900 mb-3">Installation Services</h4>
+                    <h4 className="font-bold text-blue-900 mb-3">Installation & Maintenance</h4>
                     <ul className="text-sm text-blue-800 space-y-2">
-                      <li><strong>New System Installation:</strong> $1,100-2,000</li>
-                      <li><strong>System Replacement:</strong> $1,400-2,300</li>
-                      <li><strong>System Upgrade:</strong> $700-1,300</li>
-                      <li><strong>Annual Service:</strong> $100-180</li>
-                      <li><strong>Burner Inspection:</strong> $80-120</li>
-                      <li><strong>All prices include labor + parts</strong></li>
+                      <li><strong>New System Installation</strong></li>
+                      <li><strong>System Replacement Services</strong></li>
+                      <li><strong>System Upgrade & Optimization</strong></li>
+                      <li><strong>Annual Service & Inspection</strong></li>
+                      <li><strong>Burner Inspection & Cleaning</strong></li>
+                      <li><strong>Professional, VBA Licensed Technicians</strong></li>
                     </ul>
                   </div>
                 </div>
@@ -373,17 +373,17 @@ export default function BonairePage() {
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Bonaire Pilot Light Issues</h4>
                       <p className="text-sm text-yellow-800 mb-2"><strong>Check:</strong> Pilot flame should be steady, blue cone (1-1.5 inches). If yellow/orange or flickering, pilot orifice needs cleaning.</p>
-                      <p className="text-sm text-yellow-800"><strong>Cost to fix:</strong> $100-150 for cleaning or thermocouple replacement. Don't delay – pilot failures prevent heating.</p>
+                      <p className="text-sm text-yellow-800"><strong>Fix needed:</strong> Pilot orifice cleaning or thermocouple inspection. Don't delay – pilot failures prevent heating.</p>
                     </div>
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Bonaire Noisy Operation</h4>
                       <p className="text-sm text-yellow-800 mb-2"><strong>Common noises:</strong> Banging, whistling, or grinding usually indicates scale buildup, airlock, or loose components.</p>
-                      <p className="text-sm text-yellow-800"><strong>Solution:</strong> Heat exchanger flush ($120-200) or component tightening ($80-120). Get it checked to prevent damage.</p>
+                      <p className="text-sm text-yellow-800"><strong>Solution:</strong> Heat exchanger flush or component inspection. Get it checked to prevent damage.</p>
                     </div>
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Bonaire Not Reaching Temperature</h4>
                       <p className="text-sm text-yellow-800 mb-2"><strong>First steps:</strong> Check filter cleanliness, thermostat setting, and whether burner flame is blue.</p>
-                      <p className="text-sm text-yellow-800"><strong>If still weak:</strong> May need gas pressure adjustment, burner cleaning, or heat exchanger service. Call us for diagnosis – usually $80-180.</p>
+                      <p className="text-sm text-yellow-800"><strong>If still weak:</strong> May need gas pressure adjustment, burner cleaning, or heat exchanger service. Call us for diagnosis.</p>
                     </div>
                   </div>
                 </div>

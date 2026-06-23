@@ -297,28 +297,28 @@ export default function KadenPage() {
                   </table>
                 </div>
 
-                <h3 className="ttsubtitle ttsubtitle__top">Kaden Repair Costs & Pricing</h3>
+                <h3 className="ttsubtitle ttsubtitle__top">Kaden Repair Services</h3>
                 <div className="grid md:grid-cols-2 gap-4 my-8">
                   <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                    <h4 className="font-bold text-green-900 mb-3">Common Repairs</h4>
+                    <h4 className="font-bold text-green-900 mb-3">Common Repairs We Handle</h4>
                     <ul className="text-sm text-green-800 space-y-2">
-                      <li><strong>Pilot/Ignition Repair:</strong> $100-170</li>
-                      <li><strong>Ignition Module:</strong> $130-220</li>
-                      <li><strong>Thermostat:</strong> $120-240</li>
-                      <li><strong>Gas Valve:</strong> $170-280</li>
-                      <li><strong>Heat Exchanger:</strong> $100-180</li>
-                      <li><strong>Emergency Callout:</strong> $50-100 (after-hours)</li>
+                      <li><strong>Pilot/Ignition Repair</strong></li>
+                      <li><strong>Ignition Module Replacement</strong></li>
+                      <li><strong>Thermostat Repair & Replacement</strong></li>
+                      <li><strong>Gas Valve Service</strong></li>
+                      <li><strong>Heat Exchanger Inspection</strong></li>
+                      <li><strong>24/7 Emergency Service Available</strong></li>
                     </ul>
                   </div>
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                    <h4 className="font-bold text-blue-900 mb-3">Services</h4>
+                    <h4 className="font-bold text-blue-900 mb-3">Maintenance Services</h4>
                     <ul className="text-sm text-blue-800 space-y-2">
-                      <li><strong>Annual Service:</strong> $100-170</li>
-                      <li><strong>Burner Cleaning:</strong> $80-120</li>
-                      <li><strong>Filter Replacement:</strong> $50-100</li>
-                      <li><strong>Safety Check:</strong> $70-100</li>
-                      <li><strong>Diagnostics:</strong> $80-130 (often waived with repair)</li>
-                      <li><strong>All prices include labor + parts</strong></li>
+                      <li><strong>Annual Service & Inspection</strong></li>
+                      <li><strong>Burner Cleaning & Optimization</strong></li>
+                      <li><strong>Filter Replacement Service</strong></li>
+                      <li><strong>Safety Inspections</strong></li>
+                      <li><strong>System Diagnostics</strong></li>
+                      <li><strong>Professional Technicians - All VBA Licensed</strong></li>
                     </ul>
                   </div>
                 </div>
@@ -334,12 +334,12 @@ export default function KadenPage() {
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Kaden Pilot Light Keeps Extinguishing</h4>
                       <p className="text-sm text-yellow-800 mb-2"><strong>Common causes:</strong> Dirty orifice, weak thermocouple, or draft problems. Blue flame is normal – yellow/orange means orifice needs cleaning.</p>
-                      <p className="text-sm text-yellow-800"><strong>Fix:</strong> Orifice cleaning ($80-120) or thermocouple replacement ($100-170). Important to fix promptly.</p>
+                      <p className="text-sm text-yellow-800"><strong>Fix:</strong> Orifice cleaning or thermocouple inspection. Our technicians resolve this promptly.</p>
                     </div>
                     <div>
                       <h4 className="font-bold text-yellow-900 mb-2">Kaden Not Heating Properly</h4>
                       <p className="text-sm text-yellow-800 mb-2"><strong>Check first:</strong> Is filter clean? Is burner flame blue? Is thermostat adjusted? Low gas pressure reduces output.</p>
-                      <p className="text-sm text-yellow-800"><strong>Service:</strong> Gas pressure adjustment, burner cleaning, or flame adjustment ($80-150). Call for quick diagnosis.</p>
+                      <p className="text-sm text-yellow-800"><strong>Service:</strong> Gas pressure adjustment, burner cleaning, or flame adjustment. Call for quick diagnosis.</p>
                     </div>
                   </div>
                 </div>
