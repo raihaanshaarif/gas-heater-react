@@ -630,9 +630,12 @@ export default function GasLeakDetectionRepairs() {
                       {col.region}
                     </p>
                     <ul>
-                      {col.suburbs.map((s) => (
-                        <li key={s}>{s}</li>
-                      ))}
+                      {col.suburbs.map((s) => {
+                        const slugified = s.toLowerCase().replace(/\s+/g, '-');
+                        return (
+                          <li key={s}><a href={`/coverage/${slugified}/`}>{s}</a></li>
+                        );
+                      })}
                     </ul>
                   </div>
                 ))}

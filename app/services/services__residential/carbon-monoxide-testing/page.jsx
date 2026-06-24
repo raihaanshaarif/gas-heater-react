@@ -651,7 +651,10 @@ export default function CarbonMonoxideTesting() {
                   <div key={group.region} className={coStyles.areas__col}>
                     <h4 className={coStyles.areas__region}>{group.region}</h4>
                     <ul>
-                      {group.suburbs.map((s) => <li key={s}>{s}</li>)}
+                      {group.suburbs.map((s) => {
+                        const slugified = s.toLowerCase().replace(/\s+/g, '-');
+                        return <li key={s}><a href={`/coverage/${slugified}/`}>{s}</a></li>;
+                      })}
                     </ul>
                   </div>
                 ))}
