@@ -88,16 +88,16 @@
             "path": "/services/services__emergency/emergency-gas-heater-shutdowns"
           }
         ]
+      },
+      {
+        "title": "Hot Water Systems",
+        "path": "/hot-water-systems"
+      },
+      {
+        "title": "24/7 Emergency Service",
+        "path": "/emergency-gas-heater-repair"
       }
     ]
-  },
-  {
-    "title": "Hot Water Systems",
-    "path": "/hot-water-systems"
-  },
-  {
-    "title": "Emergency Service",
-    "path": "/emergency-gas-heater-repair"
   },
   {
     "title": "Service Areas",
