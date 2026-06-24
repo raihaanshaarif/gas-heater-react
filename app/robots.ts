@@ -7,11 +7,13 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: "/",
+        allow: [
+          "/_next/static/",
+          "/_next/image/",
+        ],
         disallow: [
           "/api/",
           "/admin/",
-          "/_next/",
           "/_components/",
           "/_context/",
           "/_dataGeneralSite/",
