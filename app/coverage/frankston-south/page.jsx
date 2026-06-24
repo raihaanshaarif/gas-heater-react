@@ -525,47 +525,57 @@ export default function FrankstonSouthGasHeaterServices() {
             </div>
           </div>
         </div>
-                {/* Service Area Details */}
-                <div className="mt-[40px]">
-                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Why Choose Us for Frankston South Gas Heating</h3>
-                  <div className="grid md:grid-cols-2 gap-[20px] text-[14px]">
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold mb-[12px] text-[#092a66]">Local Expertise</h4>
-                      <p>We know Frankston South neighborhoods and can respond quickly to your heating needs. Our local presence means fast service and personal attention.</p>
-                    </div>
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold mb-[12px] text-[#092a66]">Licensed &amp; Certified</h4>
-                      <p>All our technicians are fully licensed VBA gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
-                    </div>
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold mb-[12px] text-[#092a66]">Professional Service</h4><p>Our technicians are fully qualified and deliver professional service to every job. No shortcuts, no compromises on quality or safety.</p>
-                    </div>
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold mb-[12px] text-[#092a66]">24/7 Emergency Service</h4>
-                      <p>When your heating fails in winter, we're here to help. Emergency response available any time, including weekends and holidays.</p>
-                    </div>
-                  </div>
-                </div>{/* Service Area Details */}
-                <div className="mt-[40px]">
-                  <h3 className="ttitle text-[24px] md:text-[32px] mb-[24px]">Why Choose Us for Frankston South Gas Heating</h3>
-                  <div className="grid md:grid-cols-2 gap-[20px] text-[14px]">
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold mb-[12px] text-[#092a66]">Local Expertise</h4>
-                      <p>We know Frankston South neighborhoods and can respond quickly to your heating needs. Our local presence means fast service and personal attention.</p>
-                    </div>
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold mb-[12px] text-[#092a66]">Licensed &amp; Certified</h4>
-                      <p>All our technicians are fully licensed VBA gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
-                    </div>
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold mb-[12px] text-[#092a66]">Professional Service</h4><p>Our technicians are fully qualified and deliver professional service to every job. No shortcuts, no compromises on quality or safety.</p>
-                    </div>
-                    <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
-                      <h4 className="font-bold mb-[12px] text-[#092a66]">24/7 Emergency Service</h4>
-                      <p>When your heating fails in winter, we're here to help. Emergency response available any time, including weekends and holidays.</p>
-                    </div>
-                  </div>
+        {/* Why Choose Us Section */}
+        <div className="mt-[40px] mb-[40px]">
+          <div className="mb-[32px]">
+            <SectionTitle
+              dataSubtitle="why choose us"
+              dataTitle="Why Choose Us for Frankston South Gas Heating"
+              dataMaxWidth="480px"
+            />
+            <p className="mt-[16px] text-[15px] text-[#344a70]">
+              Our team of licensed VBA technicians brings expertise, reliability, and local knowledge to every job in Frankston South. We're committed to delivering the fastest response times and most transparent pricing in Melbourne.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-[24px]">
+            <div className="border border-[#e2e8f4] rounded-[12px] p-[24px] bg-gradient-to-br from-[#f8faff] to-white hover:shadow-lg transition-all duration-300">
+              <div className="flex items-start gap-[16px]">
+                <div className="flex-shrink-0 w-[48px] h-[48px] rounded-lg bg-[#e8f0ff] flex items-center justify-center text-[24px]">🏘️</div>
+                <div>
+                  <h4 className="font-bold text-[16px] text-[#092a66] mb-[8px]">Local Expertise</h4>
+                  <p className="text-[14px] text-[#344a70] leading-relaxed">We know Frankston South neighborhoods and respond quickly to your heating needs. Our local presence ensures fast service and personal attention.</p>
                 </div>
+              </div>
+            </div>
+            <div className="border border-[#e2e8f4] rounded-[12px] p-[24px] bg-gradient-to-br from-[#f8faff] to-white hover:shadow-lg transition-all duration-300">
+              <div className="flex items-start gap-[16px]">
+                <div className="flex-shrink-0 w-[48px] h-[48px] rounded-lg bg-[#e8f0ff] flex items-center justify-center text-[24px]">✅</div>
+                <div>
+                  <h4 className="font-bold text-[16px] text-[#092a66] mb-[8px]">Licensed &amp; Certified</h4>
+                  <p className="text-[14px] text-[#344a70] leading-relaxed">All our technicians are fully licensed VBA gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
+                </div>
+              </div>
+            </div>
+            <div className="border border-[#e2e8f4] rounded-[12px] p-[24px] bg-gradient-to-br from-[#f8faff] to-white hover:shadow-lg transition-all duration-300">
+              <div className="flex items-start gap-[16px]">
+                <div className="flex-shrink-0 w-[48px] h-[48px] rounded-lg bg-[#e8f0ff] flex items-center justify-center text-[24px]">⭐</div>
+                <div>
+                  <h4 className="font-bold text-[16px] text-[#092a66] mb-[8px]">Professional Service</h4>
+                  <p className="text-[14px] text-[#344a70] leading-relaxed">Our technicians are fully qualified and deliver professional service to every job. No shortcuts, no compromises on quality or safety.</p>
+                </div>
+              </div>
+            </div>
+            <div className="border border-[#e2e8f4] rounded-[12px] p-[24px] bg-gradient-to-br from-[#f8faff] to-white hover:shadow-lg transition-all duration-300">
+              <div className="flex items-start gap-[16px]">
+                <div className="flex-shrink-0 w-[48px] h-[48px] rounded-lg bg-[#e8f0ff] flex items-center justify-center text-[24px]">🚨</div>
+                <div>
+                  <h4 className="font-bold text-[16px] text-[#092a66] mb-[8px]">24/7 Emergency Service</h4>
+                  <p className="text-[14px] text-[#344a70] leading-relaxed">When your heating fails in winter, we're here to help. Emergency response available any time, including weekends and holidays.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="section__inner bg-no-repeat bg-center lazyload"
           data-bg="/images/extra-bg01.png"
         >
