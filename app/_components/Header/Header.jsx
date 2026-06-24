@@ -7,7 +7,7 @@ import SocialsHeader from "./SocialsHeader"
 import Information from "../Header/Information"
 import Logo from "../Header/Logo"
 import Telephone from "../Header/Telephone"
-import Nar from "../Header/Nar"
+import Nar from "../Header/NavBar"
 import ToggleBar from "../Header/ToggleBar"
 import Button from '../Common/Button'
 const Modal = lazy(() => import('../Common/Modal'))
