@@ -517,7 +517,7 @@ export default function GasHeaterRepairs() {
                   },
                   {
                     region: "South-Eastern Suburbs",
-                    suburbs: ["Frankston", "Dandenong", "Berwick", "Hallam", "Clayton", "Cheltenham", "Bentleigh", "Hampton Park"],
+                    suburbs: ["Frankston", "Dandenong", "Berwick", "Hallam", "Clayton", "Bentleigh", "Hampton Park"],
                   },
                   {
                     region: "Bayside & Inner South",

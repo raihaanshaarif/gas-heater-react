@@ -633,7 +633,7 @@ export default function CarbonMonoxideAlarmResponse() {
                 {[
                   {
                     region: "Eastern Suburbs",
-                    suburbs: ["Doncaster", "Box Hill", "Ringwood", "Ferntree Gully", "Boronia", "Bayswater", "Croydon", "Lilydale"],
+                    suburbs: ["Doncaster", "Box Hill", "Ringwood", "Ferntree Gully", "Boronia", "Bayswater", "Lilydale"],
                   },
                   {
                     region: "Northern Suburbs",
@@ -641,7 +641,7 @@ export default function CarbonMonoxideAlarmResponse() {
                   },
                   {
                     region: "South-Eastern Suburbs",
-                    suburbs: ["Frankston", "Dandenong", "Berwick", "Hallam", "Clayton", "Cheltenham", "Bentleigh", "Highett"],
+                    suburbs: ["Frankston", "Dandenong", "Berwick", "Hallam", "Clayton", "Bentleigh", "Highett"],
                   },
                   {
                     region: "Bayside & Inner South",

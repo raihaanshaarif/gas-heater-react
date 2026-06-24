@@ -609,15 +609,15 @@ export default function EmergencyGasHeaterShutdowns() {
                 {[
                   {
                     region: "Inner East",
-                    suburbs: ["Box Hill", "Doncaster", "Balwyn", "Kew", "Hawthorn"],
+                    suburbs: ["Box Hill", "Doncaster"],
                   },
                   {
                     region: "South East",
-                    suburbs: ["Frankston", "Dandenong", "Berwick", "Clayton", "Moorabbin"],
+                    suburbs: ["Frankston", "Dandenong", "Berwick", "Clayton"],
                   },
                   {
                     region: "South",
-                    suburbs: ["Caulfield", "Brighton", "Bentleigh", "Cheltenham", "Highett"],
+                    suburbs: ["Caulfield", "Brighton", "Bentleigh", "Highett"],
                   },
                   {
                     region: "North & West",

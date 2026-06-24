@@ -509,7 +509,7 @@ export default function GasHeaterRepairs() {
                 {[
                   {
                     region: "Eastern Suburbs",
-                    suburbs: ["Doncaster", "Box Hill", "Ringwood", "Croydon", "Boronia", "Bayswater", "Ferntree Gully", "Lilydale"],
+                    suburbs: ["Doncaster", "Box Hill", "Ringwood", "Boronia", "Bayswater", "Ferntree Gully", "Lilydale"],
                   },
                   {
                     region: "Northern Suburbs",
@@ -517,7 +517,7 @@ export default function GasHeaterRepairs() {
                   },
                   {
                     region: "South-Eastern Suburbs",
-                    suburbs: ["Frankston", "Dandenong", "Berwick", "Hallam", "Clayton", "Cheltenham", "Bentleigh", "Hampton Park"],
+                    suburbs: ["Frankston", "Dandenong", "Berwick", "Hallam", "Clayton", "Bentleigh", "Hampton Park"],
                   },
                   {
                     region: "Bayside & Inner South",
