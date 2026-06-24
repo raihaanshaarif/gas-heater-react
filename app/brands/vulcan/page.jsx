@@ -20,7 +20,7 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Vulcan Gas Heater Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Vulcan Gas Heater Repair Melbourne | 24/7 Service",
   description:
     "Professional Vulcan gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, commercial heating specialists, certified technicians, genuine parts. Call 0405133761 now!",
   keywords:

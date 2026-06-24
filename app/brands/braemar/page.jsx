@@ -21,7 +21,7 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Braemar Gas Heater Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Braemar Gas Heater Repair Melbourne | 24/7 Service",
   description:
     "Professional Braemar gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, WiFi MyClimate support, certified technicians, genuine parts. Call 0405133761 now!",
   keywords:

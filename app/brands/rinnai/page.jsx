@@ -21,7 +21,7 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Rinnai Gas Heater Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Rinnai Gas Heater Repair Melbourne | 24/7 Service",
   description:
     "Professional Rinnai gas heater repair, service & installation in Melbourne. Instant heat systems, 24/7 emergency repairs, certified technicians, genuine parts. Call 0405133761 now!",
   canonical: "https://gasheaterservicemelbourne.com.au/brands/rinnai/",

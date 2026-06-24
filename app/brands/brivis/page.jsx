@@ -20,7 +20,7 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Brivis Gas Heater Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Brivis Gas Heater Repair Melbourne | 24/7 Service",
   description:
     "Professional Brivis gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, certified technicians, genuine parts. Reliable heating service. Call 0405133761 now!",
   keywords:

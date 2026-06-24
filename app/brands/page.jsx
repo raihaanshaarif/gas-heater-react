@@ -134,7 +134,7 @@ const brandData = [
 // Metadata
 export const metadata = {
   title:
-    "Gas Heater Brands Melbourne | Bonaire, Braemar, Brivis, Rinnai, Vulcan & More",
+    "Gas Heater Brands Melbourne | Service & Parts",
   description:
     "Expert installation and service for all major gas heater brands in Melbourne. Bonaire, Braemar, Brivis, Rinnai, Kaden, Pyrox & Vulcan. Licensed technicians, warranties included. Call 0405133761",
   keywords:

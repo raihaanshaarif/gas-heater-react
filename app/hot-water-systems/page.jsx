@@ -2,7 +2,7 @@ import PageTitle from "../_components/Common/PageTitle";
 
 export const metadata = {
   title:
-    "Gas Water Heater Repair & Installation Melbourne | Same-Day Service | Licensed",
+    "Gas Water Heater Repair Melbourne | Same-Day Service",
   description:
     "Expert gas water heater repair, service & installation across Melbourne. 24/7 emergency repairs, licensed technicians, no hidden fees. Rinnai, Bosch, Rheem & all brands. Call 0405133761 now!",
   keywords:

@@ -20,7 +20,7 @@ import imageLayout from "../../../public/images/services/services_img03.jpg";
 // Metadata
 export const metadata = {
   title:
-    "Pyrox Gas Heater Repair Melbourne | Service, Installation & Maintenance | 24/7 Emergency",
+    "Pyrox Gas Heater Repair Melbourne | 24/7 Service",
   description:
     "Professional Pyrox gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, heavy-duty heating specialists, certified technicians, genuine parts. Call 0405133761 now!",
   keywords:
