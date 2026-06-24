@@ -319,7 +319,7 @@ export default function KadenPage() {
                       <li><strong>Filter Replacement Service</strong></li>
                       <li><strong>Safety Inspections</strong></li>
                       <li><strong>System Diagnostics</strong></li>
-                      <li><strong>Professional Technicians - All VBA Licensed</strong></li>
+                      <li><strong>Professional Technicians - All  Licensed</strong></li>
                     </ul>
                   </div>
                 </div>

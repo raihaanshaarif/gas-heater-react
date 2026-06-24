@@ -369,7 +369,7 @@ export const posts = [
 		postAdmin: {
 			srcimg: "/images/blog/admin-avatar.jpg",
 			title: "About Gas Heater Service Melbourne",
-			description: "Licensed VBA gas technicians providing professional maintenance and repair services for all Melbourne suburbs."
+			description: "Licensed  gas technicians providing professional maintenance and repair services for all Melbourne suburbs."
 		},
 		comments: []
 	},
@@ -406,7 +406,7 @@ export const posts = [
 		postAdmin: {
 			srcimg: "/images/blog/admin-avatar.jpg",
 			title: "About Gas Heater Service Melbourne",
-			description: "Licensed VBA technicians prioritizing family safety with proper maintenance and inspections."
+			description: "Licensed  technicians prioritizing family safety with proper maintenance and inspections."
 		},
 		comments: []
 	},
@@ -507,7 +507,7 @@ export const posts = [
 			},
 			{
 				title: "Why Licensed Installation Matters",
-				text: "Only licensed VBA gas fitters can legally install gas heating systems in Victoria. They ensure compliance with all safety codes, issue proper certificates, and work is covered by insurance.",
+				text: "Only licensed  gas fitters can legally install gas heating systems in Victoria. They ensure compliance with all safety codes, issue proper certificates, and work is covered by insurance.",
 				text2: "Unlicensed installation is dangerous, illegal, and voids manufacturer warranties."
 			}
 		],
@@ -517,7 +517,7 @@ export const posts = [
 		postAdmin: {
 			srcimg: "/images/blog/admin-avatar.jpg",
 			title: "About Gas Heater Service Melbourne",
-			description: "Licensed VBA specialists providing professional installation, repair, and maintenance."
+			description: "Licensed  specialists providing professional installation, repair, and maintenance."
 		},
 		comments: []
 	},

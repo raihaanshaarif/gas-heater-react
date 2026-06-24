@@ -42,7 +42,7 @@ def generate_geo_schema(suburb_name, suburb_slug):
         "@type": "LocalBusiness",
         "@id": f"https://gasheaterservicemelbourne.com.au/coverage/{suburb_slug}/#geo-business",
         "name": f"Gas Heater Service Melbourne - {suburb_name}",
-        "description": f"Professional gas heater repair, installation and maintenance services in {suburb_name}, Melbourne. VBA licensed technicians, same-day emergency service.",
+        "description": f"Professional gas heater repair, installation and maintenance services in {suburb_name}, Melbourne.  licensed technicians, same-day emergency service.",
         "url": f"https://gasheaterservicemelbourne.com.au/coverage/{suburb_slug}/",
         "telephone": "0405 133 761",
         "address": {

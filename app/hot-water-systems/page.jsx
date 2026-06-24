@@ -45,7 +45,7 @@ export default function GasWaterHeaterServices() {
               <div className="lg:basis-2/3 md:basis-7/12 no-resize-text">
                 <h2 className="text-2xl font-bold mb-4">Professional Gas Water Heater Repair, Service & Installation</h2>
                 <p className="mb-4 text-gray-700">
-                  No hot water is more than an inconvenience—it's a serious problem in Melbourne's cold winters. At Gas Heater Service Melbourne, we're experts in gas water heater repair, emergency service, and professional installation. Whether your tank is leaking, your pilot light won't stay lit, or you need a complete system replacement, our licensed VBA Gas Fitters deliver fast, reliable solutions.
+                  No hot water is more than an inconvenience—it's a serious problem in Melbourne's cold winters. At Gas Heater Service Melbourne, we're experts in gas water heater repair, emergency service, and professional installation. Whether your tank is leaking, your pilot light won't stay lit, or you need a complete system replacement, our licensed  Gas Fitters deliver fast, reliable solutions.
                 </p>
                 <p className="mb-6 text-gray-700">
                   We service <strong>all major brands</strong>: Rinnai, Bosch, Rheem, Dux, Aqua Max, Thermann, Vulcan, Kaden, Pyrox, Braemar, and Brivis. Available 24/7 for emergencies across all Melbourne suburbs with same-day response in most areas.
@@ -54,7 +54,7 @@ export default function GasWaterHeaterServices() {
                 <div className="my-8 p-6 bg-blue-50 border-l-4 border-blue-500 rounded">
                   <h3 className="font-bold mb-3">Why Choose Us for Water Heater Service?</h3>
                   <ul className="space-y-2">
-                    <li>✓ Licensed VBA Gas Fitters – All installations meet Victorian safety standards</li>
+                    <li>✓ Licensed  Gas Fitters – All installations meet Victorian safety standards</li>
                     <li>✓ 24/7 Emergency Service – No hot water? We're available day or night</li>
                     <li>✓ Same-Day Response – Most suburbs served within 30–45 minutes</li>
                     <li>✓ Professional Service – Expert technicians on every job</li>
@@ -112,7 +112,7 @@ export default function GasWaterHeaterServices() {
                     <li><strong>1. Site Assessment:</strong> We inspect your home and recommend the right system for your needs.</li>
                     <li><strong>2. System Selection:</strong> We compare options, pricing, and provide a transparent quote.</li>
                     <li><strong>3. Schedule Installation:</strong> We work around your schedule for minimal disruption.</li>
-                    <li><strong>4. Professional Installation:</strong> Licensed VBA Fitters handle the complete installation safely.</li>
+                    <li><strong>4. Professional Installation:</strong> Licensed  Fitters handle the complete installation safely.</li>
                     <li><strong>5. Testing & Compliance:</strong> We test the system and issue your Certificate of Compliance.</li>
                     <li><strong>6. Handover & Warranty:</strong> We explain operation and warranty coverage.</li>
                   </ol>
@@ -135,7 +135,7 @@ export default function GasWaterHeaterServices() {
                     </details>
                     <details className="group border border-gray-300 rounded-lg">
                       <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Can I replace my gas water heater myself?<span className="text-xl">+</span></summary>
-                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">No. Gas water heater installation requires a licensed VBA Gas Fitter in Victoria. Improper installation creates gas leak risks and voids warranties. We handle it professionally.</p></div>
+                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">No. Gas water heater installation requires a licensed  Gas Fitter in Victoria. Improper installation creates gas leak risks and voids warranties. We handle it professionally.</p></div>
                     </details>
                     <details className="group border border-gray-300 rounded-lg">
                       <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What's the average lifespan of a gas water heater?<span className="text-xl">+</span></summary>
@@ -193,7 +193,7 @@ export default function GasWaterHeaterServices() {
                 <div className="bg-gray-100 p-6 rounded-lg">
                   <h3 className="font-bold mb-3">Why Gas Heater Service Melbourne?</h3>
                   <ul className="space-y-2 text-sm">
-                    <li>✓ Licensed VBA technicians</li>
+                    <li>✓ Licensed  technicians</li>
                     <li>✓ 15+ years experience</li>
                     <li>✓ All brands serviced</li>
                     <li>✓ Transparent pricing</li>

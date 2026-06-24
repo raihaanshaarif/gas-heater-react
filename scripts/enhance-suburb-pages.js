@@ -20,12 +20,12 @@ const getAdditionalFaqs = (suburb) => `  {
   {
     question: "Can you install a new gas heater in ${suburb}?",
     answer:
-      "Yes, we provide full professional gas heater installation services in ${suburb}. Our licensed VBA technicians will design, install, and test your system to meet all Victorian safety standards. We provide competitive quotes and can typically schedule installation within 5-7 business days.",
+      "Yes, we provide full professional gas heater installation services in ${suburb}. Our licensed  technicians will design, install, and test your system to meet all Victorian safety standards. We provide competitive quotes and can typically schedule installation within 5-7 business days.",
   },
   {
     question: "What makes your ${suburb} gas heater service different?",
     answer:
-      "We're a fully licensed, local ${suburb} gas heater company with fast response times, transparent pricing, and a commitment to customer safety. Every technician is VBA certified, and we stand behind our work with a satisfaction guarantee.",
+      "We're a fully licensed, local ${suburb} gas heater company with fast response times, transparent pricing, and a commitment to customer safety. Every technician is  certified, and we stand behind our work with a satisfaction guarantee.",
   },`;
 
 // Local pricing section
@@ -67,7 +67,7 @@ const getPricingSection = (suburb) => `
                     </div>
                     <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
                       <h4 className="font-bold mb-[12px] text-[#092a66]">Licensed &amp; Certified</h4>
-                      <p>All our technicians are fully licensed VBA gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
+                      <p>All our technicians are fully licensed  gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
                     </div>
                     <div className="border border-[#e2e8f4] rounded-[8px] p-[20px]">
                       <h4 className="font-bold mb-[12px] text-[#092a66]">Transparent Pricing</h4>

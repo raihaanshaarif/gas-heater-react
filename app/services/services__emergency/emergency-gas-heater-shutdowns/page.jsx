@@ -254,7 +254,7 @@ export default function EmergencyGasHeaterShutdowns() {
                 <div className={emergencyStyles.hero__trust}>
                   {[
                     { icon: "🕐", label: "24 / 7 Response", cls: "" },
-                    { icon: "✅", label: "VBA Licensed", cls: "" },
+                    { icon: "✅", label: " Licensed", cls: "" },
                     { icon: "🛡", label: "ESV Registered", cls: "" },
                     { icon: "⚡", label: "Same-Day Fix", cls: emergencyStyles.hero__trustbadge_sameday },
                   ].map((b) => (
@@ -703,7 +703,7 @@ export default function EmergencyGasHeaterShutdowns() {
                 0405 133 761
               </a>
               <p className={emergencyStyles.callbanner__note}>
-                Licensed &amp; insured · VBA registered · No call-out fee quoted before arrival
+                Licensed &amp; insured ·  registered · No call-out fee quoted before arrival
               </p>
             </div>
           </div>

@@ -67,7 +67,7 @@ export const localTestimonials = [
     authorName: "Michael T., Glen Waverley",
     rating: 5,
     date: "2026-03-05",
-    text: "Had a new Brivis heater installed. The whole process from quote to installation was smooth. Technicians were clean, professional, and ensured everything was working perfectly. VBA certification provided.",
+    text: "Had a new Brivis heater installed. The whole process from quote to installation was smooth. Technicians were clean, professional, and ensured everything was working perfectly.  certification provided.",
     suburb: "Glen Waverley",
     serviceType: "Installation",
   },
@@ -214,11 +214,11 @@ export const localSEOMetrics = {
   sameDAyServiceRate: "80%",
   customerSatisfaction: "4.9/5 (127 reviews)",
   yearsInBusiness: "15+",
-  vbaLicensed: true,
+  Licensed: true,
   suburbsCovered: 144,
   emergencyAvailability: "24/7/365",
   warrantyPeriod: "12 months",
-  techniciansQualified: "All VBA licensed",
+  techniciansQualified: "All  licensed",
   repeatCustomerRate: "78%",
 };
 
@@ -226,7 +226,7 @@ export const localSEOMetrics = {
  * Generate trust badges/signals for local credibility
  */
 export const localCredibilitySignals = [
-  "✓ VBA Licensed Technicians",
+  "✓  Licensed Technicians",
   "✓ 24/7 Emergency Service",
   "✓ Same-Day Repairs Available",
   "✓ 4.9/5 Stars (127 Reviews)",

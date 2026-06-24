@@ -363,7 +363,7 @@ export default function BonairePage() {
                       <li><strong>System Upgrade & Optimization</strong></li>
                       <li><strong>Annual Service & Inspection</strong></li>
                       <li><strong>Burner Inspection & Cleaning</strong></li>
-                      <li><strong>Professional, VBA Licensed Technicians</strong></li>
+                      <li><strong>Professional,  Licensed Technicians</strong></li>
                     </ul>
                   </div>
                 </div>

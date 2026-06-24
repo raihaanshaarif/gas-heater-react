@@ -53,7 +53,7 @@ export default function EmergencyGasHeaterRepair() {
                   When your gas heating fails in the middle of a cold Melbourne winter, it's an emergency. Gas Heater Service Melbourne is here 24 hours a day, 7 days a week, 365 days a year to get your heating back on.
                 </p>
                 <p className="mb-6 text-gray-700">
-                  Our licensed VBA gas technicians respond quickly to emergencies across all Melbourne suburbs. No heat? Gas smell? System failure? We dispatch a technician immediately.
+                  Our licensed  gas technicians respond quickly to emergencies across all Melbourne suburbs. No heat? Gas smell? System failure? We dispatch a technician immediately.
                 </p>
 
                 <div className="mb-8 p-6 bg-red-50 border border-red-200 rounded-lg">
@@ -68,7 +68,7 @@ export default function EmergencyGasHeaterRepair() {
                   <h3 className="text-xl font-bold mb-4">Why Call Us for Emergency Repair?</h3>
                   <ul className="space-y-2">
                     <li>✓ <strong>24/7 Availability:</strong> We're always ready when you need us</li>
-                    <li>✓ <strong>Licensed VBA Technicians:</strong> Qualified to handle all gas systems safely</li>
+                    <li>✓ <strong>Licensed  Technicians:</strong> Qualified to handle all gas systems safely</li>
                     <li>✓ <strong>Fast Response:</strong> Same-day service in most Metro Melbourne suburbs</li>
                     <li>✓ <strong>Mobile Equipped:</strong> Technicians carry common parts for quick repairs</li>
                     <li>✓ <strong>Transparent Pricing:</strong> Quote given before work starts, no surprises</li>
@@ -160,7 +160,7 @@ export default function EmergencyGasHeaterRepair() {
                     </details>
                     <details className="group border border-gray-300 rounded-lg">
                       <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">Are your technicians licensed?<span className="text-xl">+</span></summary>
-                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes. All our technicians are licensed VBA Gas Fitters. We meet Victorian safety standards and provide Certificates of Compliance for all gas work.</p></div>
+                      <div className="p-4 bg-white border-t border-gray-300"><p className="text-gray-700">Yes. All our technicians are licensed  Gas Fitters. We meet Victorian safety standards and provide Certificates of Compliance for all gas work.</p></div>
                     </details>
                     <details className="group border border-gray-300 rounded-lg">
                       <summary className="p-4 bg-gray-50 hover:bg-gray-100 cursor-pointer font-semibold flex justify-between items-center">What brands do you service in emergencies?<span className="text-xl">+</span></summary>
@@ -183,7 +183,7 @@ export default function EmergencyGasHeaterRepair() {
                 <div className="my-8 p-6 bg-green-50 border border-green-200 rounded">
                   <h3 className="text-2xl font-bold text-green-700 mb-3">EMERGENCY? CALL NOW</h3>
                   <p className="text-xl font-bold text-green-600 mb-2">0405 133 761</p>
-                  <p className="text-gray-700">Available 24/7. Same-day service across Melbourne. Licensed VBA technicians ready now.</p>
+                  <p className="text-gray-700">Available 24/7. Same-day service across Melbourne. Licensed  technicians ready now.</p>
                 </div>
               </div>
 
@@ -195,7 +195,7 @@ export default function EmergencyGasHeaterRepair() {
                   <p className="text-sm mb-3">Available 24 hours/day</p>
                   <ul className="space-y-1 text-sm">
                     <li>✓ Same-day response</li>
-                    <li>✓ Licensed VBA techs</li>
+                    <li>✓ Licensed  techs</li>
                     <li>✓ All Melbourne suburbs</li>
                     <li>✓ Transparent pricing</li>
                     <li>✓ No hidden fees</li>

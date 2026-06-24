@@ -143,7 +143,7 @@ export default function GasHeaterInstallation() {
                 <div className={installStyles.hero__trust}>
                   <div className={installStyles.hero__trustbadge}>
                     <IconShield />
-                    <span>VBA Licensed</span>
+                    <span> Licensed</span>
                   </div>
                   <div className={installStyles.hero__trustbadge}>
                     <IconShield />
@@ -384,7 +384,7 @@ export default function GasHeaterInstallation() {
                 {
                   num: "03",
                   title: "Expert Installation by Licensed Gas Fitters",
-                  text: "Our VBA-licensed technicians install your system neatly and efficiently, leaving your premises clean and operational.",
+                  text: "Our -licensed technicians install your system neatly and efficiently, leaving your premises clean and operational.",
                   img: "/images/step__img03.png",
                 },
                 {

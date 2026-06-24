@@ -162,8 +162,8 @@ Melbourne CBD: [Southbank, Docklands, Collingwood, Fitzroy]
 8. "What brands do you repair?"
    - *Answer:* Braemar, Rinnai, Brivis, Bonaire, Pyrox, Kaden, Vulcan
    
-9. "Are you VBA licensed?"
-   - *Answer:* Yes, all technicians are VBA licensed and certified
+9. "Are you  licensed?"
+   - *Answer:* Yes, all technicians are  licensed and certified
 
 **Residential Questions (2):**
 10. "What size gas heater do I need?"
@@ -278,7 +278,7 @@ DIRECT ANSWER (70 words):
 "The best gas heater brand depends on your needs. Braemar offers premium features 
 like WiFi control and excellent reliability. Rinnai excels in quick heating. Brivis 
 provides reliable value. All major brands are equally serviceable in Melbourne by 
-our VBA-licensed technicians."
+our -licensed technicians."
 
 DEFINITION:
 Gas heater brands are manufacturers specializing in heating appliances. The major 
@@ -327,7 +327,7 @@ COMPARISON TABLE:
 4. **Michael T., Glen Waverley (5★)**
    - New Brivis installation
    - Smooth installation process
-   - VBA certification provided
+   -  certification provided
 
 5. **Lisa K., Essendon (5★)**
    - Carbon monoxide safety check
@@ -426,7 +426,7 @@ Each review includes:
 ### 3.4 Local Credibility Signals
 
 **10 Trust Badges Added:**
-- ✓ VBA Licensed Technicians
+- ✓  Licensed Technicians
 - ✓ 24/7 Emergency Service
 - ✓ Same-Day Repairs Available
 - ✓ 4.9/5 Stars (127 Reviews)

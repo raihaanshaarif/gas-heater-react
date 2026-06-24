@@ -7,7 +7,7 @@ import SocialsHeader from "./SocialsHeader"
 import Information from "../Header/Information"
 import Logo from "../Header/Logo"
 import Telephone from "../Header/Telephone"
-import NavBar from "../Header/NavBar"
+import Nar from "../Header/Nar"
 import ToggleBar from "../Header/ToggleBar"
 import Button from '../Common/Button'
 const Modal = lazy(() => import('../Common/Modal'))
@@ -24,7 +24,7 @@ const Header = () => {
 				<div className={`${styles.hlayout} relative grid`} id="js-init-sticky">
 					<Logo />
 					<div className={`${styles.hlayout__col} ${styles.hlayout__corner} ${styles.hlayout__bg} relative flex items-center justify-center`}>
-						<NavBar />
+						<Nar />
 					</div>
 					<div className={`${styles.hlayout__col} ${styles.hlayout__bg} ${styles.hlayout__objects} inline-flex items-center`}>
 						<Telephone />

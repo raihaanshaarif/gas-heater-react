@@ -37,9 +37,9 @@ function generateDirectAnswer(topic, context = {}) {
   const answers = {
     "gas heater repair time": `Most gas heater repairs in Melbourne take 1-3 hours. Simple repairs like thermostat adjustments take 30 minutes, while component replacements may take 2-3 hours. Emergency calls typically resolve within 24 hours. Same-day service is available across all Melbourne suburbs.`,
 
-    "gas heater safety check": `A professional gas heater safety check includes: CO (carbon monoxide) testing, gas leak detection, flame color inspection, thermostat calibration, and safety valve verification. VBA licensed technicians in Melbourne perform complete safety checks during annual maintenance.`,
+    "gas heater safety check": `A professional gas heater safety check includes: CO (carbon monoxide) testing, gas leak detection, flame color inspection, thermostat calibration, and safety valve verification.  licensed technicians in Melbourne perform complete safety checks during annual maintenance.`,
 
-    "gas heater installation": `Professional gas heater installation in Melbourne requires VBA licensed technicians. Installation includes: sizing assessment, ductwork/piping, thermostat connection, safety testing, and compliance certification. Installation takes 4-8 hours depending on system complexity. Professional installation preserves warranty coverage.`,
+    "gas heater installation": `Professional gas heater installation in Melbourne requires  licensed technicians. Installation includes: sizing assessment, ductwork/piping, thermostat connection, safety testing, and compliance certification. Installation takes 4-8 hours depending on system complexity. Professional installation preserves warranty coverage.`,
 
     "emergency gas heater": `For gas heater emergencies in Melbourne, call 0405 133 761 immediately. Common emergencies include: no heat output, gas leaks (smell of gas), carbon monoxide alarms, heating failure during winter. Same-day emergency response is available 24/7/365. Do not attempt DIY repairs on gas systems.`,
   };
@@ -61,7 +61,7 @@ function generateDefinition(topic) {
 
     "gas heater maintenance": `Gas heater maintenance involves annual professional inspection and servicing to ensure safety and efficiency. Regular maintenance includes: flame inspection, thermostat calibration, filter cleaning, gas leak testing, and CO checks. Proper maintenance extends heater lifespan by 5+ years.`,
 
-    "VBA license": `A VBA (Valve Checking Authority) license certifies that a technician is qualified to repair gas appliances in Victoria, Australia. Only VBA-licensed technicians can legally work on gas heating systems. VBA certification requires specific training and compliance with gas safety standards.`,
+    " license": `A  (Valve Checking Authority) license certifies that a technician is qualified to repair gas appliances in Victoria, Australia. Only -licensed technicians can legally work on gas heating systems.  certification requires specific training and compliance with gas safety standards.`,
   };
 
   return definitions[topic] || `Learn more about ${topic} from our Melbourne experts.`;
@@ -79,7 +79,7 @@ function generateSteps(topic) {
       "Step 4: Use a long lighter or match to relight the pilot",
       "Step 5: Hold the reset button for 20-30 seconds",
       "Step 6: Release the button and check if pilot flame is blue",
-      "Step 7: If unable to relight, contact VBA technicians immediately",
+      "Step 7: If unable to relight, contact  technicians immediately",
     ],
 
     "drain gas heater": [
@@ -261,11 +261,11 @@ export const commonAnswersForAEO = {
     "Choosing a gas heater depends on your home size, desired heating speed, and space constraints. Popular choices: Braemar for premium WiFi features, Rinnai for quick heating, Brivis for reliability. Our technicians advise on the best system for your needs.",
 
   "Is gas heating safe?":
-    "Gas heating is safe when properly installed and maintained by VBA-licensed technicians. Annual safety checks, CO monitoring, and proper ventilation ensure complete safety.",
+    "Gas heating is safe when properly installed and maintained by -licensed technicians. Annual safety checks, CO monitoring, and proper ventilation ensure complete safety.",
 
   "How do I know if my gas heater is broken?":
     "Signs of a broken gas heater: no heat output, strange noises, yellow/sooty flame, gas smell, unusually high bills, or safety shutoffs. Contact technicians immediately for inspection.",
 
   "Can I repair my gas heater myself?":
-    "Gas heater repairs must be performed by VBA-licensed technicians only. DIY repairs void warranties and create safety hazards. Professional repairs include safety guarantees.",
+    "Gas heater repairs must be performed by -licensed technicians only. DIY repairs void warranties and create safety hazards. Professional repairs include safety guarantees.",
 };

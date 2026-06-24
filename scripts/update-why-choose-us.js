@@ -48,7 +48,7 @@ suburbs.forEach(suburb => {
               dataMaxWidth="480px"
             />
             <p className="mt-[16px] text-[15px] text-[#344a70]">
-              Our team of licensed VBA technicians brings expertise, reliability, and local knowledge to every job in ${displaySuburb}. We're committed to delivering the fastest response times and most transparent pricing in Melbourne.
+              Our team of licensed  technicians brings expertise, reliability, and local knowledge to every job in ${displaySuburb}. We're committed to delivering the fastest response times and most transparent pricing in Melbourne.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-[24px]">
@@ -66,7 +66,7 @@ suburbs.forEach(suburb => {
                 <div className="flex-shrink-0 w-[48px] h-[48px] rounded-lg bg-[#e8f0ff] flex items-center justify-center text-[24px]">✅</div>
                 <div>
                   <h4 className="font-bold text-[16px] text-[#092a66] mb-[8px]">Licensed &amp; Certified</h4>
-                  <p className="text-[14px] text-[#344a70] leading-relaxed">All our technicians are fully licensed VBA gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
+                  <p className="text-[14px] text-[#344a70] leading-relaxed">All our technicians are fully licensed  gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
                 </div>
               </div>
             </div>

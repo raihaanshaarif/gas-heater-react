@@ -394,7 +394,7 @@ Commit 51e316d: Phase 1 SEO optimization - Unique metadata + Article schema
 ### ✅ E-E-A-T Signals
 - [x] Experience: Service provider expertise signals (127 reviews, 4.9★)
 - [x] Expertise: Structured data for professional services
-- [x] Authoritativeness: LocalBusiness schema with VBA credentials
+- [x] Authoritativeness: LocalBusiness schema with  credentials
 - [x] Trustworthiness: Aggregate ratings and reviews
 
 ### ✅ Core Technical SEO

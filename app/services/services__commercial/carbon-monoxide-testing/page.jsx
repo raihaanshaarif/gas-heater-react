@@ -247,7 +247,7 @@ export default function CarbonMonoxideTesting() {
                 <div className={coStyles.hero__trust}>
                   <div className={coStyles.hero__trustbadge}>
                     <IconShield />
-                    <span>VBA Licensed</span>
+                    <span> Licensed</span>
                   </div>
                   <div className={coStyles.hero__trustbadge}>
                     <IconShield />
@@ -575,7 +575,7 @@ export default function CarbonMonoxideTesting() {
                   dataMaxWidth="480px"
                 />
                 <p>
-                  CO testing is only as good as the equipment and the person using it. Every one of our technicians is VBA-licensed, Energy Safe Victoria accredited, and equipped with regularly calibrated electronic CO analysers — not the cheap handheld units used by uncertified operators.
+                  CO testing is only as good as the equipment and the person using it. Every one of our technicians is -licensed, Energy Safe Victoria accredited, and equipped with regularly calibrated electronic CO analysers — not the cheap handheld units used by uncertified operators.
                 </p>
                 <p className="indent__top">
                   Our detailed digital reports are accepted by insurance companies, VCAT, Fair Trades Victoria, and all major landlord compliance platforms. When accuracy and legal standing matter, our documentation delivers.
@@ -729,7 +729,7 @@ export default function CarbonMonoxideTesting() {
                 A professional CO safety check takes less than an hour and could save your family&apos;s life. Book today — same-day response guaranteed across Greater Melbourne.
               </p>
               <div className={coStyles.final_cta__trust}>
-                {["VBA Licensed Gas Fitters", "ESV Accredited Testing", "Digital Report Same Day", "Landlord Compliance Specialists"].map((t) => (
+                {[" Licensed Gas Fitters", "ESV Accredited Testing", "Digital Report Same Day", "Landlord Compliance Specialists"].map((t) => (
                   <div key={t} className={coStyles.final_cta__trustitem}>{t}</div>
                 ))}
               </div>

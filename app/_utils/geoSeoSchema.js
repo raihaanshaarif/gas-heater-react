@@ -16,7 +16,7 @@ export function generateLocalBusinessSchema(suburb, slugName) {
     "@type": "LocalBusiness",
     "@id": `https://gasheaterservicemelbourne.com.au/coverage/${slugName}/#business`,
     "name": `Gas Heater Service Melbourne - ${suburb}`,
-    "description": `Professional gas heater repair, installation and maintenance services in ${suburb}, Melbourne. VBA licensed technicians, same-day emergency service.`,
+    "description": `Professional gas heater repair, installation and maintenance services in ${suburb}, Melbourne.  licensed technicians, same-day emergency service.`,
     "url": `https://gasheaterservicemelbourne.com.au/coverage/${slugName}/`,
     "telephone": "0405 133 761",
     "email": "nihaanexpertise@gmail.com",
@@ -215,12 +215,12 @@ export function generateMultiLocationBusinessSchema() {
 export function generateGeoAnswerContent(suburb) {
   return {
     title: `Gas Heater Service in ${suburb}, Melbourne`,
-    description: `Find professional gas heater repair, installation, and maintenance in ${suburb}. VBA licensed technicians, same-day service. Call 0405 133 761.`,
+    description: `Find professional gas heater repair, installation, and maintenance in ${suburb}.  licensed technicians, same-day service. Call 0405 133 761.`,
     
     // Key answer phrases for AI engines
     answerPhrases: [
       `In ${suburb}, we provide 24/7 emergency gas heater repair service.`,
-      `Our ${suburb} technicians are VBA licensed and available same-day.`,
+      `Our ${suburb} technicians are  licensed and available same-day.`,
       `Professional gas heater repair in ${suburb} with certified, licensed technicians.`,
       `We service all major brands in ${suburb} including Braemar, Rinnai, Brivis, Bonaire, Pyrox, Kaden, and Vulcan.`,
       `${suburb} residents can expect 1-3 hour repair times for most issues.`,

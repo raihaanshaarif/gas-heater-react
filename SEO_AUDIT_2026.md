@@ -175,7 +175,7 @@ Your site has **strong foundational SEO** with good schema markup coverage (76% 
 
 2. **Generate unique meta descriptions per suburb:**
    ```
-   "Gas heater repair in [Suburb], Melbourne. Licensed VBA technicians,
+   "Gas heater repair in [Suburb], Melbourne. Licensed  technicians,
    same-day service, transparent pricing. Emergency 24/7. Call 0405133761"
    ```
 
@@ -503,7 +503,7 @@ Total: +78 keyword-targeting pages
 
 3. **Add Author Credentials:**
    - Create "About Our Experts" page
-   - Add VBA license numbers to team members
+   - Add  license numbers to team members
    - Show years of experience
    - Add certifications and qualifications
 
@@ -527,7 +527,7 @@ Total: +78 keyword-targeting pages
 | Signal | Status | Details |
 |--------|--------|---------|
 | Expert Credentials | ⚠️ Weak | No individual expert pages |
-| VBA Certification | ✅ Present | Mentioned in copy (not schema) |
+|  Certification | ✅ Present | Mentioned in copy (not schema) |
 | Years in Business | ✅ Present | In content but not structured |
 | Business Verification | ✅ Present | ABN/ACN (need to verify) |
 | Customer Reviews | ⚠️ Weak | 4.9★ mentioned but not linked to review platforms |
@@ -547,7 +547,7 @@ Total: +78 keyword-targeting pages
    - ❌ Google My Business schema not visible
    - ❌ Trust badges not displayed
    - ❌ Security certifications not shown
-   - ❌ VBA license verification links missing
+   - ❌  license verification links missing
 
 3. **No Review Integration:**
    - ❌ Google Reviews not embedded
@@ -559,7 +559,7 @@ Total: +78 keyword-targeting pages
    - ❌ No mention of industry publications
    - ❌ No news/press mentions
    - ❌ No industry association membership
-   - ❌ No certifications beyond VBA
+   - ❌ No certifications beyond 
 
 **Recommendations (2026 Priority):**
 
@@ -567,7 +567,7 @@ Total: +78 keyword-targeting pages
    ```
    /team/ or /our-team/
    - Individual technician profiles
-   - VBA license numbers (with links to verification)
+   -  license numbers (with links to verification)
    - Years of experience
    - Certifications and qualifications
    - Profile photo
@@ -587,7 +587,7 @@ Total: +78 keyword-targeting pages
      },
      "qualification": {
        "@type": "EducationalOccupationalCredential",
-       "name": "VBA License",
+       "name": " License",
        "identifier": "[License Number]"
      }
    }
@@ -595,7 +595,7 @@ Total: +78 keyword-targeting pages
 
 3. **Add Trust Badges & Verification:**
    - Google My Business verified checkmark
-   - VBA certification badge with verification link
+   -  certification badge with verification link
    - "Licensed & Insured" badge
    - "Trusted by X customers" badge
 
@@ -1011,7 +1011,7 @@ Rating: 4.9★ (127 reviews)
 
 **Status:** ✅ Good foundation
 - ✅ HTTPS/SSL enabled
-- ✅ Trust badges mentioned (VBA certification)
+- ✅ Trust badges mentioned ( certification)
 - ✅ High rating displayed (4.9★)
 - ✅ Phone number prominently shown
 - ✅ Professional design
@@ -1218,7 +1218,7 @@ module.exports = {
 
 3. **Create Expert/Team Pages** (2-3 weeks)
    - Individual technician profiles
-   - VBA license verification
+   -  license verification
    - Professional photos
    - Bio and credentials
 

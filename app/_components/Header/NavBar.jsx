@@ -1,6 +1,6 @@
 import items from './MenuData.json';
 import MenuItem from './MenuItem';
-const NavBar = () => {
+const Nar = () => {
 	return (
 	  <>
 		<div className="desktopmenu text-center" id='jsDesktopMenu'>
@@ -15,4 +15,4 @@ const NavBar = () => {
 	  </>
 	);
 };
-export default NavBar;
+export default Nar;

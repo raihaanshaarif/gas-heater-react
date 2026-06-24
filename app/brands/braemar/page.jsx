@@ -459,7 +459,7 @@ export default function BraemarPage() {
                       <li><strong>System Upgrade & Optimization</strong></li>
                       <li><strong>Annual Maintenance Service</strong></li>
                       <li><strong>Filter & Component Replacement</strong></li>
-                      <li><strong>Professional VBA Licensed Technicians</strong></li>
+                      <li><strong>Professional  Licensed Technicians</strong></li>
                     </ul>
                   </div>
                 </div>

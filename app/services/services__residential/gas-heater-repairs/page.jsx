@@ -202,7 +202,7 @@ export default function GasHeaterRepairs() {
                 <div className={repairStyles.hero__trust}>
                   <div className={repairStyles.hero__trustbadge}>
                     <IconShield />
-                    <span>VBA Licensed</span>
+                    <span> Licensed</span>
                   </div>
                   <div className={repairStyles.hero__trustbadge}>
                     <IconShield />

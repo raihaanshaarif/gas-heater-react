@@ -44,12 +44,12 @@ const southMorangFaqs = [
   {
     question: "Can you install a new gas heater in South Morang?",
     answer:
-      "Yes, we provide full professional gas heater installation services in South Morang. Our licensed VBA technicians will design, install, and test your system to meet all Victorian safety standards. We provide competitive quotes and can typically schedule installation within 5-7 business days.",
+      "Yes, we provide full professional gas heater installation services in South Morang. Our licensed  technicians will design, install, and test your system to meet all Victorian safety standards. We provide competitive quotes and can typically schedule installation within 5-7 business days.",
   },
   {
     question: "What makes your South Morang gas heater service different?",
     answer:
-      "We're a fully licensed, local South Morang gas heater company with fast response times, transparent pricing, and a commitment to customer safety. Every technician is VBA certified, and we stand behind our work with a satisfaction guarantee.",
+      "We're a fully licensed, local South Morang gas heater company with fast response times, transparent pricing, and a commitment to customer safety. Every technician is  certified, and we stand behind our work with a satisfaction guarantee.",
   }
 ];
 
@@ -157,7 +157,7 @@ export default function SouthMorangGasHeaterServices() {
                   </p>
                   <div className="grid gap-[8px] sm:grid-cols-2">
                     {[
-                      "Registered Gas Fitters (VBA)",
+                      "Registered Gas Fitters ()",
                       "Energy Safe Victoria Compliant",
                       "Comprehensive Public Liability Insurance",
                       "Certified Carbon Monoxide Testers",
@@ -526,7 +526,7 @@ export default function SouthMorangGasHeaterServices() {
           </div>
         </div>
         {/* Why Choose Us Section */}
-        <div className="mt-[40px] mb-[40px]">
+        <div className="mt-[40px] mb-[40px] max-w-6xl mx-auto px-[20px]">
           <div className="mb-[32px]">
             <SectionTitle
               dataSubtitle="why choose us"
@@ -534,7 +534,7 @@ export default function SouthMorangGasHeaterServices() {
               dataMaxWidth="480px"
             />
             <p className="mt-[16px] text-[15px] text-[#344a70]">
-              Our team of licensed VBA technicians brings expertise, reliability, and local knowledge to every job in South Morang. We're committed to delivering the fastest response times and most transparent pricing in Melbourne.
+              Our team of licensed  technicians brings expertise, reliability, and local knowledge to every job in South Morang. We're committed to delivering the fastest response times and most transparent pricing in Melbourne.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-[24px]">
@@ -552,7 +552,7 @@ export default function SouthMorangGasHeaterServices() {
                 <div className="flex-shrink-0 w-[48px] h-[48px] rounded-lg bg-[#e8f0ff] flex items-center justify-center text-[24px]">✅</div>
                 <div>
                   <h4 className="font-bold text-[16px] text-[#092a66] mb-[8px]">Licensed &amp; Certified</h4>
-                  <p className="text-[14px] text-[#344a70] leading-relaxed">All our technicians are fully licensed VBA gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
+                  <p className="text-[14px] text-[#344a70] leading-relaxed">All our technicians are fully licensed  gas fitters. Every job is backed by proper certification and complies with Victorian safety standards.</p>
                 </div>
               </div>
             </div>
@@ -597,7 +597,7 @@ export default function SouthMorangGasHeaterServices() {
   "@type": "LocalBusiness",
   "@id": "https://gasheaterservicemelbourne.com.au/coverage/south-morang/#geo-business",
   "name": "Gas Heater Service Melbourne - South Morang",
-  "description": "Professional gas heater repair, installation and maintenance services in South Morang, Melbourne. VBA licensed technicians, same-day emergency service.",
+  "description": "Professional gas heater repair, installation and maintenance services in South Morang, Melbourne.  licensed technicians, same-day emergency service.",
   "url": "https://gasheaterservicemelbourne.com.au/coverage/south-morang/",
   "telephone": "0405 133 761",
   "address": {

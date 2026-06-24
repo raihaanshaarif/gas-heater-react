@@ -105,7 +105,7 @@
 
 3. **Service Area Benefits Section**
    - "Local Expertise" messaging
-   - "Licensed & Certified" (VBA licensing proof)
+   - "Licensed & Certified" ( licensing proof)
    - "Transparent Pricing" guarantee
    - "24/7 Emergency Service" availability
 

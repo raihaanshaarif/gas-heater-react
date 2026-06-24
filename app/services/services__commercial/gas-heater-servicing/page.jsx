@@ -208,7 +208,7 @@ export default function GasHeaterServicing() {
                   Comprehensive Commercial Gas Heater Service &amp; Maintenance Melbourne
                 </h1>
                 <p className={servicingStyles.hero__sub}>
-                  Maximize efficiency, lower your energy bills, and keep your staff and occupants safe with our comprehensive annual gas heater servicing — performed by fully VBA licensed gas fitters.
+                  Maximize efficiency, lower your energy bills, and keep your staff and occupants safe with our comprehensive annual gas heater servicing — performed by fully  licensed gas fitters.
                 </p>
                 <div className={servicingStyles.hero__ctas}>
                   <a href="tel:0405133761" className="btn btn__type2">
@@ -219,7 +219,7 @@ export default function GasHeaterServicing() {
                 <div className={servicingStyles.hero__trust}>
                   <div className={servicingStyles.hero__trustbadge}>
                     <IconShield />
-                    <span>VBA Licensed</span>
+                    <span> Licensed</span>
                   </div>
                   <div className={servicingStyles.hero__trustbadge}>
                     <IconShield />

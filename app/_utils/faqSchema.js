@@ -33,7 +33,7 @@ export const commonGasHeaterFAQs = [
   {
     question: "Is emergency gas heater repair available in Melbourne?",
     answer:
-      "Yes, we provide 24/7 emergency gas heater repair service across all Melbourne suburbs. Emergency calls receive same-day response, with most issues resolved immediately. We dispatch licensed VBA technicians for urgent repairs. Contact our emergency line at 0405 133 761 for immediate assistance.",
+      "Yes, we provide 24/7 emergency gas heater repair service across all Melbourne suburbs. Emergency calls receive same-day response, with most issues resolved immediately. We dispatch licensed  technicians for urgent repairs. Contact our emergency line at 0405 133 761 for immediate assistance.",
   },
   {
     question: "Is my gas heater covered by warranty in Melbourne?",
@@ -43,7 +43,7 @@ export const commonGasHeaterFAQs = [
   {
     question: "How often should I service my gas heater in Melbourne?",
     answer:
-      "We recommend annual gas heater servicing in Melbourne, ideally before winter (April-May). Regular maintenance prevents breakdowns, improves efficiency by 20%, and extends system lifespan. VBA licensed technicians can inspect safety features and identify issues early.",
+      "We recommend annual gas heater servicing in Melbourne, ideally before winter (April-May). Regular maintenance prevents breakdowns, improves efficiency by 20%, and extends system lifespan.  licensed technicians can inspect safety features and identify issues early.",
   },
   {
     question: "What suburbs in Melbourne do you service for gas heater repair?",
@@ -64,12 +64,12 @@ export const residentialFAQs = [
   {
     question: "What size gas heater do I need for my Melbourne home?",
     answer:
-      "Gas heater size depends on home square footage, insulation, and climate zone. Most Melbourne homes need 40,000-100,000 BTU heaters. A 1500 sq ft home typically needs 60,000 BTU. Our VBA licensed technicians provide free sizing assessments for Melbourne properties.",
+      "Gas heater size depends on home square footage, insulation, and climate zone. Most Melbourne homes need 40,000-100,000 BTU heaters. A 1500 sq ft home typically needs 60,000 BTU. Our  licensed technicians provide free sizing assessments for Melbourne properties.",
   },
   {
     question: "Can I install a gas heater myself or do I need a professional?",
     answer:
-      "Gas heater installation must be performed by VBA-licensed technicians in Melbourne. DIY installation voids warranties, risks carbon monoxide leaks, and violates gas safety regulations. We provide professional installation with compliance certification for all Melbourne suburbs.",
+      "Gas heater installation must be performed by -licensed technicians in Melbourne. DIY installation voids warranties, risks carbon monoxide leaks, and violates gas safety regulations. We provide professional installation with compliance certification for all Melbourne suburbs.",
   },
 ];
 

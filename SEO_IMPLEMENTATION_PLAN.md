@@ -76,7 +76,7 @@
 
 ### 7. Add E-E-A-T Signals to Every Service Page
 **Add:**
-- [ ] VBA License number prominently displayed
+- [ ]  License number prominently displayed
 - [ ] Years in business (e.g., "15+ years serving Melbourne")
 - [ ] Technician qualifications visible
 - [ ] "100% Satisfaction Guarantee" badge
