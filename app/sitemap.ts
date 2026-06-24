@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { readdirSync } from "fs";
 import { join } from "path";
+import { posts as blogPosts } from "./blog/data/blog_data";
 
 export const dynamic = "force-static";
 
@@ -20,6 +21,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     })
   );
+
+  const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${baseUrl}/blog/${post.id}/`,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
 
   return [
     {
@@ -48,12 +56,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...coverageSuburbRoutes,
     {
+      url: `${baseUrl}/blog/`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    ...blogRoutes,
+    {
       url: `${baseUrl}/brands/`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.7,
     },
     // Main Service Pages
+    {
+      url: `${baseUrl}/services/`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
     {
       url: `${baseUrl}/services/services__residential/`,
       lastModified: new Date(),
