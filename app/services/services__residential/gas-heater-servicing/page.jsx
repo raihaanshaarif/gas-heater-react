@@ -552,7 +552,7 @@ export default function GasHeaterServicing() {
                 <p>
                   Our service technicians are stationed across Greater Melbourne so we reach your suburb faster than any other provider. Eastern, Northern, South-Eastern, and Bayside — we cover it all.
                 </p>
-                <a href="/coverage" className={`btn ${servicingStyles.areas__btn}`}>
+                <a href="/coverage/" className={`btn ${servicingStyles.areas__btn}`}>
                   <span>View Full Coverage Map</span>
                 </a>
               </div>

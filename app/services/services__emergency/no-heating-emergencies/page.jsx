@@ -501,7 +501,7 @@ export default function NoHeatingEmergencies() {
                 <p>
                   Our repair technicians are strategically located across Greater Melbourne — Eastern, South-Eastern, Northern, and Bayside — so we reach you faster than anyone else.
                 </p>
-                <a href="/coverage" className={`btn ${repairStyles.areas__btn}`}>
+                <a href="/coverage/" className={`btn ${repairStyles.areas__btn}`}>
                   <span>View Full Coverage Map</span>
                 </a>
               </div>

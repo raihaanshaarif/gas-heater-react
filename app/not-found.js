@@ -19,7 +19,7 @@ const NotFoundPage = () => {
           <span>🏠 Go to Home Page</span>
         </Link>
         <Link
-          href="/services/services__emergency"
+          href="/services/services__emergency/"
           className="btn btn--secondary"
         >
           <span>🚨 Emergency Service</span>

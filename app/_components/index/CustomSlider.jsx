@@ -148,7 +148,7 @@ const CustomSlider = () => {
         {/* Service Cards (Fixed for Mobile & SEO) */}
         <div className="mt-16 w-full flex flex-col sm:flex-row justify-center gap-4">
           <Link
-            href="/services/services__residential/gas-heater-installation"
+            href="/services/services__residential/gas-heater-installation/"
             className="group bg-white text-black px-6 py-5 rounded-2xl flex items-center justify-between gap-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
           >
             <h3 className="text-xl font-bold group-hover:text-[#1E60AA] transition-colors">
@@ -158,7 +158,7 @@ const CustomSlider = () => {
           </Link>
 
           <Link
-            href="/services/services__residential/gas-heater-servicing"
+            href="/services/services__residential/gas-heater-servicing/"
             className="group bg-white text-black px-6 py-5 rounded-2xl flex items-center justify-between gap-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
           >
             <h3 className="text-xl font-bold group-hover:text-[#1E60AA] transition-colors">
@@ -168,7 +168,7 @@ const CustomSlider = () => {
           </Link>
 
           <Link
-            href="/services/services__residential/gas-heater-repairs"
+            href="/services/services__residential/gas-heater-repairs/"
             className="group bg-white text-black px-6 py-5 rounded-2xl flex items-center justify-between gap-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
           >
             <h3 className="text-xl font-bold group-hover:text-[#1E60AA] transition-colors">

@@ -625,7 +625,7 @@ export default function CarbonMonoxideTesting() {
                 <p>
                   Our licensed gas fitters cover the entire Greater Melbourne area. If you suspect a CO problem, don&apos;t wait — we can reach most Melbourne suburbs within hours.
                 </p>
-                <a href="/coverage" className={`btn ${coStyles.areas__btn}`}>
+                <a href="/coverage/" className={`btn ${coStyles.areas__btn}`}>
                   <span>View Full Coverage Map</span>
                 </a>
               </div>

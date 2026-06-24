@@ -83,7 +83,7 @@ const CaruselCoupon = () => {
               Melbourne.
             </p>
             <Link
-              href="/coverage"
+              href="/coverage/"
               className={`${styles.item__btn} inline-block btn lg:mt-[33px] lg-max:mt-[19px]`}
             >
               <span>All Locations</span>

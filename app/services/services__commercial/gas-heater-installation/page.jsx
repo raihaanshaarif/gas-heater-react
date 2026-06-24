@@ -455,7 +455,7 @@ export default function GasHeaterInstallation() {
                 <p>
                   Our licensed gas fitters cover the entire Greater Melbourne area — from the Mornington Peninsula to the Yarra Ranges, and everything in between.
                 </p>
-                <a href="/coverage" className={`btn ${installStyles.areas__btn}`}>
+                <a href="/coverage/" className={`btn ${installStyles.areas__btn}`}>
                   <span>View Full Coverage Map</span>
                 </a>
               </div>

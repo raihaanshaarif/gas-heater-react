@@ -131,7 +131,7 @@ const AboutIndex = () => {
               >
                 <BoxIcon dataSrcData={BoxIconData} />
               </div>
-              <Link href="/services" className={`${styles.about__cta} btn`}>
+              <Link href="/services/services__residential/" className={`${styles.about__cta} btn`}>
                 <span>Our Services</span>
               </Link>
             </div>
