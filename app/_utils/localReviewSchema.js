@@ -116,39 +116,17 @@ export function generateDetailedAggregateRating() {
   return {
     "@context": "https://schema.org",
     "@type": "AggregateRating",
+    "itemReviewed": {
+      "@type": "Service",
+      "name": "Gas Heater Repair Melbourne",
+      "description": "Professional gas heater repair, installation and maintenance services in Melbourne",
+    },
     "ratingValue": "4.9",
     "bestRating": "5",
     "worstRating": "1",
     "ratingCount": "127",
     "reviewCount": "127",
     "description": "Highly rated gas heater repair and maintenance service in Melbourne",
-    "ratingBreakdown": {
-      "5star": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "count": "105", // 83% 5-star reviews
-      },
-      "4star": {
-        "@type": "Rating",
-        "ratingValue": "4",
-        "count": "16", // 13% 4-star reviews
-      },
-      "3star": {
-        "@type": "Rating",
-        "ratingValue": "3",
-        "count": "4", // 3% 3-star reviews
-      },
-      "2star": {
-        "@type": "Rating",
-        "ratingValue": "2",
-        "count": "1", // 1% 2-star reviews
-      },
-      "1star": {
-        "@type": "Rating",
-        "ratingValue": "1",
-        "count": "1", // 1% 1-star reviews
-      },
-    },
   };
 }
 

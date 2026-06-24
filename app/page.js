@@ -55,16 +55,21 @@ export default function Home() {
             email: "nihaanexpertise@gmail.com",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Melbourne, Victoria",
+              streetAddress: "Melbourne CBD, Victoria",
               addressLocality: "Melbourne",
               addressRegion: "Victoria",
-              addressCountry: "Australia",
+              postalCode: "3000",
+              addressCountry: "AU",
             },
             geo: {
               "@type": "GeoCoordinates",
               latitude: "-37.8136",
               longitude: "144.9631",
             },
+            sameAs: [
+              "https://www.facebook.com/gasheaterservicemelbourne",
+              "https://www.instagram.com/gasheaterservicemelb",
+            ],
             areaServed: [
               {
                 "@type": "City",
@@ -119,10 +124,6 @@ export default function Home() {
               bestRating: "5",
               worstRating: "1",
             },
-            sameAs: [
-              "https://www.facebook.com/gasheaterservicemelbourne",
-              "https://www.instagram.com/gasheaterservicemelb",
-            ],
           }),
         }}
       />
@@ -163,7 +164,6 @@ export default function Home() {
                   name: "Victoria",
                 },
               },
-              inLanguage: "en-AU",
               telephone: "0405133761",
             }),
           }}
