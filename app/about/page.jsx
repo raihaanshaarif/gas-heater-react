@@ -8,6 +8,15 @@ import OurTeam from "../_components/About/OurTeam";
 import OurCertificates from "../_components/About/OurCertificates";
 import AreasWeCover from "../_components/About/AreasWeCover";
 
+export const metadata = {
+  title: "About Us | Professional Gas Heater Service Melbourne | 15+ Years Experience",
+  description:
+    "Learn about our gas heater repair, service & installation company in Melbourne. 15+ years experience, VBA licensed technicians, 4.9★ rating, serving 144 suburbs. Call 0405133761.",
+  keywords:
+    "about gas heater company Melbourne, professional heating service, experienced technicians, VBA licensed, gas heater specialists Melbourne, trusted heating repair service",
+  canonical: "https://gasheaterservicemelbourne.com.au/about/",
+};
+
 export default function About() {
   return (
     <>

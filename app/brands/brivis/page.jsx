@@ -24,8 +24,7 @@ export const metadata = {
   description:
     "Professional Brivis gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, certified technicians, genuine parts. Reliable heating service. Call 0405133761 now!",
   keywords:
-    "Brivis repair Melbourne, Brivis gas heater service, Brivis installation Melbourne, Brivis maintenance, Brivis emergency repair, gas heater repair Melbourne, Brivis technician Melbourne",
-};
+    "Brivis repair Melbourne, Brivis gas heater service, Brivis installation Melbourne, Brivis maintenance, Brivis emergency repair, gas heater repair Melbourne, Brivis technician Melbourne",  canonical: "https://gasheaterservicemelbourne.com.au/brands/brivis/",};
 
 //Page Layout
 export default function BrivisPage() {

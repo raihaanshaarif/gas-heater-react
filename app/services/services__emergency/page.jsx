@@ -26,10 +26,7 @@ export const metadata = {
     "🚨 Emergency Gas Heater Repair Melbourne - 24/7 Service Available! Gas leaks, heating failures, carbon monoxide alarms. Same-day emergency response. Call 0405133761 now!",
   keywords:
     "emergency gas heater repair melbourne, 24/7 gas heater repair, gas leak repair melbourne, emergency heating service, carbon monoxide alarm response, urgent gas heater repairs, no heating emergency melbourne",
-  alternates: {
-    canonical:
-      "https://gasheaterservicemelbourne.com.au/services/services__emergency",
-  },
+  canonical: "https://gasheaterservicemelbourne.com.au/services/services__emergency/",
 };
 
 //Page Layout

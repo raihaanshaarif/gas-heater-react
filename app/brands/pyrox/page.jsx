@@ -25,6 +25,7 @@ export const metadata = {
     "Professional Pyrox gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, heavy-duty heating specialists, certified technicians, genuine parts. Call 0405133761 now!",
   keywords:
     "Pyrox repair Melbourne, Pyrox gas heater service, Pyrox installation Melbourne, Pyrox maintenance, Pyrox heavy duty repair, gas heater repair Melbourne, Pyrox technician Melbourne",
+  canonical: "https://gasheaterservicemelbourne.com.au/brands/pyrox/",
 };
 
 //Page Layout

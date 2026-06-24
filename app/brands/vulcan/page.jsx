@@ -25,6 +25,7 @@ export const metadata = {
     "Professional Vulcan gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, commercial heating specialists, certified technicians, genuine parts. Call 0405133761 now!",
   keywords:
     "Vulcan repair Melbourne, Vulcan gas heater service, Vulcan installation Melbourne, Vulcan maintenance, Vulcan commercial repair, industrial heater repair Melbourne, Vulcan technician Melbourne",
+  canonical: "https://gasheaterservicemelbourne.com.au/brands/vulcan/",
 };
 
 //Page Layout
