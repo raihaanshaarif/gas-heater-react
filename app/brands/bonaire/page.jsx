@@ -25,7 +25,9 @@ export const metadata = {
     "Professional Bonaire gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, certified technicians, genuine parts. Same-day service available. Call 0405133761 now!",
   keywords:
     "Bonaire repair Melbourne, Bonaire gas heater service, Bonaire installation Melbourne, Bonaire maintenance, Bonaire emergency repair, gas heater repair Melbourne, Bonaire technician Melbourne",
-  canonical: "https://gasheaterservicemelbourne.com.au/brands/bonaire/",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/brands/bonaire/"
+  },
 };
 
 //Page Layout

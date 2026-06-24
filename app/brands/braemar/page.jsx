@@ -26,7 +26,9 @@ export const metadata = {
     "Professional Braemar gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, WiFi MyClimate support, certified technicians, genuine parts. Call 0405133761 now!",
   keywords:
     "Braemar repair Melbourne, Braemar gas heater service, Braemar installation Melbourne, Braemar maintenance, Braemar MyClimate repair, WiFi heater repair Melbourne, Braemar technician Melbourne",
-  canonical: "https://gasheaterservicemelbourne.com.au/brands/braemar/",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/brands/braemar/"
+  },
 };
 
 //Page Layout

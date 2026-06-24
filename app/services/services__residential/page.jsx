@@ -27,7 +27,9 @@ export const metadata = {
   title: "Residential Gas Heater Services Melbourne | Installation & Repair",
   description: "Professional residential gas heater services in Melbourne. Installation, repairs, maintenance & emergencies.  licensed technicians, same-day service. Call 0405133761.",
   keywords: "residential gas heater repair, gas heater installation melbourne, home heating service, gas heating melbourne, residential hvac",
-  canonical: "https://gasheaterservicemelbourne.com.au/services/services__residential/",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/services/services__residential/"
+  },
 };
 
 //Page Layout

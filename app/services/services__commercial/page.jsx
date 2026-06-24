@@ -27,7 +27,9 @@ export const metadata = {
   title: "Commercial Gas Heater Services Melbourne | Business Heating Solutions",
   description: "Commercial gas heater services for businesses in Melbourne. Installation, repairs, maintenance for offices, retail, industrial. 24/7 emergency support. Call 0405133761.",
   keywords: "commercial gas heater, business heating solutions, commercial hvac melbourne, industrial gas heating, office heating service",
-  canonical: "https://gasheaterservicemelbourne.com.au/services/services__commercial/",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/services/services__commercial/"
+  },
 };
 
 //Page Layout

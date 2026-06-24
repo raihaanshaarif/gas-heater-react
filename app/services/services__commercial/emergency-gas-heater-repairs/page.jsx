@@ -617,7 +617,7 @@ export default function EmergencyGasHeaterRepairs() {
                   },
                   {
                     region: "South",
-                    suburbs: ["Caulfield", "Brighton", "Bentleigh", "Cheltenham", "Highett"],
+                    suburbs: ["Caulfield", "Brighton", "Bentleigh", "Highett"],
                   },
                   {
                     region: "North & West",

@@ -139,7 +139,9 @@ export const metadata = {
     "Expert installation and service for all major gas heater brands in Melbourne. Bonaire, Braemar, Brivis, Rinnai, Kaden, Pyrox & Vulcan. Licensed technicians, warranties included. Call 0405133761",
   keywords:
     "gas heater brands Melbourne, Bonaire gas heaters, Braemar heating, Brivis gas heaters, Rinnai heaters Melbourne, Vulcan gas heaters, gas heater installation brands, best gas heater brands Australia",
-  canonical: "https://gasheaterservicemelbourne.com.au/brands/",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/brands/"
+  },
 };
 
 //Page Layout

@@ -14,7 +14,9 @@ export const metadata = {
     "Learn about our gas heater repair, service & installation company in Melbourne. 15+ years experience,  licensed technicians, 4.9★ rating, serving 144 suburbs. Call 0405133761.",
   keywords:
     "about gas heater company Melbourne, professional heating service, experienced technicians,  licensed, gas heater specialists Melbourne, trusted heating repair service",
-  canonical: "https://gasheaterservicemelbourne.com.au/about/",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/about/"
+  },
 };
 
 export default function About() {

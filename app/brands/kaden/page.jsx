@@ -23,7 +23,9 @@ export const metadata = {
     "Kaden Gas Heater Repair Melbourne | 24/7 Service",
   description:
     "Professional Kaden gas heater repair, service & installation in Melbourne. 24/7 emergency repairs, certified technicians, genuine parts, fast response times. Call 0405133761 now!",
-  canonical: "https://gasheaterservicemelbourne.com.au/brands/kaden/",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/brands/kaden/"
+  },
   keywords:
     "Kaden repair Melbourne, Kaden gas heater service, Kaden installation Melbourne, Kaden maintenance, Kaden smart heating repair, gas heater repair Melbourne, Kaden technician Melbourne",
 };

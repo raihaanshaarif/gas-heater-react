@@ -509,7 +509,7 @@ export default function GasHeaterRepairs() {
                 {[
                   {
                     region: "Eastern Suburbs",
-                    suburbs: ["Doncaster", "Box Hill", "Ringwood", "Croydon", "Boronia", "Bayswater", "Ferntree Gully", "Lilydale"],
+                    suburbs: ["Doncaster", "Box Hill", "Ringwood", "Boronia", "Bayswater", "Ferntree Gully", "Lilydale"],
                   },
                   {
                     region: "Northern Suburbs",

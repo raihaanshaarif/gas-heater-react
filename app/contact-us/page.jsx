@@ -11,7 +11,9 @@ export const metadata = {
     "Contact us for emergency gas heater repair, service & installation in Melbourne. 24/7 available. Licensed technicians, fast response times. Call 0405133761 or use our online form.",
   keywords:
     "contact gas heater repair, Melbourne heating service contact, emergency heater repair, gas heater installation contact, get quote gas heater service",
-  canonical: "https://gasheaterservicemelbourne.com.au/contact-us/",
+  alternates: {
+    canonical: "https://gasheaterservicemelbourne.com.au/contact-us/"
+  },
 };
 
 //Page Layout
